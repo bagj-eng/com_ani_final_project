@@ -13,6 +13,7 @@ public class PlayerControll : MonoBehaviour
     private Vector3 startPosition;
 
     private Animator animator;
+    public BoxCollider2D attackCollider;
 
     void Start()
     {
@@ -21,6 +22,8 @@ public class PlayerControll : MonoBehaviour
         isJumping = false;
         jumpTimer = 0f;
         startPosition = transform.position;
+
+        attackCollider.enabled = false;
     }
 
     void Update()
@@ -58,6 +61,15 @@ public class PlayerControll : MonoBehaviour
         transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
     }
 
+    public void AttackStart()
+    {
+        attackCollider.enabled = true;
+    }
+
+    public void AttackEnd()
+    {
+        attackCollider.enabled = false;
+    }
     void StartJump()
     {
         isJumping = true;
