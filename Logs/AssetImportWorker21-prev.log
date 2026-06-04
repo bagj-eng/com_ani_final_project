@@ -1,0 +1,2293 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-04T05:01:37.7296525Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32577 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-04T05:01:37Z
+
+COMMAND LINE ARGUMENTS:
+E:\unity\6000.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker21
+-projectPath
+C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+-logFile
+Logs/AssetImportWorker21.log
+-srvPort
+59130
+-licensingIpc
+LicenseClient-User
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [44212]  Target information:
+
+Player connection [44212]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 4282400083 [EditorId] 4282400083 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KCO4M1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [44212] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [44212] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 4.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path E:/unity/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.9621
+Initialize mono
+Mono path[0] = 'E:/unity/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56828
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001952 seconds.
+- Loaded All Assemblies, in  0.415 seconds
+Native extension for WindowsStandalone target not found
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-06-04T05:01:38.9872723Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              f720b36e8e914e9e89e48fab787fe606
+  Correlation Id:          e34b4438216cbdb3985d0f39df6d38b7
+  External correlation Id: 6444229620077808473
+  Machine Id:              tnPMHDmzcJKjPDwZDg0GMR5CZ6Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-06-04T05:01:39.0884224Z"
+[Licensing::Module] Licensing Background thread has ended after 1.36s
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.340 seconds
+Domain Reload Profiling: 755ms
+	BeginReloadAssembly (165ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (169ms)
+		LoadAssemblies (164ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (165ms)
+				TypeCache.ScanAssembly (152ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (340ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (298ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (45ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (82ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (65ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568817533135-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.727 seconds
+Refreshing native plugins compatible for Editor in 1.72 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.629 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (166ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (22ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (488ms)
+		LoadAssemblies (373ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (151ms)
+				TypeCache.ScanAssembly (135ms)
+			BuildScriptInfoCaches (60ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (522ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (331ms)
+			ProcessInitializeOnLoadMethodAttributes (85ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.69 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (4.3 MB). Loaded Objects now: 7739.
+Memory consumption went from 161.4 MB to 157.1 MB.
+Total: 6.852600 ms (FindLiveObjects: 0.727600 ms CreateObjectMapping: 0.437100 ms MarkObjects: 4.037100 ms  DeleteObjects: 1.649700 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 7570.241634 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj.png
+  artifactKey: Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj.png using Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f5dc6c089478398b2e33e7ab6325977') in 1.6341589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 953
+
+========================================================================
+Received Import Request.
+  Time since last request: 42.137663 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_428.asset
+  artifactKey: Guid(2a0414d24b7028b429a7a208428f5521) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_428.asset using Guid(2a0414d24b7028b429a7a208428f5521) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b9efc81f590d088271ffafc62ca30e1') in 0.0822722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_941.asset
+  artifactKey: Guid(c68f8e51f3fa15b4e94add15a8f5556c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_941.asset using Guid(c68f8e51f3fa15b4e94add15a8f5556c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '802c08c5aa396a793ae89f05e45a23c1') in 0.0127869 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_511.asset
+  artifactKey: Guid(796b37e0710733a4da214718707cba90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_511.asset using Guid(796b37e0710733a4da214718707cba90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cbffd7c8d8b67608f6ea59d7e153a9fe') in 0.012277 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_17.asset
+  artifactKey: Guid(d3d71db7b95ddc041ba99e9c67d13429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_17.asset using Guid(d3d71db7b95ddc041ba99e9c67d13429) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbe6c0e8f8b0ff979a9e9e80fd70ac60') in 0.0133809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_33.asset
+  artifactKey: Guid(b00fdaea2eb4f2f43b2c2955594624e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_33.asset using Guid(b00fdaea2eb4f2f43b2c2955594624e2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54375af61fcfab24c8d1e56212e9ea3a') in 0.0135382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_454.asset
+  artifactKey: Guid(4c757a83c2ecfc84e853a4a1d38bb9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_454.asset using Guid(4c757a83c2ecfc84e853a4a1d38bb9fc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c90fadfa6b3be51ba0ecbc4c8e7a1b5b') in 0.0126369 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_327.asset
+  artifactKey: Guid(e8934761ed6fff64c88be24dbbcb1d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_327.asset using Guid(e8934761ed6fff64c88be24dbbcb1d73) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5cf15bfff6f236f6b1ccec4c4add8b1f') in 0.0143566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_459.asset
+  artifactKey: Guid(032e23d7c8fc2314697cb4d1f0377b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_459.asset using Guid(032e23d7c8fc2314697cb4d1f0377b87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a4e6aa5d333e3442ac5f315f24586f3') in 0.0124883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_430.asset
+  artifactKey: Guid(3e008b9ad4bb8ef41b648d9bead6a8a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_430.asset using Guid(3e008b9ad4bb8ef41b648d9bead6a8a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3db4d76e8b445abdfdc7aa5a6b70d1f6') in 0.0128387 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_939.asset
+  artifactKey: Guid(da5ab884bb7f25d4aa585761a3aeab15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_939.asset using Guid(da5ab884bb7f25d4aa585761a3aeab15) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '127897f3280273d047e8b543c8658986') in 0.0117298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_884.asset
+  artifactKey: Guid(a732526e7365bbe488b01502f882e3ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_884.asset using Guid(a732526e7365bbe488b01502f882e3ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '395e73549082fd010b018fe31d783209') in 0.0116296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_390.asset
+  artifactKey: Guid(7f90950dc5797af4a986b8e8859ffb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_390.asset using Guid(7f90950dc5797af4a986b8e8859ffb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a0d0f5a81029270c62b86c3a4601c22') in 0.0118855 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_686.asset
+  artifactKey: Guid(1ffba818a4e31934fa84ddf34119c3d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_686.asset using Guid(1ffba818a4e31934fa84ddf34119c3d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '01ba29abc2533b10a342f3be6cf583db') in 0.0117718 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_234.asset
+  artifactKey: Guid(aa1afdf96ce535045a751c0db3045d56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_234.asset using Guid(aa1afdf96ce535045a751c0db3045d56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f92094ff0a67850bc6a6242940aee458') in 0.0124725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_177.asset
+  artifactKey: Guid(dd8de841edebd48408c3750c3eab8287) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_177.asset using Guid(dd8de841edebd48408c3750c3eab8287) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7622bc6d80b66507c4cb357962593294') in 0.0196566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_24.asset
+  artifactKey: Guid(82560dab607937547b7b6335f5ae1027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_24.asset using Guid(82560dab607937547b7b6335f5ae1027) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ca33fa94f37d55b1e564ce32191d0c14') in 0.010803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_505.asset
+  artifactKey: Guid(e785723ad60c1264f95754bda456a7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_505.asset using Guid(e785723ad60c1264f95754bda456a7e6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6abcf6c2c7881c961397556add1b920f') in 0.0138675 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_696.asset
+  artifactKey: Guid(e2a79303e39e4f94e99a816480107a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_696.asset using Guid(e2a79303e39e4f94e99a816480107a2c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e680bf84de2441b0a799ce46f40ba2be') in 0.0118826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_394.asset
+  artifactKey: Guid(8bd27600781705449a7b7dcbdb4ace52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_394.asset using Guid(8bd27600781705449a7b7dcbdb4ace52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4390f2e2dac7b94b1ee1a2f3e0e75b57') in 0.01566 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_269.asset
+  artifactKey: Guid(ad8f3b4647edf9e4286ae39b2eda908e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_269.asset using Guid(ad8f3b4647edf9e4286ae39b2eda908e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '29036c80126ecb2ca81588749cf7f789') in 0.0112964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_439.asset
+  artifactKey: Guid(7d44e916b4604d541966eb50d3c1c985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_439.asset using Guid(7d44e916b4604d541966eb50d3c1c985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41b15b2bdcf7e549e9664f93a53153ae') in 0.0124622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_150.asset
+  artifactKey: Guid(4ee2bd77df974674dbbc6181b8fed6a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_150.asset using Guid(4ee2bd77df974674dbbc6181b8fed6a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e44665636c78066370a78f2b33797eb7') in 0.163378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_524.asset
+  artifactKey: Guid(2291fa3fea03a834c86a7ff70a753a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_524.asset using Guid(2291fa3fea03a834c86a7ff70a753a68) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24c0734ac36af65f9157a93dca230972') in 0.0119949 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_936.asset
+  artifactKey: Guid(b35aeb75a80127045879bf88b26acb0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_936.asset using Guid(b35aeb75a80127045879bf88b26acb0b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '77775ec6fb53d2c0e6114b1a012b935c') in 0.0128886 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_4.asset
+  artifactKey: Guid(45ea7dffdf57f3c4db0aa18a3a9612f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_4.asset using Guid(45ea7dffdf57f3c4db0aa18a3a9612f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1ceff7e4128dd69aefe5ccec670c0776') in 0.0104552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_681.asset
+  artifactKey: Guid(99ab4a37ae21f9549bce404bd957eda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_681.asset using Guid(99ab4a37ae21f9549bce404bd957eda1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b56465c459b57e2f3b166e78529bb90') in 0.0126128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_506.asset
+  artifactKey: Guid(a50df061b8e5afe46bc9a4b592d7095c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_506.asset using Guid(a50df061b8e5afe46bc9a4b592d7095c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a82588218f6ed7cb497635470bd8082d') in 0.0102905 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_609.asset
+  artifactKey: Guid(3e4de25834c9981468bb9245d888b893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_609.asset using Guid(3e4de25834c9981468bb9245d888b893) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '98747bb3fdc38a8cbb33f3741e567de5') in 0.0126037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_566.asset
+  artifactKey: Guid(d4826473d7cc4fc4883679d01d5543ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_566.asset using Guid(d4826473d7cc4fc4883679d01d5543ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0547594cad9f9f756a3372935707b79') in 0.0221638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_688.asset
+  artifactKey: Guid(43c60500fe4fffd4481bea9015b1d0db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_688.asset using Guid(43c60500fe4fffd4481bea9015b1d0db) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ff0d5f1e0c6bfcdaadd9924c3a58718b') in 0.0201201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_743.asset
+  artifactKey: Guid(1a4a8a675a7b6ee4692b1d1c48a08264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_743.asset using Guid(1a4a8a675a7b6ee4692b1d1c48a08264) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '306d2fbf7a285f0b01587382b7ae8b19') in 0.0112839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_383.asset
+  artifactKey: Guid(93aa5de164d565041a00bbda38a1580e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_383.asset using Guid(93aa5de164d565041a00bbda38a1580e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd32d9dda6ff757a941a575f8a3ded143') in 0.0125106 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_859.asset
+  artifactKey: Guid(c3ce82c7c71313243bc4c526878fba16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_859.asset using Guid(c3ce82c7c71313243bc4c526878fba16) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f6ac49659731ae7ccb11543f9f5bc77') in 0.0201681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_426.asset
+  artifactKey: Guid(7db96e58cfcac5b46a6984c37508e7fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_426.asset using Guid(7db96e58cfcac5b46a6984c37508e7fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '35535f7005dc67245a80cb1f0b647de1') in 0.0212276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_354.asset
+  artifactKey: Guid(b559df54dff87e945b81bdebbfcd44da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_354.asset using Guid(b559df54dff87e945b81bdebbfcd44da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad70e1cc860ed7bf362bae06ebba1280') in 0.0130475 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_27.asset
+  artifactKey: Guid(553f16b663be4b3408261369c703116a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_27.asset using Guid(553f16b663be4b3408261369c703116a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97ea063ef4790538e0c69300bf54a018') in 0.0115782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_382.asset
+  artifactKey: Guid(1fd92f24a43c05f418e0a9e2c7b62e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_382.asset using Guid(1fd92f24a43c05f418e0a9e2c7b62e48) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd47f16b4fee4f7c27be93fd0b11fe902') in 0.0132591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_8.asset
+  artifactKey: Guid(047692ecc369ce044a1ecbdd3e1d7e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_8.asset using Guid(047692ecc369ce044a1ecbdd3e1d7e87) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cb5ebea71a89e913ba55cbed9d673384') in 0.0117956 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_74.asset
+  artifactKey: Guid(74f95cbda798eb546ba1df97e7cb8676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_74.asset using Guid(74f95cbda798eb546ba1df97e7cb8676) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a45dcdaf97eab2d83281ea5d9724ab56') in 0.0116856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_949.asset
+  artifactKey: Guid(0f9df4276a78857409559c764ec05cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_949.asset using Guid(0f9df4276a78857409559c764ec05cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb55e6367836ee868dff9a725b4f6e18') in 0.0123526 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_851.asset
+  artifactKey: Guid(cb85dc4799bc69c4480f9802ec20aa62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_851.asset using Guid(cb85dc4799bc69c4480f9802ec20aa62) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d853b2c3abe5a1c34c9b2c829f01f64') in 0.0160414 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_704.asset
+  artifactKey: Guid(d8de615ac5b4a8742953fc446b177a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_704.asset using Guid(d8de615ac5b4a8742953fc446b177a9e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0bc67828224dfcfe27ddc003843c62ba') in 0.0141657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_923.asset
+  artifactKey: Guid(105b4cc95a78a7a4cb4a1808edf02568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_923.asset using Guid(105b4cc95a78a7a4cb4a1808edf02568) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '093b62ec0964f5bcdcdce2ff0755d355') in 0.0126989 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_109.asset
+  artifactKey: Guid(6419d427d4f407e48ade1a15d2526ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_109.asset using Guid(6419d427d4f407e48ade1a15d2526ee5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e56fcf8d3e8543d3fe19c337dd76f5e3') in 0.014244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_299.asset
+  artifactKey: Guid(2a570334474f95649b4ce1521954fe2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_299.asset using Guid(2a570334474f95649b4ce1521954fe2d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '536d9a1a48c02aedf158f89f25991db2') in 0.0121305 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_13.asset
+  artifactKey: Guid(e041940cc83c87f4e90f0c204caa125f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_13.asset using Guid(e041940cc83c87f4e90f0c204caa125f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c3983860c1f7352f7d98ed045d9cc6fb') in 0.0181863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_776.asset
+  artifactKey: Guid(4240a10dfb10fc640ab7e84ddee0933e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_776.asset using Guid(4240a10dfb10fc640ab7e84ddee0933e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '74c000b7afccc0a44fdb72603dcd0fca') in 0.0103915 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_226.asset
+  artifactKey: Guid(a980de5f55a3f854f96a0e3bbb81b8aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_226.asset using Guid(a980de5f55a3f854f96a0e3bbb81b8aa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da8d8a3f757c6a7c20a068a9ccad9b87') in 0.0134762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_462.asset
+  artifactKey: Guid(21c6bbb5540d19d438b5a2f07f494920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_462.asset using Guid(21c6bbb5540d19d438b5a2f07f494920) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95185429961f0db770979ac34d74c2c6') in 0.0184784 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_106.asset
+  artifactKey: Guid(cf9301f1726d31c4e8b90f60e7624b55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_106.asset using Guid(cf9301f1726d31c4e8b90f60e7624b55) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '943dc24c93bf2d6ebb739640ff49f84b') in 0.0121452 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_754.asset
+  artifactKey: Guid(57d01f93232efa34ca3481561bff2fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_754.asset using Guid(57d01f93232efa34ca3481561bff2fb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '54d9b47d9d3d91d8e42225b9ec8bc8ca') in 0.0092442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_724.asset
+  artifactKey: Guid(226d70a82a82d7840b57be4a135933ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_724.asset using Guid(226d70a82a82d7840b57be4a135933ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '451febc548552fa904285375dfca0ace') in 0.0221148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_500.asset
+  artifactKey: Guid(949cedb705fba6f47a52aa3953901aa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_500.asset using Guid(949cedb705fba6f47a52aa3953901aa0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0c6907e40e97bbbf4f27f63d870943b3') in 0.0202037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_869.asset
+  artifactKey: Guid(07974cad3a948974982a6f875532666d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_869.asset using Guid(07974cad3a948974982a6f875532666d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '479424775a7789216bb3a74aaab8e426') in 0.0133165 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_513.asset
+  artifactKey: Guid(892036759ae7d1747b28f35dae6b1bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_513.asset using Guid(892036759ae7d1747b28f35dae6b1bda) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cbc5040ce1967edfbd9a0cd3a776aa6') in 0.0105829 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_89.asset
+  artifactKey: Guid(3b42cddbec246c94a9100d70afd6ad1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_89.asset using Guid(3b42cddbec246c94a9100d70afd6ad1b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f85c1d135e9a112f0af3c370cad0dd91') in 0.0123873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_713.asset
+  artifactKey: Guid(339c2db3634bf9046af4759ad2e0fbbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_713.asset using Guid(339c2db3634bf9046af4759ad2e0fbbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '716e68eed6a39e21ff6136c0b94d18b8') in 0.0130351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_397.asset
+  artifactKey: Guid(a878f771c6e7eb74ca53e1c1a18b7d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_397.asset using Guid(a878f771c6e7eb74ca53e1c1a18b7d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c8188c7658479902c3620a90286cd4f') in 0.0238191 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_461.asset
+  artifactKey: Guid(c9b2e8a45bdd68f47a83803410458d13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_461.asset using Guid(c9b2e8a45bdd68f47a83803410458d13) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd9a466b95394975133e6a8f32366be7') in 0.0124693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_82.asset
+  artifactKey: Guid(b9562e09ed4e43e4288546c1e66e4d0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_82.asset using Guid(b9562e09ed4e43e4288546c1e66e4d0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3dbc7d4c7b720d7016e5aa362bb1ff03') in 0.0126953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_359.asset
+  artifactKey: Guid(2398954f12c728b469e76b09be11aec0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_359.asset using Guid(2398954f12c728b469e76b09be11aec0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8dcefd1042063eac74166682661ce433') in 0.0103361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_225.asset
+  artifactKey: Guid(3e03c00555afece41ae39534054d3b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_225.asset using Guid(3e03c00555afece41ae39534054d3b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b23c1de3666fe0f33f8967c66d42fb9') in 0.0199182 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_846.asset
+  artifactKey: Guid(4c190b41b84a57d47b051a3cf11bba79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_846.asset using Guid(4c190b41b84a57d47b051a3cf11bba79) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0e547dd6488ef360cf72b6544bf644d1') in 0.0131244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_389.asset
+  artifactKey: Guid(2bd2a8a02ef96db4bacf2e0938849d05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_389.asset using Guid(2bd2a8a02ef96db4bacf2e0938849d05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6253b51b6a7d43950793d99d014a41f2') in 0.010622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_649.asset
+  artifactKey: Guid(c5d72a6aac78a054c899b4197e7b9c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_649.asset using Guid(c5d72a6aac78a054c899b4197e7b9c58) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b63e045c1185b9f0710d6e113eb9e800') in 0.0121762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_758.asset
+  artifactKey: Guid(1c5cbd5e9f2750f48b15ed20d13135e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_758.asset using Guid(1c5cbd5e9f2750f48b15ed20d13135e9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee78522bd6d56a4b0644fb77f516d2bb') in 0.014285 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_885.asset
+  artifactKey: Guid(b4ccb8a3b08145b45a07b2dc701a3310) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_885.asset using Guid(b4ccb8a3b08145b45a07b2dc701a3310) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c009804793a3938447fa09a55967c63b') in 0.0127568 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_101.asset
+  artifactKey: Guid(c1d4935dc8cc2bb479b43e61a6c14c14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_101.asset using Guid(c1d4935dc8cc2bb479b43e61a6c14c14) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a578b6ad4f2dd722f30456ea2223f52') in 0.0104666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_164.asset
+  artifactKey: Guid(851a148f0fc95ed429f934d90145b43f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_164.asset using Guid(851a148f0fc95ed429f934d90145b43f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a76c1d5de63597d28161f8389489ec4') in 0.0142671 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_838.asset
+  artifactKey: Guid(e9eb1635c16004340b38bcb16f2ee8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_838.asset using Guid(e9eb1635c16004340b38bcb16f2ee8bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb5701084fa5dde4943907f5716a6c3f') in 0.0114473 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_619.asset
+  artifactKey: Guid(95aa228f0a1bcfd4faba7c6b54ee1f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_619.asset using Guid(95aa228f0a1bcfd4faba7c6b54ee1f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd7ab5b6666ef077c2fd09b7e9036db66') in 0.0114652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_367.asset
+  artifactKey: Guid(56440426cc3261f4fbf02545f98198cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_367.asset using Guid(56440426cc3261f4fbf02545f98198cf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82143b499b394d7d7ed887e6de87f1b8') in 0.0122128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_528.asset
+  artifactKey: Guid(5013b4d0022e87a4d99baa7cd64a94d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_528.asset using Guid(5013b4d0022e87a4d99baa7cd64a94d0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa536da2f2cfee7706dd52c45cac7a43') in 0.0113734 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_355.asset
+  artifactKey: Guid(ec2da5c5878c58748be80c74befbb229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_355.asset using Guid(ec2da5c5878c58748be80c74befbb229) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ea24dcd9fc57e12816e5f72c77660972') in 0.0107592 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_451.asset
+  artifactKey: Guid(d03c41dfb7985ba46af8d431f4a1fdb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_451.asset using Guid(d03c41dfb7985ba46af8d431f4a1fdb9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf9bfa7ba82338b8ad2717d413bb5458') in 0.0133973 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_850.asset
+  artifactKey: Guid(b5b9a6dbad577ce46984ba5d32e5756f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_850.asset using Guid(b5b9a6dbad577ce46984ba5d32e5756f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c37c16063b4440c2966527302914b2ed') in 0.0190647 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_710.asset
+  artifactKey: Guid(e00fbe50e21103b4d85af35281cf2197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_710.asset using Guid(e00fbe50e21103b4d85af35281cf2197) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67277f0df2e025fbee84b5865d9b03a3') in 0.0148127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_870.asset
+  artifactKey: Guid(c22ca076fc75d9142aa02f70c892b24e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_870.asset using Guid(c22ca076fc75d9142aa02f70c892b24e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1a3bc378ac3bdefbab538589ee1923bc') in 0.0140621 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_456.asset
+  artifactKey: Guid(6c30f66f98a4df847acf9d6f5ff3e1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_456.asset using Guid(6c30f66f98a4df847acf9d6f5ff3e1f9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f25146cd12b308f1ebd360157e728e86') in 0.0118079 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_284.asset
+  artifactKey: Guid(a041c52ba50dfb34f975c7c6879db0ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_284.asset using Guid(a041c52ba50dfb34f975c7c6879db0ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7be52349501332b7d276e6cffa469096') in 0.0142616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_304.asset
+  artifactKey: Guid(65682e64ae196ec4ba1efc93894a84bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_304.asset using Guid(65682e64ae196ec4ba1efc93894a84bf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6874cdb7bb875cdec83f41723bfd507c') in 0.0132269 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_60.asset
+  artifactKey: Guid(7209428b5c88e634b8fb665eed86f5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_60.asset using Guid(7209428b5c88e634b8fb665eed86f5fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '502f11917a401b84cb8b9df2a4ad82ac') in 0.0100804 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_938.asset
+  artifactKey: Guid(7ca76293549794d45a7fd0471c5db803) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_938.asset using Guid(7ca76293549794d45a7fd0471c5db803) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1aa0b03847fb3313dcced439d296521c') in 0.0116819 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_261.asset
+  artifactKey: Guid(752618b56fe65724da99746eb83e472b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_261.asset using Guid(752618b56fe65724da99746eb83e472b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad5d212800e6cc6d09d997bfd47b989c') in 0.0130512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_209.asset
+  artifactKey: Guid(4c70c0032b25fdd49824a4724fc37295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_209.asset using Guid(4c70c0032b25fdd49824a4724fc37295) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b93d2e96c765f9951b715610421ed24') in 0.0130413 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_43.asset
+  artifactKey: Guid(fe2bd85e40556c64484579f750646808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_43.asset using Guid(fe2bd85e40556c64484579f750646808) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd8f3fecf1ff12ebd8351e13e184e93f7') in 0.0125666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_878.asset
+  artifactKey: Guid(c047955ecb3cf18419c7cf06f578511d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_878.asset using Guid(c047955ecb3cf18419c7cf06f578511d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82887abff868a2a66bf12b554d4f9604') in 0.0128244 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_926.asset
+  artifactKey: Guid(7802c1f890fcc62458b0b36aaef2720e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_926.asset using Guid(7802c1f890fcc62458b0b36aaef2720e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '24c88a16925e5e3f6ef34fc581649bf3') in 0.0136084 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_613.asset
+  artifactKey: Guid(c4153e0f2154e0e46b4187a5cea5e083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_613.asset using Guid(c4153e0f2154e0e46b4187a5cea5e083) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2ef87a811fd024d9c38a3552a03c08d') in 0.0129374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_624.asset
+  artifactKey: Guid(fedb3c61fd68bf247a2e8003abeaadf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_624.asset using Guid(fedb3c61fd68bf247a2e8003abeaadf1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ca9b5b28cf20071d86b408c534b7a50') in 0.0165642 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_205.asset
+  artifactKey: Guid(1cf25954cd04ebc418d9803da2d57fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_205.asset using Guid(1cf25954cd04ebc418d9803da2d57fd5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '020999ceca699eed8e6deef516134dd7') in 0.014936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_839.asset
+  artifactKey: Guid(6cecc7fa9a6df764c961a9157b907cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_839.asset using Guid(6cecc7fa9a6df764c961a9157b907cb2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '038a8ef428f36f1429d31e027bff950f') in 0.0124068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_621.asset
+  artifactKey: Guid(2afe78475acee5e41b3c9803da145e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_621.asset using Guid(2afe78475acee5e41b3c9803da145e9b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1fe24f629f7403161ecf3b5cff13af26') in 0.0103445 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_62.asset
+  artifactKey: Guid(9d665e10cab49764281c67ee21d43562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_62.asset using Guid(9d665e10cab49764281c67ee21d43562) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2d97cda799253f260a0c69dcaace0f84') in 0.0113509 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_129.asset
+  artifactKey: Guid(35ab239c386ea954abe0c8e587f93e31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_129.asset using Guid(35ab239c386ea954abe0c8e587f93e31) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '22348d4941a5df4bfef2760fbe93882e') in 0.0102873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_900.asset
+  artifactKey: Guid(4ffdc748e5c71784c9422f01e5eb6732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_900.asset using Guid(4ffdc748e5c71784c9422f01e5eb6732) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c92c5657836f54b9c00a44b11a6768d6') in 0.0112968 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_737.asset
+  artifactKey: Guid(38f8b918f43813a4abb22afe603f4ec1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_737.asset using Guid(38f8b918f43813a4abb22afe603f4ec1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4a3c3e8b95567ede387bc84e01fe41e1') in 0.0108306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_107.asset
+  artifactKey: Guid(e57b6f95427a1c547b21533a52b40e4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_107.asset using Guid(e57b6f95427a1c547b21533a52b40e4a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4f0f669a6bb7561dca3f1c25f88ca4f') in 0.0106851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_631.asset
+  artifactKey: Guid(919c0cefe9a1d6445b1093e193594534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_631.asset using Guid(919c0cefe9a1d6445b1093e193594534) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6dd10fb003d84e1ff82eb38590a49a88') in 0.0108841 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000009 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_255.asset
+  artifactKey: Guid(b00bbcb93fa7a5f4b99bd707fedff91e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_255.asset using Guid(b00bbcb93fa7a5f4b99bd707fedff91e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63fdfaf6d1fd7c1d203710fd3f8be209') in 0.0110363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_190.asset
+  artifactKey: Guid(b2e63518ca49f1548bf407d742ea3bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_190.asset using Guid(b2e63518ca49f1548bf407d742ea3bde) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c9a98bf0a2d51b69b9a90331948132c3') in 0.011275 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_440.asset
+  artifactKey: Guid(2fab09adc641d734fb5f2360848a709a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_440.asset using Guid(2fab09adc641d734fb5f2360848a709a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d36cddf450dd47bdf14587ecd491bba') in 0.0112626 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_482.asset
+  artifactKey: Guid(f676a7f1069a57941b68ca1cbcbf07ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_482.asset using Guid(f676a7f1069a57941b68ca1cbcbf07ba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f31f20499e60b0a9346ab39dd565d8fa') in 0.0113579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_331.asset
+  artifactKey: Guid(da9f1f88119c8424ab47c1733ec0d623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_331.asset using Guid(da9f1f88119c8424ab47c1733ec0d623) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb50837ac8201984e0447131b99b02df') in 0.0118478 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_415.asset
+  artifactKey: Guid(010e9cef00dedb64b82e53c0431bf28d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_415.asset using Guid(010e9cef00dedb64b82e53c0431bf28d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e5e7c5388f03e2b90099e201d1446db') in 0.0131559 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_894.asset
+  artifactKey: Guid(72e34086855716349a9b0df7f4207936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_894.asset using Guid(72e34086855716349a9b0df7f4207936) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0a133af75a3b38b0f30786ca5d119b06') in 0.0216653 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_256.asset
+  artifactKey: Guid(8796ddde4ded5504c88c07d10613ed33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_256.asset using Guid(8796ddde4ded5504c88c07d10613ed33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ebc2bb6e4711bcb09e4d12b9137af948') in 0.0112661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000007 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_690.asset
+  artifactKey: Guid(f934bb93f41a4c5448953863afa03b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_690.asset using Guid(f934bb93f41a4c5448953863afa03b54) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c33482cebac05e85bb0fecd5a0be5561') in 0.0137113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_210.asset
+  artifactKey: Guid(449b5fdacdb13c848be1bb8a5ff319d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_210.asset using Guid(449b5fdacdb13c848be1bb8a5ff319d5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00011761bbaf6e6430547d2a0a0e6273') in 0.0122563 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_352.asset
+  artifactKey: Guid(a9785ff0640f3d94992134abfbdb10f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_352.asset using Guid(a9785ff0640f3d94992134abfbdb10f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c9950fa2c0e0d89637db18eab177f72') in 0.0145291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_561.asset
+  artifactKey: Guid(908c7869e45730246bfd0700f5c3cfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_561.asset using Guid(908c7869e45730246bfd0700f5c3cfdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '14c4d6025c9f4eede683eee3305f7141') in 0.0110587 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_518.asset
+  artifactKey: Guid(a080fe4ad8912e046b26097ea7aba38f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_518.asset using Guid(a080fe4ad8912e046b26097ea7aba38f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fe13865a304ad312858f5763a83d4bb6') in 0.0122993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_721.asset
+  artifactKey: Guid(7e751b8ddb185f54ba7cccb170fc71a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_721.asset using Guid(7e751b8ddb185f54ba7cccb170fc71a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e59577a2a0f53ef4de4e53ba6323f086') in 0.012258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_346.asset
+  artifactKey: Guid(cf597db691c8af1479d8ce73089e5e09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_346.asset using Guid(cf597db691c8af1479d8ce73089e5e09) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ac2ac1dbb0564f1d0ba6a4c09553d64') in 0.013302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_262.asset
+  artifactKey: Guid(36edb7b3963404d45a63a4f80b185d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_262.asset using Guid(36edb7b3963404d45a63a4f80b185d2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '785f2e51275c33c986e45c7ce087b4e8') in 0.0129404 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_815.asset
+  artifactKey: Guid(e4a777b303655f5499eec739c25e7a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_815.asset using Guid(e4a777b303655f5499eec739c25e7a37) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a2b61358fa57bf0ec8dc124e298c99df') in 0.0174677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_567.asset
+  artifactKey: Guid(5c8815b8ecd4eb5448d6cac0cd44272f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_567.asset using Guid(5c8815b8ecd4eb5448d6cac0cd44272f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0eb138830107f43ef2bcbb8a29a983a') in 0.0145311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_14.asset
+  artifactKey: Guid(a98f1f03f3cb4554e9b44a5a59a23791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_14.asset using Guid(a98f1f03f3cb4554e9b44a5a59a23791) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9086038ab0eefb28d3ee119e30fb3787') in 0.017573 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_575.asset
+  artifactKey: Guid(6559979b80688fb4eae515bf4a1c3dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_575.asset using Guid(6559979b80688fb4eae515bf4a1c3dec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '731f01d77cf785b2a5e87be7a89283d9') in 0.0127872 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_99.asset
+  artifactKey: Guid(91fc7c395f465ab44813d12d4ae1266f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_99.asset using Guid(91fc7c395f465ab44813d12d4ae1266f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '97c9e27e833fb2abeafbd64f2a5f42df') in 0.0143202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_130.asset
+  artifactKey: Guid(0ac7152fe691024418f9ddc476c97297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_130.asset using Guid(0ac7152fe691024418f9ddc476c97297) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb5315c816332112805c110735c24b8f') in 0.0129261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_768.asset
+  artifactKey: Guid(4ee496d32f9678540aa6a8ad3a1aa91f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_768.asset using Guid(4ee496d32f9678540aa6a8ad3a1aa91f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '651c3052ffc53645093545a02c55c0fb') in 0.0148367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_705.asset
+  artifactKey: Guid(ee034cd7fe396e245852a26f55f0dd8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_705.asset using Guid(ee034cd7fe396e245852a26f55f0dd8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5336f4a356c4b71920b876c3c85555cf') in 0.0113391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_460.asset
+  artifactKey: Guid(a84e647b6b2dd154fa2d454ad9dd27a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_460.asset using Guid(a84e647b6b2dd154fa2d454ad9dd27a8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d9233a55d7185747586abd91438e909') in 0.0140324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_784.asset
+  artifactKey: Guid(af202ebde049d034c9e8bd440e38620f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_784.asset using Guid(af202ebde049d034c9e8bd440e38620f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f62c9093647b6f07a60911cd13e944dc') in 0.0674955 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_23.asset
+  artifactKey: Guid(f2251a815b1044f459b1da320d392d57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_23.asset using Guid(f2251a815b1044f459b1da320d392d57) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4e280b55eb3eb7fde2df547fe385d6b4') in 0.0116703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_747.asset
+  artifactKey: Guid(98281afa0f5f29e4ab22fc5c47ed0d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_747.asset using Guid(98281afa0f5f29e4ab22fc5c47ed0d22) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '95a292eab9e059083003fcdbc31912ce') in 0.0129782 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_41.asset
+  artifactKey: Guid(c8f3856b8097bd843a560d8b5011fb7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_41.asset using Guid(c8f3856b8097bd843a560d8b5011fb7a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '968e05c4b139036d06959aaab18fc3fb') in 0.0098631 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_740.asset
+  artifactKey: Guid(82e4f00b26a4e9f4685cf62650327820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_740.asset using Guid(82e4f00b26a4e9f4685cf62650327820) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6b4adc61f8d4401740b1ece27ef94601') in 0.010982 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_326.asset
+  artifactKey: Guid(585f4b1f50e19aa459e1f0a47d3784fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_326.asset using Guid(585f4b1f50e19aa459e1f0a47d3784fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa3baf6b1abd1ba236302d3955911506') in 0.0204294 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_719.asset
+  artifactKey: Guid(3077a2431a0f2474a8d28c7724f456ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_719.asset using Guid(3077a2431a0f2474a8d28c7724f456ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '10ce07e6780f26b5b7c0972e6d7671ab') in 0.012603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_562.asset
+  artifactKey: Guid(a52e27bf1eb71fe49acdb2d4d0532cfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_562.asset using Guid(a52e27bf1eb71fe49acdb2d4d0532cfa) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f8de928c05e692a98ff9e04d92f7f561') in 0.0108259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_770.asset
+  artifactKey: Guid(ccb7dbf6c8c30584f8d1067be9a376ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_770.asset using Guid(ccb7dbf6c8c30584f8d1067be9a376ca) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd4c56877cf26a68941d1de2e67ec6cdc') in 0.0140359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_286.asset
+  artifactKey: Guid(433d09fd1ce546a4585a669cbb2ad87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_286.asset using Guid(433d09fd1ce546a4585a669cbb2ad87a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0aec01d381dd5a52e6665e3702c36dfb') in 0.0114128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_472.asset
+  artifactKey: Guid(e595a863171391648a86c7fd844029a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_472.asset using Guid(e595a863171391648a86c7fd844029a6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f0d4515eb4663d82c951b9dd819e484') in 0.0110787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_45.asset
+  artifactKey: Guid(ba264f5f14700c1438c0362f04676e17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_45.asset using Guid(ba264f5f14700c1438c0362f04676e17) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b4f7523db8954c75b964fe4d4ff99fe') in 0.0113834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_126.asset
+  artifactKey: Guid(f4c03da6cbaf4614697d294355394b3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_126.asset using Guid(f4c03da6cbaf4614697d294355394b3e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd417959dadb3c14dec281bada96e2983') in 0.0109108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_47.asset
+  artifactKey: Guid(44e11782c78594a4a96f5494bc914f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_47.asset using Guid(44e11782c78594a4a96f5494bc914f02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e8f8b59d7fa50863268867e8a22d013') in 0.0121382 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_863.asset
+  artifactKey: Guid(1a120bc440200d34890b79e71e31164b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_863.asset using Guid(1a120bc440200d34890b79e71e31164b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac6af43f1b51dcbfe7d3706d5efd5934') in 0.010797 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_674.asset
+  artifactKey: Guid(c3ce8d0714a4b8348a65de44d30c676f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_674.asset using Guid(c3ce8d0714a4b8348a65de44d30c676f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6c6144e4a32d80a4115bd0df70275089') in 0.0202802 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_592.asset
+  artifactKey: Guid(922bd623a443eec47be65cea75c2a685) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_592.asset using Guid(922bd623a443eec47be65cea75c2a685) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7598707dbc6b7eb99b96f0438c875bd4') in 0.0108604 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_706.asset
+  artifactKey: Guid(f951e3f21c576ab478fb09e9397f27fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_706.asset using Guid(f951e3f21c576ab478fb09e9397f27fb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e2de2f191967eef9f5a014a58450988b') in 0.0121967 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_254.asset
+  artifactKey: Guid(35639db2f85178b418c2b925f5443360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_254.asset using Guid(35639db2f85178b418c2b925f5443360) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '505df4ec9845a9298fcc50a2c543fb93') in 0.0125725 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_328.asset
+  artifactKey: Guid(2ce4811c5e5b39d46b678db3552d501e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_328.asset using Guid(2ce4811c5e5b39d46b678db3552d501e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5f45b06a9e1f68a25f83e75f7870f59a') in 0.0116153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_934.asset
+  artifactKey: Guid(c1025bac4f19d6a4bba122a5c0bfe1f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_934.asset using Guid(c1025bac4f19d6a4bba122a5c0bfe1f0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed678be79e666e8d36fa38953631340e') in 0.0112512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/wood.prefab
+  artifactKey: Guid(6dd752d1fc945bb42bded0a93b748271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/wood.prefab using Guid(6dd752d1fc945bb42bded0a93b748271) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fcfccfcff218a2aa661df4a3a744007b') in 0.0555259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_723.asset
+  artifactKey: Guid(f1967817936918e419510a5e34625663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_723.asset using Guid(f1967817936918e419510a5e34625663) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'eb16876b8262521f074e7aef6b6eac4f') in 0.0110024 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_773.asset
+  artifactKey: Guid(087293d37643f284ea297d8dc895157f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_773.asset using Guid(087293d37643f284ea297d8dc895157f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cdea612fe385c772f12e5d4c82da31ae') in 0.0113935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_42.asset
+  artifactKey: Guid(24de4f958f3ae5149abe093b6f6a8d6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_42.asset using Guid(24de4f958f3ae5149abe093b6f6a8d6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9e4ea6efa00f814db35a2c10408f50c5') in 0.0104701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_829.asset
+  artifactKey: Guid(9d049175a469f4a47a6ee316f1715c44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_829.asset using Guid(9d049175a469f4a47a6ee316f1715c44) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ac80ad1d1a1acf63b516fdb765e6f591') in 0.0106133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_492.asset
+  artifactKey: Guid(e864b4081c10c1d458253ca70228801f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_492.asset using Guid(e864b4081c10c1d458253ca70228801f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e8913e1d8ea56e1120487bcb102221b') in 0.018142 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_145.asset
+  artifactKey: Guid(f602dd2eaf36469488375a300bcdd838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_145.asset using Guid(f602dd2eaf36469488375a300bcdd838) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3a21e158c108bff78b69f1d6e77ab86') in 0.0119103 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_178.asset
+  artifactKey: Guid(5cbdc732f8117a64595c96e90e391481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_178.asset using Guid(5cbdc732f8117a64595c96e90e391481) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf6ba2a68b12def5a21ec7e10d86a410') in 0.0191913 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_544.asset
+  artifactKey: Guid(4dd04ffc2ebaa524998bb0e2259b32f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_544.asset using Guid(4dd04ffc2ebaa524998bb0e2259b32f4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '49636ec2e797f87717543afccf61bb17') in 0.0110682 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_549.asset
+  artifactKey: Guid(0de78e5afbd7e494d8597cf4f5ed8bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_549.asset using Guid(0de78e5afbd7e494d8597cf4f5ed8bb1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5729519953ed873b4137feb5279656b') in 0.0117457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_365.asset
+  artifactKey: Guid(ca2c9f5b400df684087735e44788befc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_365.asset using Guid(ca2c9f5b400df684087735e44788befc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aad688048297bc50819ecc69e4664999') in 0.0119601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_467.asset
+  artifactKey: Guid(b4e5986714894fc45b46c6204f3b6db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_467.asset using Guid(b4e5986714894fc45b46c6204f3b6db3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c006313033624c30aa1ac4aced73c019') in 0.0193462 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_374.asset
+  artifactKey: Guid(eca12c9540e638847a8968a296502a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj_374.asset using Guid(eca12c9540e638847a8968a296502a51) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b971e9d8eb7ad7d5bf6e8f305ca865b9') in 0.0113066 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.294754 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_1.asset
+  artifactKey: Guid(31d498408d8085e4a95ef34a8adb8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_1.asset using Guid(31d498408d8085e4a95ef34a8adb8397) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '195ff23c8880769c809e80c2140edd50') in 0.0190108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_13.asset
+  artifactKey: Guid(e041940cc83c87f4e90f0c204caa125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_13.asset using Guid(e041940cc83c87f4e90f0c204caa125f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58432182bc19597e54bc1ae734c75e04') in 0.0102991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_18.asset
+  artifactKey: Guid(0b48a97cdfd4b474e89bae3e75be5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_18.asset using Guid(0b48a97cdfd4b474e89bae3e75be5c43) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '99a9693075e4052269edc7c8e92ccfec') in 0.0127775 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_11.asset
+  artifactKey: Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_11.asset using Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5d77bcbf893776d42cf88463b18ce0d') in 0.0114469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.718980 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_24.asset
+  artifactKey: Guid(82560dab607937547b7b6335f5ae1027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_24.asset using Guid(82560dab607937547b7b6335f5ae1027) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3411c36a5acffac39a66dea0505e1fb5') in 0.0127313 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_28.asset
+  artifactKey: Guid(a98b53d6a41ac4149849605729cb1874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_28.asset using Guid(a98b53d6a41ac4149849605729cb1874) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8ff655cf21d18cf4a4d03c05ada4b56c') in 0.0100039 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.103560 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_32.asset
+  artifactKey: Guid(74060fdc59319684aac6e644c4d8771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_32.asset using Guid(74060fdc59319684aac6e644c4d8771e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '90fedf858354354f42639cb78be5ea72') in 0.0108113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_36.asset
+  artifactKey: Guid(6e387c3b5f28d7a44b7bdd33b5ccdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_36.asset using Guid(6e387c3b5f28d7a44b7bdd33b5ccdc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '09122b85c44d0764c01f8cf825985ccb') in 0.0111311 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.396822 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_42.asset
+  artifactKey: Guid(24de4f958f3ae5149abe093b6f6a8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_42.asset using Guid(24de4f958f3ae5149abe093b6f6a8d6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c4addb53a0beac5698d22bfbcf56224e') in 0.0112197 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_46.asset
+  artifactKey: Guid(9dd6f85f50efa3e459a9063078ac433a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_46.asset using Guid(9dd6f85f50efa3e459a9063078ac433a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bc4edb605ab4b7b63b4d10698013a5a0') in 0.0128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_62.asset
+  artifactKey: Guid(9d665e10cab49764281c67ee21d43562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_62.asset using Guid(9d665e10cab49764281c67ee21d43562) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '87c47f3857f0cc8767ca4204deb72c2e') in 0.0122828 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_93.asset
+  artifactKey: Guid(e1a6ba6a05b7c7244a95a68b891aa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_93.asset using Guid(e1a6ba6a05b7c7244a95a68b891aa39a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3bf55b5ccc107b4bad2bee05ee9df827') in 0.0114167 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_121.asset
+  artifactKey: Guid(f38d708df6ea8e748b7c6b87f2357895) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_121.asset using Guid(f38d708df6ea8e748b7c6b87f2357895) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6250a9e4829f2b556de961b8ea8a4b7d') in 0.0128579 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_127.asset
+  artifactKey: Guid(6464e781caaa1964cbfcb5e7ee27d89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_127.asset using Guid(6464e781caaa1964cbfcb5e7ee27d89b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dbf37b355bab727807aca2c6a7c92dab') in 0.012002 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_129.asset
+  artifactKey: Guid(35ab239c386ea954abe0c8e587f93e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_129.asset using Guid(35ab239c386ea954abe0c8e587f93e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b2e2e70cbb9be3e1bf3aacb720e9051a') in 0.0140766 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_172.asset
+  artifactKey: Guid(57aed4e17bf95b346b58c55633cb6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_172.asset using Guid(57aed4e17bf95b346b58c55633cb6258) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'c09bed31c96a6a2964c179810d995704') in 0.01442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_189.asset
+  artifactKey: Guid(5a1162e0aad4ee04b9403d0a12731b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_189.asset using Guid(5a1162e0aad4ee04b9403d0a12731b21) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '545128d82124b3af392b71adb896170a') in 0.011998 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_201.asset
+  artifactKey: Guid(2ad0ae7181795644482e68902df6403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_201.asset using Guid(2ad0ae7181795644482e68902df6403a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1e7da11205357602260c290917221d03') in 0.0125722 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_209.asset
+  artifactKey: Guid(4c70c0032b25fdd49824a4724fc37295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_209.asset using Guid(4c70c0032b25fdd49824a4724fc37295) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0167adb99d9a1150f1ce1abbf24b1ec1') in 0.0141896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_227.asset
+  artifactKey: Guid(aa991b9793439a54a985ea526fedbec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_227.asset using Guid(aa991b9793439a54a985ea526fedbec2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '41e8a49608e9d500de1cfb1506e7825c') in 0.0131455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_246.asset
+  artifactKey: Guid(c7727d2ef05fedb4e82a8ea9ee14bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_246.asset using Guid(c7727d2ef05fedb4e82a8ea9ee14bd5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0a0cb522b76f1e2147c58cbcaa2bd698') in 0.0118278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_107.asset
+  artifactKey: Guid(e57b6f95427a1c547b21533a52b40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_107.asset using Guid(e57b6f95427a1c547b21533a52b40e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab4c13190bfec9b21c99b7ed3c1f6723') in 0.0200902 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_267.asset
+  artifactKey: Guid(5be07f98d954f5549a9028eb1140ee44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_267.asset using Guid(5be07f98d954f5549a9028eb1140ee44) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3d387c1e359b7b4ca49cef598d2a270a') in 0.0116064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_233.asset
+  artifactKey: Guid(61358beb26e5d05489f8ce35486c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_233.asset using Guid(61358beb26e5d05489f8ce35486c1909) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a533e9d1fc756a67fb17ce262bed616e') in 0.012416 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_292.asset
+  artifactKey: Guid(49ab342f988d70143bbf2bae32b17978) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_292.asset using Guid(49ab342f988d70143bbf2bae32b17978) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fd3c6835a6667a7535dfc48d87b1c605') in 0.0135082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_322.asset
+  artifactKey: Guid(0da2c57fcdb7a3b43a8d0cb6cdc5c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_322.asset using Guid(0da2c57fcdb7a3b43a8d0cb6cdc5c331) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '762f816c8bec6e44717c614f121debbe') in 0.0134362 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_346.asset
+  artifactKey: Guid(cf597db691c8af1479d8ce73089e5e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_346.asset using Guid(cf597db691c8af1479d8ce73089e5e09) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f457df989de3c8850ff9295043a7583a') in 0.0117569 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_367.asset
+  artifactKey: Guid(56440426cc3261f4fbf02545f98198cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_367.asset using Guid(56440426cc3261f4fbf02545f98198cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '93ac105a50cc3e488ebdbb177249541c') in 0.0120198 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_392.asset
+  artifactKey: Guid(0f051701427168241af0ec91447a61db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_392.asset using Guid(0f051701427168241af0ec91447a61db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '761d5f29e6f33f4059af0beab06a1b2d') in 0.0184476 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_404.asset
+  artifactKey: Guid(043b658294f0f7941a5f8fb2fd8ee45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_404.asset using Guid(043b658294f0f7941a5f8fb2fd8ee45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8331b2bada98e3871c019c9e922044e2') in 0.0127858 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_423.asset
+  artifactKey: Guid(ed5992a1e3a979d42b38da9f1c2688d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_423.asset using Guid(ed5992a1e3a979d42b38da9f1c2688d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85ed0f9dea737a35d1e268dd8cd2ad77') in 0.0117932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_435.asset
+  artifactKey: Guid(f9b559bbd7bf03644922016b4e3f4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_435.asset using Guid(f9b559bbd7bf03644922016b4e3f4532) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '33d7a9dcc3d10694ed05ae85667f28ff') in 0.0118363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_454.asset
+  artifactKey: Guid(4c757a83c2ecfc84e853a4a1d38bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_454.asset using Guid(4c757a83c2ecfc84e853a4a1d38bb9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee301058160f83f2eb3c6a8bee6a4f5') in 0.0123691 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_451.asset
+  artifactKey: Guid(d03c41dfb7985ba46af8d431f4a1fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_451.asset using Guid(d03c41dfb7985ba46af8d431f4a1fdb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '75ee2a2de36ee9fc5adbf6ddb00f67a1') in 0.0142678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_285.asset
+  artifactKey: Guid(d777e429bb5656043b609e869ec67eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_285.asset using Guid(d777e429bb5656043b609e869ec67eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b22b7a9ab25c02a5ad18e15950019420') in 0.0089921 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_232.asset
+  artifactKey: Guid(b017c1326eeb69047906c8fc42e4403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_232.asset using Guid(b017c1326eeb69047906c8fc42e4403b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e47a013bcce8b49b9411a317c88af6a4') in 0.0118821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_254.asset
+  artifactKey: Guid(35639db2f85178b418c2b925f5443360) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_254.asset using Guid(35639db2f85178b418c2b925f5443360) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4ed86da516b1b5239f77b3f6cfc2e15c') in 0.0156287 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_443.asset
+  artifactKey: Guid(d473ddc959b912a4291127c6fd6ccca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_443.asset using Guid(d473ddc959b912a4291127c6fd6ccca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd2cc3758641e2976ec69aa24de5019dc') in 0.0118163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_281.asset
+  artifactKey: Guid(508eca9ac8b577a43918fbacd51bd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_281.asset using Guid(508eca9ac8b577a43918fbacd51bd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ab744ff10eaf738bd11f7b4047623640') in 0.01022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_78.asset
+  artifactKey: Guid(e2a355bd7fc30e24381b7471e36159b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_78.asset using Guid(e2a355bd7fc30e24381b7471e36159b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '38228dae13af9697d693e8060271ff8b') in 0.0128352 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_278.asset
+  artifactKey: Guid(1e47976193a30cd48873b4c871a71dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_278.asset using Guid(1e47976193a30cd48873b4c871a71dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1ecd655eb6a2aa4dabda9758bc6e067c') in 0.0132127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_224.asset
+  artifactKey: Guid(fd07e72a7e304ff41aedd6fd13d993cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_224.asset using Guid(fd07e72a7e304ff41aedd6fd13d993cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e1b1b7d762ab8bc1f2c7947546e9fb11') in 0.0130216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_228.asset
+  artifactKey: Guid(2cddcad2ac6a5e74facbec4e6c1226f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_228.asset using Guid(2cddcad2ac6a5e74facbec4e6c1226f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6513ec0ba8fc95b43b927da958687f52') in 0.0131235 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_325.asset
+  artifactKey: Guid(c5745565ffdc4fd4f9e08779c022efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_325.asset using Guid(c5745565ffdc4fd4f9e08779c022efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5da725af0718689ed27590a5e4893112') in 0.0145811 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_174.asset
+  artifactKey: Guid(c129f5a9772b16442aff3b2dd3bcc1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_174.asset using Guid(c129f5a9772b16442aff3b2dd3bcc1f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '85a9e5da9bcf425f3fd92d20024d876c') in 0.0142006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_280.asset
+  artifactKey: Guid(7e46bdccc88a61a4992db65b77087a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_280.asset using Guid(7e46bdccc88a61a4992db65b77087a0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ff048b537807d287695ca6e1a2312aff') in 0.0137261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_394.asset
+  artifactKey: Guid(8bd27600781705449a7b7dcbdb4ace52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_394.asset using Guid(8bd27600781705449a7b7dcbdb4ace52) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3dcad6293e7a9543ae3813d222e99572') in 0.0154068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_304.asset
+  artifactKey: Guid(65682e64ae196ec4ba1efc93894a84bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_304.asset using Guid(65682e64ae196ec4ba1efc93894a84bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '285c7883bc4f30ec9345c6d66591b2b9') in 0.0147017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_360.asset
+  artifactKey: Guid(f19156553ef8dec4dbbb581a9e5e4ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_360.asset using Guid(f19156553ef8dec4dbbb581a9e5e4ec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36f6404eb6dc7fd0a70166406e0a7baa') in 0.0131146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_440.asset
+  artifactKey: Guid(2fab09adc641d734fb5f2360848a709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_440.asset using Guid(2fab09adc641d734fb5f2360848a709a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '17f6fbc1ec671e040c0bc68e64392d1c') in 0.0135813 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_357.asset
+  artifactKey: Guid(a14c8fd563765d1448fb344d16521897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_357.asset using Guid(a14c8fd563765d1448fb344d16521897) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd7db4cadf74de848fe7c22895bfd7f04') in 0.0149146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_370.asset
+  artifactKey: Guid(6b60d314889a4b246925407a0ac0a08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_370.asset using Guid(6b60d314889a4b246925407a0ac0a08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '868153aeaa275f420428649f2ae94b97') in 0.0135168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_352.asset
+  artifactKey: Guid(a9785ff0640f3d94992134abfbdb10f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_352.asset using Guid(a9785ff0640f3d94992134abfbdb10f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '34b508a7246d8e1cec71f5b9dce5c503') in 0.0129593 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_453.asset
+  artifactKey: Guid(a7a87924976338f4c8ac9bac47d65b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_453.asset using Guid(a7a87924976338f4c8ac9bac47d65b4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd6401606f5348a0ad5bd9dd3f9a94f43') in 0.0132719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_290.asset
+  artifactKey: Guid(caaa269caa8f5034e9afb74158ad18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_290.asset using Guid(caaa269caa8f5034e9afb74158ad18c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '94a3cb447907f2bc6f20d076834b59b9') in 0.0137616 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_309.asset
+  artifactKey: Guid(cc1535600e54d1e4799590d987da5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_309.asset using Guid(cc1535600e54d1e4799590d987da5966) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5ba921656437f3483f7f979cb11546df') in 0.01444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_381.asset
+  artifactKey: Guid(f97b65dfeb657184991574b608fb0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_381.asset using Guid(f97b65dfeb657184991574b608fb0afd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '83836ec8dfc49b1fd5c7c62d539363fb') in 0.0161562 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_336.asset
+  artifactKey: Guid(e8d2a7beb26c6934f940edf43f782c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_336.asset using Guid(e8d2a7beb26c6934f940edf43f782c4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eec43cd290b00ba8423d9b0b315f97f3') in 0.0141276 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_328.asset
+  artifactKey: Guid(2ce4811c5e5b39d46b678db3552d501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_328.asset using Guid(2ce4811c5e5b39d46b678db3552d501e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a60e0dffe1ab3db31e0dd73d9b295e51') in 0.011981 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_420.asset
+  artifactKey: Guid(6d34063c12c6786418d0997a65aaa6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_420.asset using Guid(6d34063c12c6786418d0997a65aaa6dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b5fcb0347e4081f764b1cc535b16543c') in 0.0143246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_149.asset
+  artifactKey: Guid(a717f7fc067d59645b988a61c9f30a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_149.asset using Guid(a717f7fc067d59645b988a61c9f30a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '459ca27e82724031e23b210a1cd4e13b') in 0.0116043 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_447.asset
+  artifactKey: Guid(edb7f678057115842a00a3b4f1c957a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_447.asset using Guid(edb7f678057115842a00a3b4f1c957a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a1eed792827d199e575d17a7f4a481da') in 0.0112325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_125.asset
+  artifactKey: Guid(1ab009b37e6c35d4b935cc2061f7b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_125.asset using Guid(1ab009b37e6c35d4b935cc2061f7b550) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f2d1e1f4c9df6b293d54d659a305d485') in 0.0134051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_164.asset
+  artifactKey: Guid(851a148f0fc95ed429f934d90145b43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_164.asset using Guid(851a148f0fc95ed429f934d90145b43f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '12bba20b5c7534e04a9da62a56e05e62') in 0.0128835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_362.asset
+  artifactKey: Guid(7570c1a6656e8fd469e8bf3b204a77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_362.asset using Guid(7570c1a6656e8fd469e8bf3b204a77a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cd2562a1389dacc46b1f1f1f3d485bad') in 0.0116708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_72.asset
+  artifactKey: Guid(e446aa4f1ee9e5b498a29b337e187852) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_72.asset using Guid(e446aa4f1ee9e5b498a29b337e187852) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fef0b2b759f78c8cf51dafab39857a76') in 0.0125871 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_154.asset
+  artifactKey: Guid(bc4ef5b69e1a28c48a706274b6c4617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_154.asset using Guid(bc4ef5b69e1a28c48a706274b6c4617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd430937f5f5b042f2922b367f6529751') in 0.0128857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_369.asset
+  artifactKey: Guid(23625f94d6051674fb74f5dd4932e200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_369.asset using Guid(23625f94d6051674fb74f5dd4932e200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '743b1741406eb22a2603e6d92b4d45a6') in 0.0122665 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_344.asset
+  artifactKey: Guid(39b42b148d34cbd4fb7b8db302dc8d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_344.asset using Guid(39b42b148d34cbd4fb7b8db302dc8d7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c00d323c11d1f59e7eb3bd394983019') in 0.0127113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_407.asset
+  artifactKey: Guid(fa9ad36a1626ef1469ee591d441a9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_407.asset using Guid(fa9ad36a1626ef1469ee591d441a9b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4257a14124bf9593038776f3300d7c8f') in 0.0125177 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_200.asset
+  artifactKey: Guid(a90f70652a3d7e243b961f75b20db75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_200.asset using Guid(a90f70652a3d7e243b961f75b20db75c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '867811c1a1bed71c5801aacaf559c614') in 0.0128467 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_442.asset
+  artifactKey: Guid(b109b7df6ce631a49965c7df04748018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_442.asset using Guid(b109b7df6ce631a49965c7df04748018) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '43278afc15ff6edf12d18992865290d8') in 0.0124601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_326.asset
+  artifactKey: Guid(585f4b1f50e19aa459e1f0a47d3784fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_326.asset using Guid(585f4b1f50e19aa459e1f0a47d3784fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '30ef13343edb842977c1bbcd82b58752') in 0.0127539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_255.asset
+  artifactKey: Guid(b00bbcb93fa7a5f4b99bd707fedff91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_255.asset using Guid(b00bbcb93fa7a5f4b99bd707fedff91e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cc59a14dc2012cd07cc9d0237aaa5e6f') in 0.0115157 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_204.asset
+  artifactKey: Guid(b0f5f7c4371df044fa788a9be1173e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_204.asset using Guid(b0f5f7c4371df044fa788a9be1173e93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9236fc454a285c7b651605825ad58592') in 0.0138133 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_194.asset
+  artifactKey: Guid(6dc4a5d913e39df449371474956ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_194.asset using Guid(6dc4a5d913e39df449371474956ee065) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '53c2a49aabeff9de479b93ce7726b2a0') in 0.0121898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_345.asset
+  artifactKey: Guid(47e1b3744a2e7834eb0dbf8c3de23945) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_345.asset using Guid(47e1b3744a2e7834eb0dbf8c3de23945) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2891d4d2627a031cea2d8bbcccd4fe59') in 0.0110218 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_150.asset
+  artifactKey: Guid(4ee2bd77df974674dbbc6181b8fed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_150.asset using Guid(4ee2bd77df974674dbbc6181b8fed6a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7f292e590304c4fbc754aabc13347680') in 0.0135077 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_343.asset
+  artifactKey: Guid(cb906ae60b6c53140b6742618c266aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_343.asset using Guid(cb906ae60b6c53140b6742618c266aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '204b62112614aa522ece5d931932819f') in 0.019842 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.429226 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_0.asset
+  artifactKey: Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_0.asset using Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6c8d77ecb986dc3a99f3c1ef07e0185a') in 0.0081351 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_6.asset
+  artifactKey: Guid(f3e8e437ee7ed9d48a3c80cdf434fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_6.asset using Guid(f3e8e437ee7ed9d48a3c80cdf434fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '422f7a1f87c5c85be60e808e1a45b0ee') in 0.0077962 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_11.asset
+  artifactKey: Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_11.asset using Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9a526231fb178d42bf21faca31c52110') in 0.007334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_16.asset
+  artifactKey: Guid(e837c948604bdfa4a9c3c14c1f40937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_16.asset using Guid(e837c948604bdfa4a9c3c14c1f40937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1a8078b78f4c28cb5bbf16736082d08b') in 0.0148216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.656865 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj.png
+  artifactKey: Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj.png using Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9dbbc2c4a6ba420ee2dc52bb4474ba1c') in 0.4955781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 953
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.421693 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_0.asset
+  artifactKey: Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_0.asset using Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0e727519f912625119983d6b16c36ef2') in 0.0081601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_6.asset
+  artifactKey: Guid(f3e8e437ee7ed9d48a3c80cdf434fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_6.asset using Guid(f3e8e437ee7ed9d48a3c80cdf434fcd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6674058970f611bd81f7cb0e7c69115b') in 0.0073939 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_19.asset
+  artifactKey: Guid(f3148179c63840b42840e34563510c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_19.asset using Guid(f3148179c63840b42840e34563510c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5c2329bb9c4ce90421481b6e4f81ff96') in 0.0078292 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_16.asset
+  artifactKey: Guid(e837c948604bdfa4a9c3c14c1f40937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_16.asset using Guid(e837c948604bdfa4a9c3c14c1f40937c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '6de66cd6fa3e0780bddddf8a83748cc4') in 0.0071539 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.503422 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj.png
+  artifactKey: Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj.png using Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c35add688e2e1ff4398284eda7b4408a') in 0.3445022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 953
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.335631 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_0.asset
+  artifactKey: Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_0.asset using Guid(3938e24f380a2b743b6ac52bf4f25547) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '23ad2c66e8abc2b54f606de2116bb3ee') in 0.0071051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_10.asset
+  artifactKey: Guid(c840dff2067c0e246863df1572061638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_10.asset using Guid(c840dff2067c0e246863df1572061638) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd46ebdda043dda4e0ef418eb87980412') in 0.0075637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_11.asset
+  artifactKey: Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_11.asset using Guid(c19f0e88a343a484a9e29408f6f0d5f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'd65a46bdc4796738728c38b1e0802aa8') in 0.0063094 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj_14.asset
+  artifactKey: Guid(a98f1f03f3cb4554e9b44a5a59a23791) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PF SET1/Sliced/decorative_obj_14.asset using Guid(a98f1f03f3cb4554e9b44a5a59a23791) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ce6bf925a148a5353a49f1590b2c764f') in 0.0086025 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.647366 seconds.
+  path: Assets/PF SET1/Sliced/decorative_obj.png
+  artifactKey: Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Sliced/decorative_obj.png using Guid(150671d6d3ba0144998bef186d4b4ea9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '41e3002de4492009720c46c1fecf91f1') in 0.4061333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 953
+
+========================================================================
+Received Import Request.
+  Time since last request: 580.726256 seconds.
+  path: Assets/Medieval King Pack 2/Sprites/Attack2.png
+  artifactKey: Guid(426f724d7a0489b48be59c8e9125a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval King Pack 2/Sprites/Attack2.png using Guid(426f724d7a0489b48be59c8e9125a9b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aee541ff490cc9b51a575fc23c774d90') in 0.0196012 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Medieval King Pack 2/Sprites/Attack3.png
+  artifactKey: Guid(54ec4f0cdd3de40498e6a8dc361b8953) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval King Pack 2/Sprites/Attack3.png using Guid(54ec4f0cdd3de40498e6a8dc361b8953) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '11b87c4b5cc0fbb0f1fc73c72a420093') in 0.0231006 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Medieval King Pack 2/Sprites/Death.png
+  artifactKey: Guid(11dfc7ac31d5c7847968009983536a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval King Pack 2/Sprites/Death.png using Guid(11dfc7ac31d5c7847968009983536a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1061efd490c30c278d28cccabbb5c5ba') in 0.0242758 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Medieval King Pack 2/Sprites/Take Hit.png
+  artifactKey: Guid(a0175151646ae1b458b1bb6f1c6d1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval King Pack 2/Sprites/Take Hit.png using Guid(a0175151646ae1b458b1bb6f1c6d1c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '1d5eda39f4e615a7435797fc2ef302fe') in 0.017946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Medieval King Pack 2/Sprites/Jump.png
+  artifactKey: Guid(0a9460c5d02da8e46a486b489e357b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval King Pack 2/Sprites/Jump.png using Guid(0a9460c5d02da8e46a486b489e357b89) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '811e233fb9fce5d799b73d8f9cf1732d') in 0.0184701 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

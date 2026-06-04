@@ -8,6 +8,21 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Main Town.unity
+    guid: 1976b27aea70219428c4fd0cb8d358c7
+  - enabled: 1
+    path: Assets/Scenes/Boss Map.unity
+    guid: 795ca2921cd268542a7767b5a9424775
+  - enabled: 1
+    path: Assets/Scenes/RUN.unity
+    guid: d45764ce8ac18294bac9802cff6c114b
+  - enabled: 1
+    path: Assets/Scenes/Right Map.unity
+    guid: bb2cb205d2e5d404abf582560384589e
+  - enabled: 1
+    path: Assets/Scenes/Left Map.unity
+    guid: 89d5af37c682ff845b7d62e19c349aa1
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

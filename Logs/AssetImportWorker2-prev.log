@@ -1,0 +1,2109 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-04T04:33:45.6904675Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32577 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-04T04:33:45Z
+
+COMMAND LINE ARGUMENTS:
+E:\unity\6000.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+59130
+-licensingIpc
+LicenseClient-User
+-job-worker-count
+11
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+Player connection [15900]  Target information:
+
+Player connection [15900]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2629606241 [EditorId] 2629606241 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KCO4M1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [15900] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [15900] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 11
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.11f1 (3000ef702840)
+[Subsystems] Discovering subsystems at path E:/unity/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.9621
+Initialize mono
+Mono path[0] = 'E:/unity/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56648
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/unity/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001494 seconds.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
+[Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-06-04T04:33:46.9879229Z"
+- Loaded All Assemblies, in  0.488 seconds
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              6e44a976cbfa4e29ba8b4f82f02b1cf4
+  Correlation Id:          e34b4438216cbdb3985d0f39df6d38b7
+  External correlation Id: 5664968770520974803
+  Machine Id:              tnPMHDmzcJKjPDwZDg0GMR5CZ6Y=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-06-04T04:33:47.1057494Z"
+[Licensing::Module] Licensing Background thread has ended after 1.42s
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.332 seconds
+Domain Reload Profiling: 820ms
+	BeginReloadAssembly (210ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (38ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (191ms)
+		LoadAssemblies (210ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (187ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (171ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (332ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (284ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (46ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (65ms)
+			ProcessInitializeOnLoadAttributes (109ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 14568817533135-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+- Loaded All Assemblies, in  0.764 seconds
+Refreshing native plugins compatible for Editor in 1.20 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.812 seconds
+Domain Reload Profiling: 1572ms
+	BeginReloadAssembly (170ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (31ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (520ms)
+		LoadAssemblies (380ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (167ms)
+				TypeCache.ScanAssembly (155ms)
+			BuildScriptInfoCaches (68ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (812ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (661ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (383ms)
+			ProcessInitializeOnLoadMethodAttributes (139ms)
+			AfterProcessingInitializeOnLoad (2ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (14ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.43 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (4.4 MB). Loaded Objects now: 7739.
+Memory consumption went from 159.4 MB to 155.0 MB.
+Total: 11.747100 ms (FindLiveObjects: 0.718700 ms CreateObjectMapping: 0.822200 ms MarkObjects: 6.934300 ms  DeleteObjects: 3.270100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 5898.682340 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1110.asset
+  artifactKey: Guid(0e4fe123ccb833e4dbe125eaa730a2c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1110.asset using Guid(0e4fe123ccb833e4dbe125eaa730a2c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ee895d3bf47b82ee50aa27121df4d3ae') in 0.1158885 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1068.asset
+  artifactKey: Guid(002767b275e363146888f39945f1a22c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1068.asset using Guid(002767b275e363146888f39945f1a22c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8d5b12db07a3af689ce00055937bc2ed') in 0.0121007 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1046.asset
+  artifactKey: Guid(cf172b938639b1348af5533fcd993d02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1046.asset using Guid(cf172b938639b1348af5533fcd993d02) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ed73280edbee2b9d018d55469e0644c0') in 0.0146327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1004.asset
+  artifactKey: Guid(7c9db8f2726d8844e9ad86de938ab2bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1004.asset using Guid(7c9db8f2726d8844e9ad86de938ab2bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '300eff0a4413fd6ebfc5a0cb0fa22391') in 0.0108613 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Fantasy Pixel Locks and Keys/Instructions.txt
+  artifactKey: Guid(c53cf1fce2c1f2842a87d7d949e55cd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fantasy Pixel Locks and Keys/Instructions.txt using Guid(c53cf1fce2c1f2842a87d7d949e55cd4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd86ca4fb5144199e2d2ab2e500d2f25d') in 0.0141358 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1036.asset
+  artifactKey: Guid(f7b2ec116cf6bd043b92d72dc26e295e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1036.asset using Guid(f7b2ec116cf6bd043b92d72dc26e295e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f0b787b9dca20468a0e099e2c958680a') in 0.013739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1093.asset
+  artifactKey: Guid(fd9acffeaf778ea4d9cd0ed1085fce06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1093.asset using Guid(fd9acffeaf778ea4d9cd0ed1085fce06) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b577b78bdd1147bff60402bb4d6f285') in 0.0129931 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1113.asset
+  artifactKey: Guid(e1d95d617ca7b7b418e4a19a5e3a51ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1113.asset using Guid(e1d95d617ca7b7b418e4a19a5e3a51ea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fad5c9daa1ad9f78c54e8d692bd27745') in 0.0107954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1080.asset
+  artifactKey: Guid(e47a69553f7fbd04b93e981ebf9594b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1080.asset using Guid(e47a69553f7fbd04b93e981ebf9594b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '809246f5e32e860f2e268c08c8f7e433') in 0.0100912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1142.asset
+  artifactKey: Guid(c33a274d597795749a4e809e5cd7082f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1142.asset using Guid(c33a274d597795749a4e809e5cd7082f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a1c35e5accbb3e7bc9e54db3d425dfc3') in 0.0127102 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1135.asset
+  artifactKey: Guid(5e4bb6252e31dc74e9807ad1446ba73b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1135.asset using Guid(5e4bb6252e31dc74e9807ad1446ba73b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa033b59da682199302c1adaeb4e1bd7') in 0.0113278 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1154.asset
+  artifactKey: Guid(27f1de2a0e818e746a711f80515b7eba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1154.asset using Guid(27f1de2a0e818e746a711f80515b7eba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5c86e0fb3eba384756f1d3ae281f393a') in 0.0128831 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1174.asset
+  artifactKey: Guid(5b7296ec1289c0b4da5069efbe8c0ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1174.asset using Guid(5b7296ec1289c0b4da5069efbe8c0ea4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '611be2ad2b97d42d9ff4b44f9dfdd02c') in 0.0142422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1160.asset
+  artifactKey: Guid(211e54a8480e19841ab7a5bd6131d866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1160.asset using Guid(211e54a8480e19841ab7a5bd6131d866) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce552bf2705c372f0178644f0516454b') in 0.0133457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1141.asset
+  artifactKey: Guid(ea8529036a1aa3c46bc1dd66ba4e21b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1141.asset using Guid(ea8529036a1aa3c46bc1dd66ba4e21b7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '64488bfd94554ea447e684558aaebb31') in 0.0134304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_117.asset
+  artifactKey: Guid(760febc9d56d5f54d9fc7a1a37a5f536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_117.asset using Guid(760febc9d56d5f54d9fc7a1a37a5f536) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd4433a72c25a627e45d4b2099bf425d') in 0.0127615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1148.asset
+  artifactKey: Guid(613dcd2d359af6a4f98f11e96e6ebeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1148.asset using Guid(613dcd2d359af6a4f98f11e96e6ebeff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3f5c4ba0816f1acb17c26f4627868ce4') in 0.0132732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1178.asset
+  artifactKey: Guid(9b28c595b9eb7b640a94fc8c38806985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1178.asset using Guid(9b28c595b9eb7b640a94fc8c38806985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6cd2434a2709f66fab3c247bc1a3d700') in 0.0133581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1105.asset
+  artifactKey: Guid(303f087a0d2d4eb4b8fc96df5d9813b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1105.asset using Guid(303f087a0d2d4eb4b8fc96df5d9813b0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1147f1ac071dd70c8a20037b84e79e83') in 0.0134845 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1121.asset
+  artifactKey: Guid(a6bc397b3249576408c428602530238b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1121.asset using Guid(a6bc397b3249576408c428602530238b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c8226118aa42a22bdc8f4ad451e302a8') in 0.0118326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Fantasy Pixel Locks and Keys/PNG/Gold key.png
+  artifactKey: Guid(0dc562774a1186e44ab0cfc5bfcd6619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Fantasy Pixel Locks and Keys/PNG/Gold key.png using Guid(0dc562774a1186e44ab0cfc5bfcd6619) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa8e82e00aff4803ed94782ab4da3794') in 0.0506038 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1180.asset
+  artifactKey: Guid(f12f748b2d63634498b096121f61c92d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1180.asset using Guid(f12f748b2d63634498b096121f61c92d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6f603ca9081ae7782186645654665b25') in 0.0128496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1122.asset
+  artifactKey: Guid(ebb1a06ab0cec374686f8c15f49ee27d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1122.asset using Guid(ebb1a06ab0cec374686f8c15f49ee27d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07bd9fc8d5401ce625ea8c37eedad236') in 0.0144317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1027.asset
+  artifactKey: Guid(7e5f1dcc1a50ecc4cb2edba172080f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1027.asset using Guid(7e5f1dcc1a50ecc4cb2edba172080f5e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '37c44dfc06798bb516303a05e94bafb8') in 0.0117548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1215.asset
+  artifactKey: Guid(04bdee339d16d294896240a6e72726b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1215.asset using Guid(04bdee339d16d294896240a6e72726b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5832f0aaeb969d280ee9cb2256a5497f') in 0.0152923 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1209.asset
+  artifactKey: Guid(7ac4f65db6de0244a9cdd21912175cb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1209.asset using Guid(7ac4f65db6de0244a9cdd21912175cb0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '12ab7c3325d0ad6f0db59c3ac78283d9') in 0.0143309 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1195.asset
+  artifactKey: Guid(76ca8574f90f06a4fa49106a4e72023c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1195.asset using Guid(76ca8574f90f06a4fa49106a4e72023c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8b239dae905b14a86b16403b8e0f9705') in 0.0130391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1198.asset
+  artifactKey: Guid(2924d29b2b1749e4b8378d0b762675f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1198.asset using Guid(2924d29b2b1749e4b8378d0b762675f6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3eb38ee56fa3534d6dbd1f87351bb8f4') in 0.0123721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1250.asset
+  artifactKey: Guid(d8952e9446d11274a8cd4ca2cc5540ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1250.asset using Guid(d8952e9446d11274a8cd4ca2cc5540ed) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c04c93157a86c85b59f51a56abb0060f') in 0.0112582 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1238.asset
+  artifactKey: Guid(d0af71005d9b3af47919bee3b2d2a465) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1238.asset using Guid(d0af71005d9b3af47919bee3b2d2a465) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b71b5de1756d11068e5dd10c656a09be') in 0.0128296 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1210.asset
+  artifactKey: Guid(6e0724b56859d0942b2d40df13c90e0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1210.asset using Guid(6e0724b56859d0942b2d40df13c90e0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3a571d47e7f03b89e80c4d3a78c86b02') in 0.0112343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1204.asset
+  artifactKey: Guid(e552b9c271bb7fd43ac4433a6276a39e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1204.asset using Guid(e552b9c271bb7fd43ac4433a6276a39e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6d9a8e5237a871dfa00a7f06085bcb36') in 0.0119847 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_120.asset
+  artifactKey: Guid(79b05662ee1eef547b52c00a8d2ecd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_120.asset using Guid(79b05662ee1eef547b52c00a8d2ecd85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bb8d66dea5d669eff3049ee5ae47ce34') in 0.0128617 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1234.asset
+  artifactKey: Guid(c933b5b5069133148841d26b12b49198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1234.asset using Guid(c933b5b5069133148841d26b12b49198) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2c718ccf75a8ff40208ac95fdbd8445f') in 0.014344 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1249.asset
+  artifactKey: Guid(3122c38cc970fce498c899f37f0b723f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1249.asset using Guid(3122c38cc970fce498c899f37f0b723f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7b003f5071cef04a36a339d73b8f03ef') in 0.0144118 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1199.asset
+  artifactKey: Guid(21209d21dcb219245a1dfbfe0c0cb40c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1199.asset using Guid(21209d21dcb219245a1dfbfe0c0cb40c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '259d1e303ba1653dc8f9a5bc1d27b6dd') in 0.0123993 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1237.asset
+  artifactKey: Guid(107f72f530c830d4dae6329af6af14e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1237.asset using Guid(107f72f530c830d4dae6329af6af14e1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3e2c8885876589ac4eda5f0c8db76a4f') in 0.0132609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1233.asset
+  artifactKey: Guid(cb76743932e143b428dbd0d7428ba59f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1233.asset using Guid(cb76743932e143b428dbd0d7428ba59f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a25de9558870869b15e2c6fc6c37e2da') in 0.0138407 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1299.asset
+  artifactKey: Guid(bb4758015514c6844a0b7218f38a9316) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1299.asset using Guid(bb4758015514c6844a0b7218f38a9316) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c4c6c6afbfa8b4e5caa969a325e4691c') in 0.0112803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1301.asset
+  artifactKey: Guid(882b6e4397aeb9440b6e0f6f34dcc34d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1301.asset using Guid(882b6e4397aeb9440b6e0f6f34dcc34d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '83abc4c33b803e3ae0174ea328373344') in 0.0135487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1282.asset
+  artifactKey: Guid(6720113b904f60f4ba34a3b0203a10f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1282.asset using Guid(6720113b904f60f4ba34a3b0203a10f7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '940846b16af0495028f22199b8535305') in 0.0117483 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1300.asset
+  artifactKey: Guid(bb44bf8359c9a2d4082004c0b1e3b274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1300.asset using Guid(bb44bf8359c9a2d4082004c0b1e3b274) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d52d2ce9edfdf110d1d9f30deac62a7') in 0.0113384 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_130.asset
+  artifactKey: Guid(a1730be3ba1e3264c9cbd964ebb2b4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_130.asset using Guid(a1730be3ba1e3264c9cbd964ebb2b4c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c398c90800ef9d9772ab0c8940fe721') in 0.0103958 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1314.asset
+  artifactKey: Guid(5da2a7d0893493543aecec56efee5e19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1314.asset using Guid(5da2a7d0893493543aecec56efee5e19) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a3166f697116a2e6c198f0405b1f2021') in 0.0163627 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1313.asset
+  artifactKey: Guid(cdb5131767718f540acbf75548cb69d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1313.asset using Guid(cdb5131767718f540acbf75548cb69d9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '40b57a62cc9c537e98f2a7c34c845612') in 0.0134105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1320.asset
+  artifactKey: Guid(74eaf94f19262c94083f96ccda4c0472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1320.asset using Guid(74eaf94f19262c94083f96ccda4c0472) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '431dc87bfdf62827fe79901ef47b049c') in 0.013334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1276.asset
+  artifactKey: Guid(d9323d48fbb0ff44dbbc4551226f547c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1276.asset using Guid(d9323d48fbb0ff44dbbc4551226f547c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a4f50997d7ed6be4bf6d9259a83388c2') in 0.0134757 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1286.asset
+  artifactKey: Guid(df4273f51bd0eef49a1abc5bb029328c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1286.asset using Guid(df4273f51bd0eef49a1abc5bb029328c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c00697745709b029996e3da792e2af06') in 0.0123325 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1283.asset
+  artifactKey: Guid(e95415aa0a95a25469114adeeb07319c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1283.asset using Guid(e95415aa0a95a25469114adeeb07319c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '388be2dda855dddc0d00f9741ec9804a') in 0.0117909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1262.asset
+  artifactKey: Guid(d8d17fcc42c2e734888db7089730314e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1262.asset using Guid(d8d17fcc42c2e734888db7089730314e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7e5f76305ea1a48b58b40cbbe5b701bf') in 0.0108465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_182.asset
+  artifactKey: Guid(1318cb45731c8e5479e0cf8cc77d8b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_182.asset using Guid(1318cb45731c8e5479e0cf8cc77d8b33) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '002b07407a42ca86568847ce1deaa936') in 0.0106843 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_18.asset
+  artifactKey: Guid(5ad7fa6ffa1bf8d4da6851792688bc56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_18.asset using Guid(5ad7fa6ffa1bf8d4da6851792688bc56) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c04d5a1aa16fb9beb16d0fd4db56acd') in 0.0117144 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_17.asset
+  artifactKey: Guid(768f26ed3d04b2c48bf71a68e88fa6bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_17.asset using Guid(768f26ed3d04b2c48bf71a68e88fa6bc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '18c949a312e48bce3c1e5d1e29fda85d') in 0.0119291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1339.asset
+  artifactKey: Guid(b10561e0a1cfa9145b0e9aa207648aba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1339.asset using Guid(b10561e0a1cfa9145b0e9aa207648aba) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '405aebf4eb25bc266a4bc6df905f4531') in 0.0119861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_138.asset
+  artifactKey: Guid(fc362ab800c93d441817af2d782fabdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_138.asset using Guid(fc362ab800c93d441817af2d782fabdc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4472b6cbd1c0078d419968ccdc8010a6') in 0.0117774 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_151.asset
+  artifactKey: Guid(d966d4911d7d61143ba8a2d23d1c538e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_151.asset using Guid(d966d4911d7d61143ba8a2d23d1c538e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a1e6382e6878e15318f11acf6fbff91') in 0.0117899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1349.asset
+  artifactKey: Guid(bbeb4e57960b9aa479a8eb00965be6ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1349.asset using Guid(bbeb4e57960b9aa479a8eb00965be6ef) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c2d79d7943b95aeae977d1d865d6e196') in 0.0116899 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_178.asset
+  artifactKey: Guid(00a24ab1033b6c84c9530356c97001ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_178.asset using Guid(00a24ab1033b6c84c9530356c97001ce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a14198992113a91dc649ae245f85001d') in 0.0117936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_168.asset
+  artifactKey: Guid(ec431cb3eee261540b94e214ba57a994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_168.asset using Guid(ec431cb3eee261540b94e214ba57a994) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d25d6a616c9667f9b91003fc09e93b9') in 0.0121594 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_143.asset
+  artifactKey: Guid(81561b60b36065d42b67223f14585565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_143.asset using Guid(81561b60b36065d42b67223f14585565) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3270f2e8a4068fa3dd6776371f613e32') in 0.0107273 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1319.asset
+  artifactKey: Guid(f26ddfd78116a0e4f9301d1fa12c1f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1319.asset using Guid(f26ddfd78116a0e4f9301d1fa12c1f8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '03e1526ce0385bbe8d89d6feffac9db5') in 0.0104824 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_13.asset
+  artifactKey: Guid(d18fbd06d8cc5d24793786e7a84b4627) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_13.asset using Guid(d18fbd06d8cc5d24793786e7a84b4627) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef8e094a9d9ebf70cdb595e1304f6237') in 0.0183603 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_231.asset
+  artifactKey: Guid(ab7a0df6061ab254fb9fe2bc3f97fa76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_231.asset using Guid(ab7a0df6061ab254fb9fe2bc3f97fa76) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cd74dd84b49efed0c06690027e3a0428') in 0.0126427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_247.asset
+  artifactKey: Guid(e0b02680ef081c24e9bef0bd58830df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_247.asset using Guid(e0b02680ef081c24e9bef0bd58830df4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7a9e07fd17b26c7b64fe9f542727a068') in 0.011371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_233.asset
+  artifactKey: Guid(e9df6cd8804d20b45accdffc4e3d889d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_233.asset using Guid(e9df6cd8804d20b45accdffc4e3d889d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a04d6ec1dea646c3617063a3b51c97bf') in 0.0114441 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_236.asset
+  artifactKey: Guid(35426a674a6da8f40896474e116dffbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_236.asset using Guid(35426a674a6da8f40896474e116dffbc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b0706b60e880563b0d3d68b9bb1e93a8') in 0.0122645 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_214.asset
+  artifactKey: Guid(9baeeb32add7e2a43b1833a632883756) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_214.asset using Guid(9baeeb32add7e2a43b1833a632883756) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '88be007c499f2cd4e3daa4c30fb052fe') in 0.0134925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_185.asset
+  artifactKey: Guid(c0a8f00540ce1d64394b08433303d380) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_185.asset using Guid(c0a8f00540ce1d64394b08433303d380) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ab71a0f28bdb5c870edb313d55e2eac5') in 0.0144528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_227.asset
+  artifactKey: Guid(4ee791567a18c3b47b8851025b4fa9d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_227.asset using Guid(4ee791567a18c3b47b8851025b4fa9d7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f8746d09fad148d818fec63f88a0b13') in 0.0192217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_243.asset
+  artifactKey: Guid(5274f5480aecdab41a2c56bac1573f95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_243.asset using Guid(5274f5480aecdab41a2c56bac1573f95) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f7121e8b59b15cbe492580a544609ec') in 0.0175486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_205.asset
+  artifactKey: Guid(fbef8cc21c108e142bb35a14d1c30976) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_205.asset using Guid(fbef8cc21c108e142bb35a14d1c30976) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e8dfe6187cae3e6f2c47a33736e9931e') in 0.0128925 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_2.asset
+  artifactKey: Guid(fb67f87add979774c9d9c9f43d0db203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_2.asset using Guid(fb67f87add979774c9d9c9f43d0db203) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fefc71f5f31946350994fa1ee2240ac5') in 0.0127332 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_273.asset
+  artifactKey: Guid(d156a107bb1ff904885772638f929232) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_273.asset using Guid(d156a107bb1ff904885772638f929232) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '090b6483816d318e736224667c9b4940') in 0.012851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_297.asset
+  artifactKey: Guid(ca22225d08f1db44b95cdf1024eb2bbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_297.asset using Guid(ca22225d08f1db44b95cdf1024eb2bbd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00763a238b34370a5e6a4c3cd942dd21') in 0.0114282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_249.asset
+  artifactKey: Guid(f207e0551ba299541999a51f8ae6ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_249.asset using Guid(f207e0551ba299541999a51f8ae6ad45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1147a9dc6817fcc86c65507d365f4b9f') in 0.0136676 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_29.asset
+  artifactKey: Guid(b59112f0f6621d14b8aa8c2209d56531) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_29.asset using Guid(b59112f0f6621d14b8aa8c2209d56531) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b10b49367de8541c2b95d73d75d91c8f') in 0.0132318 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_288.asset
+  artifactKey: Guid(5f1567e176415f54cb9328b2b0e99b45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_288.asset using Guid(5f1567e176415f54cb9328b2b0e99b45) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '860fe4c243bda9eb9cd214da0112fce1') in 0.0123399 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_250.asset
+  artifactKey: Guid(ce051ab8209bbe945bcc0184f53ccbeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_250.asset using Guid(ce051ab8209bbe945bcc0184f53ccbeb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f6ef7b1c557aeb0508b05a86b49ffd2c') in 0.0132726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_266.asset
+  artifactKey: Guid(3d964f0c02961e34a871aeaed11e3f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_266.asset using Guid(3d964f0c02961e34a871aeaed11e3f8d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd41cefeb1592be5d39e154328f6e5b3b') in 0.0110866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_188.asset
+  artifactKey: Guid(e1f10ac27f63fbc46844514e99718949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_188.asset using Guid(e1f10ac27f63fbc46844514e99718949) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc53eb86ccd7d8194978ae52405964dc') in 0.0150092 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_256.asset
+  artifactKey: Guid(76b825fef15b34c408e8f6a8bde6ad53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_256.asset using Guid(76b825fef15b34c408e8f6a8bde6ad53) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15565eb2695565385adb0541b1aeba5f') in 0.0131851 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_254.asset
+  artifactKey: Guid(605e4b8e111f1ef46bf0f5b7cd8b3519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_254.asset using Guid(605e4b8e111f1ef46bf0f5b7cd8b3519) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '855ae74fc82714d6145c74027eb16a0a') in 0.0119732 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_323.asset
+  artifactKey: Guid(32fa522924fe245419ba7b6bb0d0ad6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_323.asset using Guid(32fa522924fe245419ba7b6bb0d0ad6e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '533c9587116888a78e5005712446ef1c') in 0.0136104 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_328.asset
+  artifactKey: Guid(01c53aadece8c10469fd11481c2ee94d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_328.asset using Guid(01c53aadece8c10469fd11481c2ee94d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '63ca9885d0d5677319fdaef23b84624a') in 0.0142135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_331.asset
+  artifactKey: Guid(397416f3c99619c4e82d6535da0a2ef0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_331.asset using Guid(397416f3c99619c4e82d6535da0a2ef0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cf23e24b914321e2e6074c432c8c9a1') in 0.0146584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_302.asset
+  artifactKey: Guid(c6ed595ffbd1b3347862a5d771a10367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_302.asset using Guid(c6ed595ffbd1b3347862a5d771a10367) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '929bc3bcde74ab567cfd3a56258dec2c') in 0.0128992 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_337.asset
+  artifactKey: Guid(66f9a2986a2fac14aa4ddc8f7854d81d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_337.asset using Guid(66f9a2986a2fac14aa4ddc8f7854d81d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db8d588ef627e3d6273840137ce97e1b') in 0.0141101 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_344.asset
+  artifactKey: Guid(10552cab892fc414ab4f33e0a7583d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_344.asset using Guid(10552cab892fc414ab4f33e0a7583d71) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8c07216ed2f3e2642156ce6800e36143') in 0.0128635 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_35.asset
+  artifactKey: Guid(de94a27a2d60f2943a56ebcbdefd4be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_35.asset using Guid(de94a27a2d60f2943a56ebcbdefd4be2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4cb000d64dba1a99de20320c51b8a7d7') in 0.011271 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_329.asset
+  artifactKey: Guid(2d4c279e4069a2f4489a6b2d44c506c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_329.asset using Guid(2d4c279e4069a2f4489a6b2d44c506c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e5cb3e0337556a21230349d732cf4f8') in 0.0165322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_360.asset
+  artifactKey: Guid(b20ce9e18fd6ce34ebd73b48165fa8d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_360.asset using Guid(b20ce9e18fd6ce34ebd73b48165fa8d8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e6dedbd580e3d6169b656c45d8051f6c') in 0.0131781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_375.asset
+  artifactKey: Guid(dd62216a399c2f84fb27b958ca0a5985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_375.asset using Guid(dd62216a399c2f84fb27b958ca0a5985) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7015a4dc815cad46364332e2724a2796') in 0.0139367 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_383.asset
+  artifactKey: Guid(94f9ff918d83da3498b146bf3e39da26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_383.asset using Guid(94f9ff918d83da3498b146bf3e39da26) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8f36f18bf872b8523a006cfd9bccf7c4') in 0.013907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_377.asset
+  artifactKey: Guid(c11ab8ee673b4c94589e807d0044c6ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_377.asset using Guid(c11ab8ee673b4c94589e807d0044c6ff) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f2d8645fef721991751a936dc8ecea10') in 0.0126703 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_365.asset
+  artifactKey: Guid(7ad4a3bb847b800479432bd9185bd922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_365.asset using Guid(7ad4a3bb847b800479432bd9185bd922) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c7a3cfdee92a863d4b9bf77a4885b2f5') in 0.0149531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_394.asset
+  artifactKey: Guid(95b6038186ff6ab44a42b036b9c25bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_394.asset using Guid(95b6038186ff6ab44a42b036b9c25bbe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ddcf70c618d5eab728b5beecda888ed4') in 0.0124548 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_397.asset
+  artifactKey: Guid(684d7519bc4dbf247bd4d2b7e22c2ea0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_397.asset using Guid(684d7519bc4dbf247bd4d2b7e22c2ea0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f38d9ca1b25b0e149a1ffda955f8a577') in 0.0157048 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_303.asset
+  artifactKey: Guid(2e750faa7e41b95438b96b8aa561d3fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_303.asset using Guid(2e750faa7e41b95438b96b8aa561d3fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ef8b20573e37fdda470b40f2f35423e') in 0.0132392 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_354.asset
+  artifactKey: Guid(084457e46e6b4754996dcd68e9f4da65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_354.asset using Guid(084457e46e6b4754996dcd68e9f4da65) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06789120841d2dcc989afc4ed60dff06') in 0.0144335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_1059.asset
+  artifactKey: Guid(fd35094d321f51b4480c16cb6d3b8265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_1059.asset using Guid(fd35094d321f51b4480c16cb6d3b8265) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e6ba414396ac3c84b74e56015d7cbff') in 0.0137735 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_428.asset
+  artifactKey: Guid(008545d47f4895e42bc70e460e2c2d12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_428.asset using Guid(008545d47f4895e42bc70e460e2c2d12) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b8d3e97190b0c1c99b7fe94705204a5d') in 0.0121781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_446.asset
+  artifactKey: Guid(3aba7031a8616a64794f5c55d015b961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_446.asset using Guid(3aba7031a8616a64794f5c55d015b961) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5701ffc7a00ab03d75e303c1e54e1f46') in 0.0128622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_422.asset
+  artifactKey: Guid(5be3ab89a3673124eb4f09c2e2ddeb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_422.asset using Guid(5be3ab89a3673124eb4f09c2e2ddeb4e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ecc577b804c1bd1fe2f1f4c614712464') in 0.0113746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_416.asset
+  artifactKey: Guid(bf5848108668649488257f98817b8ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_416.asset using Guid(bf5848108668649488257f98817b8ca0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bec69c7d9f4f99faba0f1682afde199b') in 0.0117724 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_407.asset
+  artifactKey: Guid(e75f39d762579fe4a95d1098cb869854) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_407.asset using Guid(e75f39d762579fe4a95d1098cb869854) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '34be745eadde9863477c56df70a267a0') in 0.0115946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_438.asset
+  artifactKey: Guid(8f4eebfee8c107c42b1f30f6b26a983f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_438.asset using Guid(8f4eebfee8c107c42b1f30f6b26a983f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c263401ceb095bc250c673491a5a7a6f') in 0.0116031 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_424.asset
+  artifactKey: Guid(8bbfbd97d6adfad4385290b8f17dbe28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_424.asset using Guid(8bbfbd97d6adfad4385290b8f17dbe28) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '278decb41205b9668078287383016ba0') in 0.0138234 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_475.asset
+  artifactKey: Guid(42284eb28febca84083bb099dd2e6c81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_475.asset using Guid(42284eb28febca84083bb099dd2e6c81) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd011a6c372f69e91c0876af4a60c2fd6') in 0.0147672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_454.asset
+  artifactKey: Guid(e8e80058ec8c1f546aa761297689c634) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_454.asset using Guid(e8e80058ec8c1f546aa761297689c634) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8de2597acc8027d686eabe55e7694d79') in 0.0113852 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_490.asset
+  artifactKey: Guid(556e2240a6a457d4786e08068631f6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_490.asset using Guid(556e2240a6a457d4786e08068631f6c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bdf6b2406c67b192f140fd0ec6406b52') in 0.0118633 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_468.asset
+  artifactKey: Guid(3e96c0ccd6cf1f04cbe346035d74ed41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_468.asset using Guid(3e96c0ccd6cf1f04cbe346035d74ed41) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '525657512928f7f7aa2d38a71fb3ecd9') in 0.0158123 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_483.asset
+  artifactKey: Guid(cbede9ce98893f34e844470ae1d878b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_483.asset using Guid(cbede9ce98893f34e844470ae1d878b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '02dca289e65961a22cb618fdd906c7e3') in 0.0131374 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_484.asset
+  artifactKey: Guid(c91cdaa2f1694a94db9bfe59407b7cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_484.asset using Guid(c91cdaa2f1694a94db9bfe59407b7cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae6eefdf5457aa216715586dded7cf11') in 0.0148927 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_464.asset
+  artifactKey: Guid(22cb4afe1356bc24488b3ccb4f01b46f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_464.asset using Guid(22cb4afe1356bc24488b3ccb4f01b46f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4786953a3d558e67cdeae6e4600fc5d4') in 0.0149697 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_437.asset
+  artifactKey: Guid(1f7e4880d4a207f41994cde057a7873c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_437.asset using Guid(1f7e4880d4a207f41994cde057a7873c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'adfcbc1e096addbb9aac0b376203366a') in 0.0150746 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_500.asset
+  artifactKey: Guid(3124398d19c261f4ca15417e0daafabe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_500.asset using Guid(3124398d19c261f4ca15417e0daafabe) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e4385cdc3c366d8f39cc1d060114e504') in 0.0122216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_519.asset
+  artifactKey: Guid(503cac9e47b451546a921aeea5f7e88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_519.asset using Guid(503cac9e47b451546a921aeea5f7e88d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ef986723394f09e4bf1caf9426084c36') in 0.0142549 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_516.asset
+  artifactKey: Guid(ca5f0bcec665acd4aa30b698662bd798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_516.asset using Guid(ca5f0bcec665acd4aa30b698662bd798) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9d636960a121665970be31fdf510aa9c') in 0.0182907 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_495.asset
+  artifactKey: Guid(9cc35af5dc3909e4899e41dd5bb8706e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_495.asset using Guid(9cc35af5dc3909e4899e41dd5bb8706e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c5a23445237ad1c6503a173e90f8486b') in 0.0118531 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_509.asset
+  artifactKey: Guid(55d073a4413e4224694bc41c10267428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_509.asset using Guid(55d073a4413e4224694bc41c10267428) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a7443f3e01bb0b7b2428ce6334d38966') in 0.0100856 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_502.asset
+  artifactKey: Guid(01ceb29b12d799648b3a1a8d4a8c5082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_502.asset using Guid(01ceb29b12d799648b3a1a8d4a8c5082) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e08d74a457ec83c68ca2dd8b1e526cdc') in 0.010707 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_553.asset
+  artifactKey: Guid(23eb5bfff88c9e34a9b538c5078093da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_553.asset using Guid(23eb5bfff88c9e34a9b538c5078093da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '316d9bf87bc45f8b3d2ea0224b63ec79') in 0.0138991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_563.asset
+  artifactKey: Guid(2c04b34190fb6ac4fa513a8c60f7c646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_563.asset using Guid(2c04b34190fb6ac4fa513a8c60f7c646) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '07256b98fc507dd1c5582aa09d4ad6e5') in 0.0127098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_55.asset
+  artifactKey: Guid(ec4b3809b85129144a0bb54a5fb0954f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_55.asset using Guid(ec4b3809b85129144a0bb54a5fb0954f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2f49805815a5ac037aabde1b428beea7') in 0.0124875 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_537.asset
+  artifactKey: Guid(f742b897920ef5b4faab18791a578d67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_537.asset using Guid(f742b897920ef5b4faab18791a578d67) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '78a91a12c75d1810c812870d3806816f') in 0.0110643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_544.asset
+  artifactKey: Guid(8de36a4d7cb167348acc552789ef4c11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_544.asset using Guid(8de36a4d7cb167348acc552789ef4c11) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ce8f5adfd950bd5c214cbaf67b8482c') in 0.0111401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_535.asset
+  artifactKey: Guid(ae9142a6b827aa049b2eceb3d027fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_535.asset using Guid(ae9142a6b827aa049b2eceb3d027fb2f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'be4b6c8766b341a4486d98123cb40a44') in 0.0124791 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_506.asset
+  artifactKey: Guid(83ecd6dc7c011d94fbd27bd99ea384c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_506.asset using Guid(83ecd6dc7c011d94fbd27bd99ea384c7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '435da9db249ed3d4ad370f9816262492') in 0.0123152 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_504.asset
+  artifactKey: Guid(df87ed05fc530e24b92dc89b3507773e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_504.asset using Guid(df87ed05fc530e24b92dc89b3507773e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0ec8d18b2fb75b5c35df12b41108c673') in 0.0126898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_57.asset
+  artifactKey: Guid(c5662a7ba7557a4448a396410c6f0288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_57.asset using Guid(c5662a7ba7557a4448a396410c6f0288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd92da4137218fa417be892829950c1a6') in 0.0126883 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_573.asset
+  artifactKey: Guid(1d55b69cf39d50848994a71fbc154c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_573.asset using Guid(1d55b69cf39d50848994a71fbc154c8a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd59b310ef0f8d1203accf30f342ac95') in 0.0120458 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_586.asset
+  artifactKey: Guid(6cefa862b2014fb44a9e56750257cde0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_586.asset using Guid(6cefa862b2014fb44a9e56750257cde0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '06b71de5ad78909562f4ed2daa7d84e5') in 0.0125555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_601.asset
+  artifactKey: Guid(15bf5c0491c8c624d89506dddc424ee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_601.asset using Guid(15bf5c0491c8c624d89506dddc424ee8) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9f57d7a1b96495d1e10b999af875ad6a') in 0.0134612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_580.asset
+  artifactKey: Guid(e1b8055e6df9cbf459f29c90792dce0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_580.asset using Guid(e1b8055e6df9cbf459f29c90792dce0e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'aa85e22f0f24c128479bfde08b15c179') in 0.0131903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_589.asset
+  artifactKey: Guid(8188c054f3ef41944ad425e29ba26eb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_589.asset using Guid(8188c054f3ef41944ad425e29ba26eb6) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fb3508c1e1107ddcff556cec1275ecf0') in 0.0110203 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_634.asset
+  artifactKey: Guid(5ae900964eb96aa40b26e5e67f1be697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_634.asset using Guid(5ae900964eb96aa40b26e5e67f1be697) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f4c943335c3db6fa0394f0b663692773') in 0.0117439 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_627.asset
+  artifactKey: Guid(10d82d7f2003bb24b8bbe23f48afc216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_627.asset using Guid(10d82d7f2003bb24b8bbe23f48afc216) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc2ca1fe292fc662dfa4893d4b49e7d6') in 0.0102745 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_635.asset
+  artifactKey: Guid(933d5b92fe02871448e653cad618a7c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_635.asset using Guid(933d5b92fe02871448e653cad618a7c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '44df6213c8e8bd765137d022f58fe262') in 0.0116469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_620.asset
+  artifactKey: Guid(b25a6497e24c431469e66b7e27523783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_620.asset using Guid(b25a6497e24c431469e66b7e27523783) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7966ce9d2776b24155a16312204101c5') in 0.012015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_63.asset
+  artifactKey: Guid(2f684cb1378b0ed4fbc061254d2122b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_63.asset using Guid(2f684cb1378b0ed4fbc061254d2122b3) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '76e79e2cef5d054e97515c97dde36a8a') in 0.0115187 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_632.asset
+  artifactKey: Guid(c6efa175454681a43be626f8590d7403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_632.asset using Guid(c6efa175454681a43be626f8590d7403) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'db20491ff65e938bef5a65596198fcf0') in 0.0113108 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_623.asset
+  artifactKey: Guid(274c78471e489674683f7836b2009207) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_623.asset using Guid(274c78471e489674683f7836b2009207) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '2ce24ae0ba7ce3bd53ba7697446af060') in 0.0107525 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_643.asset
+  artifactKey: Guid(16170879f95ce0343991f7ad3fe58886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_643.asset using Guid(16170879f95ce0343991f7ad3fe58886) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'e729364adb9714e27d6210a3475c6592') in 0.0120863 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_660.asset
+  artifactKey: Guid(28520fefdaea770448a6fed099689356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_660.asset using Guid(28520fefdaea770448a6fed099689356) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cc11f375e443d93d8071130ffa7e7941') in 0.0111894 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_656.asset
+  artifactKey: Guid(5e0083081d20d0741b098d6734ea8d52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_656.asset using Guid(5e0083081d20d0741b098d6734ea8d52) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5404b0bd290c42d216fefc0dc70f8ad') in 0.0126685 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_654.asset
+  artifactKey: Guid(5dcff3d1dee8a1841931c3e8ef7c1b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_654.asset using Guid(5dcff3d1dee8a1841931c3e8ef7c1b05) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f9956155beb6b7e64d163b3eddd33e92') in 0.0125664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_676.asset
+  artifactKey: Guid(3230cc7a81b461048b2658632a295f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_676.asset using Guid(3230cc7a81b461048b2658632a295f3f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '30a472e818add078831dce2abc040a4e') in 0.0120183 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_691.asset
+  artifactKey: Guid(3f5ecd6569aaf9e4f896292fab5388b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_691.asset using Guid(3f5ecd6569aaf9e4f896292fab5388b1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6e704b25d142bdc74d92cb75d45b038e') in 0.0112067 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_682.asset
+  artifactKey: Guid(48aeba49250e4e343b33f3209813e0bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_682.asset using Guid(48aeba49250e4e343b33f3209813e0bb) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1d4dbb983cbf05e6b3e804a88d2fddcf') in 0.0116936 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_7.asset
+  artifactKey: Guid(4093227a7145b8c43891bc69cb4f0185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_7.asset using Guid(4093227a7145b8c43891bc69cb4f0185) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bc2a88760926f502b380523f30833f04') in 0.0151107 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_671.asset
+  artifactKey: Guid(acd56ff25bda7e5408cc484e8dadb78a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_671.asset using Guid(acd56ff25bda7e5408cc484e8dadb78a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fc8787ab333840fc82aee762e1514872') in 0.0135232 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_647.asset
+  artifactKey: Guid(70f110ecf04c2004793e1c79b8f72b47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_647.asset using Guid(70f110ecf04c2004793e1c79b8f72b47) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bf2cc04dc6830412efc340c90fb9c239') in 0.0126749 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_646.asset
+  artifactKey: Guid(a0775902116b01c4c83e0d10c3fb6647) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_646.asset using Guid(a0775902116b01c4c83e0d10c3fb6647) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '57d60898f134336b63cb22a990190ce4') in 0.0127284 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_707.asset
+  artifactKey: Guid(09a38c7a7b4adf84d98351e28539e040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_707.asset using Guid(09a38c7a7b4adf84d98351e28539e040) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1c0f8b6968c4dcf155e01f0f393593ef') in 0.01302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_733.asset
+  artifactKey: Guid(33ac6806c11c04b43bff27dd01e07bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_733.asset using Guid(33ac6806c11c04b43bff27dd01e07bce) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '15be89769caab441438ddfd7c953a209') in 0.0124429 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_729.asset
+  artifactKey: Guid(872b117244d3ef14cb6661896c7a2879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_729.asset using Guid(872b117244d3ef14cb6661896c7a2879) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9675a24abc9f5f801c0d326b97f45051') in 0.0139578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_734.asset
+  artifactKey: Guid(aa7601e08aa77b84fa222368b3772533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_734.asset using Guid(aa7601e08aa77b84fa222368b3772533) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '85a8076e1bd7bf209854f1c10fd0cd2d') in 0.015402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_713.asset
+  artifactKey: Guid(bc353d0d03314e741b75856b280e2540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_713.asset using Guid(bc353d0d03314e741b75856b280e2540) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ae57bd2696d59745b00f30712ae622bb') in 0.0122257 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_746.asset
+  artifactKey: Guid(52470e2fc4aac294e8ea9d4c4b332324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_746.asset using Guid(52470e2fc4aac294e8ea9d4c4b332324) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7f716f0fdbd26f206d73a85280bd3630') in 0.0110638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_759.asset
+  artifactKey: Guid(3e696dc407277ca4e836aaa6884fd852) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_759.asset using Guid(3e696dc407277ca4e836aaa6884fd852) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'da70120149d464f1b6dd7db582ff1d68') in 0.0120201 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_765.asset
+  artifactKey: Guid(ee446bb05c895654c85ef4c6d9b426af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_765.asset using Guid(ee446bb05c895654c85ef4c6d9b426af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a8b9d735ccef494eae346589fdaf31cc') in 0.0138694 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_753.asset
+  artifactKey: Guid(c8e185fb0e799a14b8eda0988e3fc44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_753.asset using Guid(c8e185fb0e799a14b8eda0988e3fc44b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '04cab4d4110eaf6606f2d536334c4336') in 0.0140971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_716.asset
+  artifactKey: Guid(52b0178025b338f4487847346af03be9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_716.asset using Guid(52b0178025b338f4487847346af03be9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1b7602734ab5ab5c7a80ca1638268568') in 0.013406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_774.asset
+  artifactKey: Guid(a9f924538473cef4b863cfa9cacc968f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_774.asset using Guid(a9f924538473cef4b863cfa9cacc968f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '47af1694ab1fcafc7ae7557136c5648a') in 0.0195148 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_785.asset
+  artifactKey: Guid(6ecb889a3dd9f3b4f933cbfcc135a20f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_785.asset using Guid(6ecb889a3dd9f3b4f933cbfcc135a20f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7dc0681244f55ac7dd239a4257e628e8') in 0.015225 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_790.asset
+  artifactKey: Guid(23a78a082729c9b43855224d456cedb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_790.asset using Guid(23a78a082729c9b43855224d456cedb5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '89cdda38627c8018839e1791b3b0bca0') in 0.0175246 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_768.asset
+  artifactKey: Guid(d9273bcaff3c2734281ce93e0d69b978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_768.asset using Guid(d9273bcaff3c2734281ce93e0d69b978) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c804031f65701a756a6825456cdcb2a8') in 0.0127401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_770.asset
+  artifactKey: Guid(613708ad4d4c3de4f899b81bcf108fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_770.asset using Guid(613708ad4d4c3de4f899b81bcf108fcf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dd3c3d62c408606198225e81e54ca15d') in 0.0129361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_736.asset
+  artifactKey: Guid(5e7c47d9319d37b4aa23551e0bc97ade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_736.asset using Guid(5e7c47d9319d37b4aa23551e0bc97ade) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1e87e36629843600bba31b6c7b1a5ca9') in 0.0135787 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_814.asset
+  artifactKey: Guid(3b9daa1bc75c52f4eb69cd371f286869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_814.asset using Guid(3b9daa1bc75c52f4eb69cd371f286869) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '80a910b5a3ecd9c495d19ae8df40527d') in 0.0110181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_816.asset
+  artifactKey: Guid(979e97803cea1f14aa169319c3e8dbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_816.asset using Guid(979e97803cea1f14aa169319c3e8dbd2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7892391e120728829572e53efd9bfc18') in 0.012611 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_806.asset
+  artifactKey: Guid(61f432ff4e64df14f8e04620c8a1891f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_806.asset using Guid(61f432ff4e64df14f8e04620c8a1891f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8977d62f529237d4ce7089ba78b866a2') in 0.0107678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_809.asset
+  artifactKey: Guid(106c161c0bd49df4d9da6622f475b2fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_809.asset using Guid(106c161c0bd49df4d9da6622f475b2fd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9aa594340a54b63aa57e1834e460a025') in 0.0125052 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_81.asset
+  artifactKey: Guid(49c7e5ffca7239343ac74bb63c8db2d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_81.asset using Guid(49c7e5ffca7239343ac74bb63c8db2d2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a515dd22eba4174c1a988c488ce041ea') in 0.0123301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_843.asset
+  artifactKey: Guid(ab22167c82d2f424fb6f37f7f6375d5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_843.asset using Guid(ab22167c82d2f424fb6f37f7f6375d5b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bff6cb4ed334affdf4bebd17d39675c') in 0.0128853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_846.asset
+  artifactKey: Guid(89635c8cae3ca6149b9cf817ed38e759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_846.asset using Guid(89635c8cae3ca6149b9cf817ed38e759) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6db647880383cffcc0009291c92f9f88') in 0.0121666 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_830.asset
+  artifactKey: Guid(fc623642f6accc348bec511f8e2dcc5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_830.asset using Guid(fc623642f6accc348bec511f8e2dcc5f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ce600455f28441860de922d4c175202b') in 0.0134572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_83.asset
+  artifactKey: Guid(4abf624677e8fc4419164ce35d063665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_83.asset using Guid(4abf624677e8fc4419164ce35d063665) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0470935a56f961d91fd2d6b7787565af') in 0.0109861 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_786.asset
+  artifactKey: Guid(0c5ba6491975c4d49960c7d3f764fd90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_786.asset using Guid(0c5ba6491975c4d49960c7d3f764fd90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f3d9efeacbe4744d0a3c898308d39ca0') in 0.0114574 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_336.asset
+  artifactKey: Guid(ade5dfb789c0bf84791ae90c9829f9da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_336.asset using Guid(ade5dfb789c0bf84791ae90c9829f9da) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b04f245443db560ceb5f440b619661c6') in 0.0131693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_853.asset
+  artifactKey: Guid(efb64fe0d73617a4586a7474d0813288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_853.asset using Guid(efb64fe0d73617a4586a7474d0813288) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7c84a07da88ef94983379129b1337fd0') in 0.012803 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_857.asset
+  artifactKey: Guid(137279a51631eff40b98f7402345b78e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_857.asset using Guid(137279a51631eff40b98f7402345b78e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9171103a6216e3987fd062f63919b7b7') in 0.0122128 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_572.asset
+  artifactKey: Guid(edd6658ab0a8932438ab23e97c0e9bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_572.asset using Guid(edd6658ab0a8932438ab23e97c0e9bf7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b388af8d0871f826d105eed55cfaf2a6') in 0.0134334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_402.asset
+  artifactKey: Guid(f0fdd1f5e05b7cd469ee2c609a50c175) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_402.asset using Guid(f0fdd1f5e05b7cd469ee2c609a50c175) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'bd4747786b1ba5790cfee332e9686ee1') in 0.0161327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_86.asset
+  artifactKey: Guid(cdba38c25401b074f89c3d6a531dedfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_86.asset using Guid(cdba38c25401b074f89c3d6a531dedfd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '822080e584b5362a8b0fc038bf06e0cd') in 0.0174032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_827.asset
+  artifactKey: Guid(dedfb4086a131dc429ecea6543f38844) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_827.asset using Guid(dedfb4086a131dc429ecea6543f38844) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f06621c7dae23ba1168ca559cf132a80') in 0.0150427 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_91.asset
+  artifactKey: Guid(887f6334b4fe8344f96730f809865e85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_91.asset using Guid(887f6334b4fe8344f96730f809865e85) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'dbcd2b38a40194d76088492a43c31857') in 0.0153282 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_894.asset
+  artifactKey: Guid(915dd2ae9d1680d4a80027401af585a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_894.asset using Guid(915dd2ae9d1680d4a80027401af585a1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '75295fbf0320fb66614709c2342e4c39') in 0.0165021 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_891.asset
+  artifactKey: Guid(0b0b388a3c5a8bf47882cb11088fd5c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_891.asset using Guid(0b0b388a3c5a8bf47882cb11088fd5c5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5690b3e09c251077d16c059d78816cec') in 0.0152523 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_889.asset
+  artifactKey: Guid(b11030d94332d9e4d8645be92762fba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_889.asset using Guid(b11030d94332d9e4d8645be92762fba1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '017f2de09f11576d13834d229b1b0d52') in 0.0114258 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_826.asset
+  artifactKey: Guid(42d8608748f617449badf56afa106996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_826.asset using Guid(42d8608748f617449badf56afa106996) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c0409c0c34b1ae05e02905dc1ba0e501') in 0.0137037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_915.asset
+  artifactKey: Guid(f9a35cc2ab9cf674ca8743cf1ff320f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_915.asset using Guid(f9a35cc2ab9cf674ca8743cf1ff320f1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8669769906f2ce78d1aa8f0a3981c5c0') in 0.011733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_930.asset
+  artifactKey: Guid(c35d07d900481a1498dcb5f24b4d429e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_930.asset using Guid(c35d07d900481a1498dcb5f24b4d429e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d69e5146f6794ff4f90d7223752bd30') in 0.0104057 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_917.asset
+  artifactKey: Guid(24844cbe2a20c81418221be897907219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_917.asset using Guid(24844cbe2a20c81418221be897907219) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fbee2f79d944e521358d3378e3a6e915') in 0.015051 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_928.asset
+  artifactKey: Guid(75efca13bbbf10749a50b940affa3734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_928.asset using Guid(75efca13bbbf10749a50b940affa3734) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '6a3af95b2ac386934c275c3dae511873') in 0.0114953 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_872.asset
+  artifactKey: Guid(ba54334950351bb49bd54d0f41bba025) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_872.asset using Guid(ba54334950351bb49bd54d0f41bba025) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad20d0b70c4bbc47c6131aa8f61744e0') in 0.0127444 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_961.asset
+  artifactKey: Guid(418308436f8f0a5469efa79de73a352d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_961.asset using Guid(418308436f8f0a5469efa79de73a352d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b4596932b83252cc8d69ea225433a482') in 0.0122809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_95.asset
+  artifactKey: Guid(27f0b5fafc7706249b015eaabe80aa8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_95.asset using Guid(27f0b5fafc7706249b015eaabe80aa8f) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '00a4f68ef05be33a44a1f21241043492') in 0.0130625 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_946.asset
+  artifactKey: Guid(afb005be922ba9048879ad59e9687672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_946.asset using Guid(afb005be922ba9048879ad59e9687672) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4b489cecbc49607bc6c453ae45bc4ebc') in 0.012835 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_955.asset
+  artifactKey: Guid(da92c09b88cae2040ae9b3caf7d0cddf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_955.asset using Guid(da92c09b88cae2040ae9b3caf7d0cddf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '330de23913b4f0f356e82347b9bd8c43') in 0.0166934 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_952.asset
+  artifactKey: Guid(74a3d2d043184fc46a9c06d85b16b4bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_952.asset using Guid(74a3d2d043184fc46a9c06d85b16b4bd) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '1df7b9cc9b96a5f2df92fe2f2b3f7ade') in 0.0125397 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_967.asset
+  artifactKey: Guid(d6f6b8f3b6882974589a084f54d2b6d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_967.asset using Guid(d6f6b8f3b6882974589a084f54d2b6d1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'cca820d975c7fdccf88ca7896ef6c6d4') in 0.0142398 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_98.asset
+  artifactKey: Guid(bd2e04110481c184dafe1dac79d607a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_98.asset using Guid(bd2e04110481c184dafe1dac79d607a0) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'b2dce05ea43f01fb4e12b0eb8082fa2b') in 0.0114319 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_998.asset
+  artifactKey: Guid(3fad3b245d5243640908a7a8d90d8cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_998.asset using Guid(3fad3b245d5243640908a7a8d90d8cdf) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd068605f4782b6d7d5886ba227689917') in 0.0117581 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_974.asset
+  artifactKey: Guid(70988151cbfdcba49a174969b76cd03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_974.asset using Guid(70988151cbfdcba49a174969b76cd03b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'c1f8eb232a340860803b8268a32dbbf9') in 0.0117742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_980.asset
+  artifactKey: Guid(315a3328a1c5bd44a816f453408f94c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_980.asset using Guid(315a3328a1c5bd44a816f453408f94c2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8aab79b9b3c92cb77aa1974e0b225fe7') in 0.0109004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_982.asset
+  artifactKey: Guid(4d7ea74ea88a3e843b9a3df8528d7afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_982.asset using Guid(4d7ea74ea88a3e843b9a3df8528d7afc) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '82fe815ead3cf9e728815e7f1d5f78f7') in 0.0118455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Hero_Knight/Sprites/Death/Death.png
+  artifactKey: Guid(404bddf3c8036f348ae63ff23e9ef114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Hero_Knight/Sprites/Death/Death.png using Guid(404bddf3c8036f348ae63ff23e9ef114) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '7ef8aa4188120fc9f64f810b36739e81') in 0.0230359 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 13
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Hero_Knight/Sprites/Run/Run.png
+  artifactKey: Guid(bca3acae67f183349a5e5b0058c66841) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Hero_Knight/Sprites/Run/Run.png using Guid(bca3acae67f183349a5e5b0058c66841) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '3cbdef0ed66c7de297c7b49a8c26975b') in 0.0255689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Hero_Knight/Sprites/Take Hit/Take Hit.png
+  artifactKey: Guid(3f68469588d4a4246a11b7a3e2f0e552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Hero_Knight/Sprites/Take Hit/Take Hit.png using Guid(3f68469588d4a4246a11b7a3e2f0e552) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f5e666b75c08a7fd3a13325c5f963130') in 0.0211924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Hero_Knight/Sprites/Idle/Idle.controller
+  artifactKey: Guid(9b9f32bd8495f044788483efac5467ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Hero_Knight/Sprites/Idle/Idle.controller using Guid(9b9f32bd8495f044788483efac5467ec) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9178c1a986b22019ac14c87ae36a2816') in 0.0142162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 25
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_983.asset
+  artifactKey: Guid(016435dd40754e848b2b6a47e97b853d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_983.asset using Guid(016435dd40754e848b2b6a47e97b853d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '45d8948819c3488c0a9d681da1d7efa5') in 0.0129812 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Scripts/Monster_Scripts/Monster.cs
+  artifactKey: Guid(6c48e29948a887b4a937c09b37f54aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Scripts/Monster_Scripts/Monster.cs using Guid(6c48e29948a887b4a937c09b37f54aea) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f56c65bb11f1491e6a462862dcdb9c4c') in 0.0191564 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png
+  artifactKey: Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Attack1.png using Guid(5cdfcef2d5ef97347a8d7935407f81ab) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '09815d0bfc2b886bfd160845ae29c99a') in 0.023614 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Monsters Creatures Fantasy/Animations/Goblin/Idle_0.controller
+  artifactKey: Guid(4f230fa6acf87ff4aa55a06a9691101d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Animations/Goblin/Idle_0.controller using Guid(4f230fa6acf87ff4aa55a06a9691101d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '979a6e739d9d2002a956394a2e7da66e') in 0.0137342 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 19
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Monsters Creatures Fantasy/Animations/Mushroom/Idle_0.controller
+  artifactKey: Guid(739240ec3c850bd449c1aae3fd751554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Animations/Mushroom/Idle_0.controller using Guid(739240ec3c850bd449c1aae3fd751554) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '617be9bdd88a4f2f6d81fcaaa62bc236') in 0.0124346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png
+  artifactKey: Guid(ce3326307819d6e4497038e63e070108) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Flying eye/Attack1.png using Guid(ce3326307819d6e4497038e63e070108) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '62f9d19c2f49e4c9473bf18d14c48d9c') in 0.023961 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/ldie_goblin.anim
+  artifactKey: Guid(0aed038fb99b7d948b8f4f385e3fd7e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/ldie_goblin.anim using Guid(0aed038fb99b7d948b8f4f385e3fd7e7) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '4ec5f951f1b2a35d58457340db23b88e') in 0.0210916 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Run.png
+  artifactKey: Guid(c6ac0078f39473048b9f54d791095f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Mushroom/Run.png using Guid(c6ac0078f39473048b9f54d791095f35) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '806b51da5e1842db183c5a458b9b9422') in 0.0190236 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Shield.png
+  artifactKey: Guid(f296174d37bb31841bccf9b56d811f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Skeleton/Shield.png using Guid(f296174d37bb31841bccf9b56d811f9d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '0da283bfe4daa21139175b4a3e01c48a') in 0.0200053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 6
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_845.asset
+  artifactKey: Guid(596a12e8c9046314699d7a2ed3c4a618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_845.asset using Guid(596a12e8c9046314699d7a2ed3c4a618) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fd0d4a892c3e51c2193bca5776282f96') in 0.0139029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack1.png
+  artifactKey: Guid(f84c06efa9991bd49b5553f54f400348) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Monsters Creatures Fantasy/Sprites/Goblin/Attack1.png using Guid(f84c06efa9991bd49b5553f54f400348) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '032360d8458a181d307e53caff0c4b60') in 0.0205776 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_651.asset
+  artifactKey: Guid(8289188d6c667f741b375d15c3c490c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_651.asset using Guid(8289188d6c667f741b375d15c3c490c4) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '440dcffd1cb8c4d55bb5faf27d4f7a61') in 0.013816 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_590.asset
+  artifactKey: Guid(7939f45ad5f546e4fa3aec838bff3b4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_590.asset using Guid(7939f45ad5f546e4fa3aec838bff3b4c) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9bed15f8946830b41db58731f862ce4a') in 0.012088 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_64.asset
+  artifactKey: Guid(879ef495b92e5fa4ba5d694461730b90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_64.asset using Guid(879ef495b92e5fa4ba5d694461730b90) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '512fb5d28d4ff3128faadbb857a312f2') in 0.0133226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_708.asset
+  artifactKey: Guid(1970ab159ec96424895904bd74c08190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_708.asset using Guid(1970ab159ec96424895904bd74c08190) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'f92d6da883fb17f33e12eb47839b18ff') in 0.0124629 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_308.asset
+  artifactKey: Guid(c9f9394730b5b7f43bb7ed38453048af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_308.asset using Guid(c9f9394730b5b7f43bb7ed38453048af) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '9b5b5076b9619711cbd682e8ac279012') in 0.0149888 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_897.asset
+  artifactKey: Guid(29ecd7dcca9ca9a418bc6ec8cbec69e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_897.asset using Guid(29ecd7dcca9ca9a418bc6ec8cbec69e5) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '704f6d3df3b602cbcd3dd97b1250b752') in 0.0151975 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_988.asset
+  artifactKey: Guid(93983453fff051245a4372f105488591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_988.asset using Guid(93983453fff051245a4372f105488591) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'd5988f8671fe936e5b8f122042f5ad88') in 0.0135086 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_32.asset
+  artifactKey: Guid(b409c7088a0052846973dbf32cc8ed2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_32.asset using Guid(b409c7088a0052846973dbf32cc8ed2b) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '661c0d2e123c3d12ccafaa687d1cf80b') in 0.0141205 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_133.asset
+  artifactKey: Guid(5aa3857993a51a24fad78351b3f7aa10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_133.asset using Guid(5aa3857993a51a24fad78351b3f7aa10) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '8bd4161cb0a19d3e0e8e40096831cc61') in 0.014371 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_291.asset
+  artifactKey: Guid(f414d1cad4f2a1942b77c27f6ca6a53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_291.asset using Guid(f414d1cad4f2a1942b77c27f6ca6a53a) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '87c6d770a74b374c990c23b5e8d088f0') in 0.0138801 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Medieval King Pack 2/Animations/Attack2.anim
+  artifactKey: Guid(003e7ae4d90849641891a4320f111018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/Medieval King Pack 2/Animations/Attack2.anim using Guid(003e7ae4d90849641891a4320f111018) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '67cc05e7e8637d8541210fcd6693a601') in 0.0119113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_404.asset
+  artifactKey: Guid(6327b64a75ac67748b1ec2bab9100f0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_404.asset using Guid(6327b64a75ac67748b1ec2bab9100f0d) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'a9774a264c1d0342387475feba516b0f') in 0.0130366 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/PF SET1/Scene/mainlevbuild_938.asset
+  artifactKey: Guid(c28a505ad07b4224d9647baf1885151e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
+Start importing Assets/PF SET1/Scene/mainlevbuild_938.asset using Guid(c28a505ad07b4224d9647baf1885151e) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '5d6d3b65b802deeb21b0d26d66a381bd') in 0.0161578 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
