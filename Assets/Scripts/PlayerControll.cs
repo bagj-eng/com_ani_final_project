@@ -2,67 +2,89 @@ using UnityEngine;
 
 public class PlayerControll : MonoBehaviour
 {
+    public int hp = 100;
     public float moveSpeed = 5f;
+    public float jumpPower = 7f;
+    
 
-    [Header("Jump Settings")]
-    public float jumpHeight = 2f;
-    public float jumpDuration = 0.5f;
-
-    private bool isJumping = false;
-    private float jumpTimer = 0f;
-    private Vector3 startPosition;
-
+    private Rigidbody2D rigid;
     private Animator animator;
+
+    private float moveInput;
+    private bool isGrounded = false;
+
     public BoxCollider2D attackCollider;
 
+    public AttackHitbox attackHitbox;
     void Start()
     {
-        animator = GetComponent<Animator>();
 
-        isJumping = false;
-        jumpTimer = 0f;
-        startPosition = transform.position;
+        rigid = GetComponent<Rigidbody2D>();
+        animator = GetComponent<Animator>();
 
         attackCollider.enabled = false;
     }
 
     void Update()
     {
-        Vector2 moveDirection = Vector2.zero;
-
+        moveInput = 0f;
+        //캐릭터 좌우 움직이는 키 설정, 왼쪽 오른쪽 바라보도록 설정
         if (Input.GetKey(KeyCode.LeftArrow))
         {
-            moveDirection.x -= 1f;
+            moveInput = -1f;
+            transform.localScale = new Vector3(-4, 4, 1);
         }
 
         if (Input.GetKey(KeyCode.RightArrow))
         {
-            moveDirection.x += 1f;
+            moveInput = 1f;
+            transform.localScale = new Vector3(4, 4, 1);
+
         }
 
-        animator.SetBool("isRun", moveDirection.x != 0f);
+        animator.SetBool("isRun", moveInput != 0f);
 
-        if (Input.GetKeyDown(KeyCode.Space) && !isJumping)
+        //이중 점프를 막기위한 isjump 처리
+        if (Input.GetKeyDown(KeyCode.Space) && isGrounded)
         {
-            StartJump();
+            rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
+            isGrounded = false;
+            animator.SetBool("isJump", true);
         }
 
-        if (isJumping)
-        {
-            UpdateJump();
-        }
-
+        // 공격 키 설정
         if (Input.GetKeyDown(KeyCode.A))
         {
             animator.SetTrigger("Attack");
         }
+    }
 
-        moveDirection = moveDirection.normalized;
-        transform.Translate(moveDirection * moveSpeed * Time.deltaTime);
+    void FixedUpdate()
+    {
+        rigid.linearVelocity = new Vector2(moveInput * moveSpeed, rigid.linearVelocity.y);
+    }
+
+    //groound 태그에 닿았을때 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = true;
+            animator.SetBool("isJump", false);
+        }
+    }
+
+    private void OnCollisionExit2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("ground"))
+        {
+            isGrounded = false;
+        }
     }
 
     public void AttackStart()
     {
+        attackHitbox.ResetHit();
         attackCollider.enabled = true;
     }
 
@@ -70,31 +92,25 @@ public class PlayerControll : MonoBehaviour
     {
         attackCollider.enabled = false;
     }
-    void StartJump()
+    public void TakeDamage(int damage)
     {
-        isJumping = true;
-        jumpTimer = 0f;
-        startPosition = transform.position;
+        hp -= damage;
 
-        animator.SetBool("isJump", true);
+        Debug.Log($"플레이어 체력 : {hp}");
+
+        if (hp <= 0)
+        {
+
+            animator.SetBool("isRun", false);
+            animator.SetTrigger("Death");
+            return;
+        }
+
+        animator.SetTrigger("Take_Hit");
     }
 
-    void UpdateJump()
+    public void Die()
     {
-        jumpTimer += Time.deltaTime;
-        float progress = jumpTimer / jumpDuration;
-
-        if (progress >= 1f)
-        {
-            transform.position = new Vector3(transform.position.x, startPosition.y, transform.position.z);
-
-            isJumping = false;
-            animator.SetBool("isJump", false);
-        }
-        else
-        {
-            float height = Mathf.Sin(progress * Mathf.PI) * jumpHeight;
-            transform.position = new Vector3(transform.position.x, startPosition.y + height, transform.position.z);
-        }
+        Destroy(gameObject);
     }
 }
