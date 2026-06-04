@@ -16,12 +16,18 @@ public class AttackHitbox : MonoBehaviour
 
         if (other.CompareTag("monster"))
         {
-            Monster monster = other.GetComponent<Monster>();
+            Monster monster = other.GetComponentInParent<Monster>();
+            Batmonster bat = other.GetComponentInParent<Batmonster>();
 
             if (monster != null)
             {
                 alreadyHit = true;
                 monster.TakeDamage(damage);
+            }
+            else if (bat != null)
+            {
+                alreadyHit = true;
+                bat.TakeDamage(damage);
             }
         }
     }

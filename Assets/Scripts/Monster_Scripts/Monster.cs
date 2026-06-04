@@ -8,6 +8,7 @@ public class Monster : MonoBehaviour
     public float knockbackDistance = 1f;
 
     private bool isDead = false;
+    private float originalMoveSpeed;
 
     public BoxCollider2D attackCollider;
 
@@ -32,6 +33,8 @@ public class Monster : MonoBehaviour
         rigid = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
         attackCollider.enabled = false;
+
+        originalMoveSpeed = moveSpeed;
     }
 
     public void Update()
@@ -45,6 +48,10 @@ public class Monster : MonoBehaviour
             anim.SetBool("isRun", false);
             if (attackTimer >= attackCooldown)
             {
+                moveDir = 0f;
+                moveSpeed = 0f;
+                rigid.linearVelocity = new Vector2(0f, rigid.linearVelocity.y);
+
                 anim.SetTrigger("Attack");
                 attackTimer = 0f;
             }
@@ -87,17 +94,23 @@ public class Monster : MonoBehaviour
     }
     public void AttackStart()
     {
+        
+
         attackCollider.enabled = true;
     }
 
     public void AttackEnd()
     {
+        moveSpeed = originalMoveSpeed;
         attackCollider.enabled = false;
     }
 
     public void TakeDamage(int damage)
     {
         if (isDead) return;
+
+        moveSpeed = originalMoveSpeed;
+        attackCollider.enabled = false;
 
         hp -= damage;
         //³Ë¹é
@@ -136,7 +149,10 @@ public class Monster : MonoBehaviour
 
     public void Die()
     {
-        Instantiate(dropItemPrefab, transform.position, Quaternion.identity);
+        if (dropItemPrefab != null)
+        {
+            Instantiate(dropItemPrefab, transform.position, Quaternion.identity);
+        }
         Destroy(gameObject);
     }
 }
