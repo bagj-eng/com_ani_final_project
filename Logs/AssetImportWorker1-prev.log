@@ -1,11 +1,20 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
+<<<<<<< HEAD
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
 [Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-05T09:24:53.791279Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32577 MB
+=======
+OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32397 MB
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7" at "2026-06-04T04:21:19.3826337Z"
 Process architecture: x64
+<<<<<<< HEAD
 Date: 2026-06-05T09:24:53Z
+=======
+Date: 2026-06-04T04:21:19Z
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 
 COMMAND LINE ARGUMENTS:
 E:\unity\6000.3.11f1\Editor\Unity.exe
@@ -19,7 +28,11 @@ C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
+<<<<<<< HEAD
 56874
+=======
+49717
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 -licensingIpc
 LicenseClient-User
 -job-worker-count
@@ -67,6 +80,7 @@ C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
+<<<<<<< HEAD
 Player connection [28792]  Target information:
 
 Player connection [28792]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2028951552 [EditorId] 2028951552 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KCO4M1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
@@ -74,6 +88,15 @@ Player connection [28792]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 2028951
 Player connection [28792] Host joined multi-casting on [225.0.0.222:54997]...
 Player connection [28792] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
+=======
+Player connection [21692]  Target information:
+
+Player connection [21692]  * "[IP] 192.168.200.101 [Port] 0 [Flags] 2 [Guid] 2732613195 [EditorId] 2732613195 [Version] 1048832 [Id] WindowsEditor(7,bagj7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21692] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21692] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -84,14 +107,34 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
+<<<<<<< HEAD
 Refreshing native plugins compatible for Editor in 105.82 ms, found 4 plugins.
+=======
+Refreshing native plugins compatible for Editor in 3.93 ms, found 4 plugins.
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path E:/unity/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project/Assets
 GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.0'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-bagj7"
+[Licensing::IpcConnector] LicenseClient-bagj7 channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7-6000.3.11" at "2026-06-04T04:21:21.0605805Z"
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.0+23225a6
+  Session Id:              9f8fdd7909f147268d55652494da5083
+  Correlation Id:          5aa482c38460140758a61e02b9bdbefc
+  External correlation Id: 191917568636338852
+  Machine Id:              KPe4/ki5Gv5IbTWwMGFtBPjgVmc=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-bagj7-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.12s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7-6000.3.11-notifications" at "2026-06-04T04:21:21.1852244Z"
+[Licensing::Module] Licensing Background thread has ended after 1.80s
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
+<<<<<<< HEAD
     Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2489)
     Vendor:   NVIDIA
     VRAM:     8024 MB
@@ -121,6 +164,22 @@ Registering precompiled unity dll's ...
 Register platform support module: E:/unity/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Registered in 0.355190 seconds.
 - Loaded All Assemblies, in 13.721 seconds
+=======
+    Renderer: Intel(R) Arc(TM) 140V GPU (16GB) (ID=0x64a0)
+    Vendor:   Intel
+    VRAM:     18466 MB
+    Driver:   32.0.101.6314
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56976
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001896 seconds.
+- Loaded All Assemblies, in  0.756 seconds
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 Native extension for WindowsStandalone target not found
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -128,14 +187,21 @@ Package Manager log level set to [2]
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  0.301 seconds
 Domain Reload Profiling: 14022ms
 	BeginReloadAssembly (11066ms)
+=======
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1521ms
+	BeginReloadAssembly (281ms)
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (1ms)
+<<<<<<< HEAD
 	RebuildCommonClasses (588ms)
 	RebuildNativeTypeToScriptingClass (9ms)
 	initialDomainReloadingComplete (385ms)
@@ -157,8 +223,31 @@ Domain Reload Profiling: 14022ms
 			BeforeProcessingInitializeOnLoad (55ms)
 			ProcessInitializeOnLoadAttributes (108ms)
 			ProcessInitializeOnLoadMethodAttributes (66ms)
+=======
+	RebuildCommonClasses (66ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (302ms)
+		LoadAssemblies (277ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (296ms)
+			TypeCache.Refresh (294ms)
+				TypeCache.ScanAssembly (272ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (768ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (662ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (78ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (133ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (210ms)
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 			AfterProcessingInitializeOnLoad (0ms)
-			EditorAssembliesLoaded (0ms)
+			EditorAssembliesLoaded (1ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
@@ -174,11 +263,16 @@ Begin MonoManager ReloadAssembly
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
+<<<<<<< HEAD
 - Loaded All Assemblies, in 12.009 seconds
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
 Refreshing native plugins compatible for Editor in 1.52 ms, found 4 plugins.
+=======
+- Loaded All Assemblies, in  1.388 seconds
+Refreshing native plugins compatible for Editor in 2.22 ms, found 4 plugins.
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
 Native extension for WindowsStandalone target not found
 Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
@@ -192,6 +286,7 @@ Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInter
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
+<<<<<<< HEAD
 - Finished resetting the current domain, in  1.339 seconds
 Domain Reload Profiling: 13343ms
 	BeginReloadAssembly (155ms)
@@ -490,3 +585,46 @@ Memory consumption went from 166.9 MB to 161.6 MB.
 Total: 7.910900 ms (FindLiveObjects: 0.488800 ms CreateObjectMapping: 0.325800 ms MarkObjects: 4.375700 ms  DeleteObjects: 2.719400 ms)
 
 Prepare: number of updated asset objects reloaded= 0
+=======
+- Finished resetting the current domain, in  1.179 seconds
+Domain Reload Profiling: 2556ms
+	BeginReloadAssembly (329ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (9ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (83ms)
+	LoadAllAssembliesAndSetupDomain (868ms)
+		LoadAssemblies (707ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (383ms)
+			TypeCache.Refresh (254ms)
+				TypeCache.ScanAssembly (235ms)
+			BuildScriptInfoCaches (96ms)
+			ResolveRequiredComponents (28ms)
+	FinalizeReload (1180ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (970ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (243ms)
+			ProcessInitializeOnLoadAttributes (507ms)
+			ProcessInitializeOnLoadMethodAttributes (206ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.40 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 6921 unused Assets / (5.3 MB). Loaded Objects now: 7740.
+Memory consumption went from 156.7 MB to 151.3 MB.
+Total: 9.538400 ms (FindLiveObjects: 0.698600 ms CreateObjectMapping: 0.529000 ms MarkObjects: 4.780900 ms  DeleteObjects: 3.527800 ms)
+
+>>>>>>> 477e01819cdab8e8f2a8ed3c6a38695e6959dc29
