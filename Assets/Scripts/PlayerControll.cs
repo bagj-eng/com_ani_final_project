@@ -13,12 +13,18 @@ public class PlayerControll : MonoBehaviour
     [SerializeField] private float attackCooldown = 0.5f;
     private float attackTimer = 0f;
 
+    [Header("★ 발소리 설정")]
+    [SerializeField] private AudioClip footstepSound; // 0.5초짜리 걸음 소리 에셋 등록칸
+    [SerializeField] private float footstepInterval = 0.5f; // 발소리 재생 주기 (0.5초)
+    private float footstepTimer = 0f; // 발소리용 내부 타이머
+    private string currentGroundTag = ""; // 현재 딛고 있는 바닥의 태그를 기억할 변수
+
     [Header("UI 설정")]
     [SerializeField] private GameObject deathPanel; // 'DEATH' 패널 오브젝트
-    [SerializeField] private Button restartButton; // 'Restart' (MAINTOWN) 버튼 오브젝트
+    [SerializeField] private Button restartButton; // 'Restart' (Main Town) 버튼 오브젝트
     private Image panelImage; // 패널의 색상/투명도를 조절할 변수
 
-    [Header("사운드 설정")] // ★ 사운드 오디오클립 변수 추가
+    [Header("사운드 설정")]
     [SerializeField] private AudioClip attackSound;   // 공격 소리
     [SerializeField] private AudioClip takeHitSound;  // 피격 소리
     [SerializeField] private AudioClip deathSound;    // 사망 소리
@@ -32,6 +38,7 @@ public class PlayerControll : MonoBehaviour
     private bool isAttacking = false;
 
     private Collider2D currentPlatformCollider;
+    private Collider2D playerCollider; // 플레이어의 메인 물리 콜라이더 캐싱
     public BoxCollider2D attackCollider;
     public AttackHitbox attackHitbox;
 
@@ -39,8 +46,8 @@ public class PlayerControll : MonoBehaviour
     {
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        playerCollider = GetComponent<Collider2D>(); // 내 몸체 콜라이더 캐싱
 
-        // ★ 플레이어 오브젝트에 있는 AudioSource 컴포넌트를 자동으로 가져옵니다.
         audioSource = GetComponent<AudioSource>();
 
         attackCollider.enabled = false;
@@ -54,7 +61,7 @@ public class PlayerControll : MonoBehaviour
         if (restartButton != null)
         {
             restartButton.onClick.AddListener(RestartGame);
-            restartButton.gameObject.SetActive(false); // 처음엔 리스타트 버튼을 숨깁니다.
+            restartButton.gameObject.SetActive(false);
         }
     }
 
@@ -80,6 +87,28 @@ public class PlayerControll : MonoBehaviour
 
         animator.SetBool("isRun", moveInput != 0f && !isAttacking);
 
+        // ★ [수정] 발소리 조건 세분화
+        // 조건: 1. 방향키 입력 중이고 2. 땅에 닿아 있고 3. 공격 중이 아니며 4. 딛고 있는 바닥 태그가 ground 또는 onewayground일 때만!
+        if (moveInput != 0f && isGrounded && !isAttacking &&
+            (currentGroundTag == "ground" || currentGroundTag == "onewayground"))
+        {
+            footstepTimer += Time.deltaTime;
+
+            if (footstepTimer >= footstepInterval)
+            {
+                if (audioSource != null && footstepSound != null)
+                {
+                    audioSource.PlayOneShot(footstepSound);
+                }
+                footstepTimer = 0f;
+            }
+        }
+        else
+        {
+            // 공중에 뜨거나 다른 태그를 밟거나 멈추면 타이머 초기화
+            footstepTimer = footstepInterval;
+        }
+
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isAttacking)
         {
             if (Input.GetKey(KeyCode.DownArrow) && currentPlatformCollider != null)
@@ -90,6 +119,7 @@ public class PlayerControll : MonoBehaviour
             {
                 rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
                 isGrounded = false;
+                currentGroundTag = ""; // 점프하는 순간 밟고 있는 바닥 태그 비우기
                 animator.SetBool("isJump", true);
             }
         }
@@ -100,6 +130,11 @@ public class PlayerControll : MonoBehaviour
             attackTimer = attackCooldown;
             isAttacking = true;
             rigid.linearVelocity = new Vector2(0f, rigid.linearVelocity.y);
+
+            if (audioSource != null && attackSound != null)
+            {
+                audioSource.PlayOneShot(attackSound);
+            }
         }
     }
 
@@ -117,13 +152,23 @@ public class PlayerControll : MonoBehaviour
 
     private IEnumerator DisablePlatformRoutine()
     {
-        Collider2D playerCollider = GetComponent<Collider2D>();
         Collider2D platformCollider = currentPlatformCollider;
 
         if (playerCollider != null && platformCollider != null)
         {
             Physics2D.IgnoreCollision(playerCollider, platformCollider, true);
+
+            currentPlatformCollider = null;
+            isGrounded = false;
+            currentGroundTag = ""; // 하향 점프 시에도 태그 비우기
+
             yield return new WaitForSeconds(0.2f);
+
+            while (platformCollider != null &&
+                   (rigid.linearVelocity.y < 0f || playerCollider.bounds.min.y > platformCollider.bounds.max.y))
+            {
+                yield return null;
+            }
 
             if (platformCollider != null)
             {
@@ -132,11 +177,34 @@ public class PlayerControll : MonoBehaviour
         }
     }
 
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        if (collision.CompareTag("key1"))
+        {
+            if (KeyManager.Instance != null)
+            {
+                KeyManager.Instance.GetKey("A");
+            }
+            Debug.Log("플레이어가 key1 태그 오브젝트와 충돌하여 획득했습니다.");
+            Destroy(collision.gameObject);
+        }
+        else if (collision.CompareTag("key2"))
+        {
+            if (KeyManager.Instance != null)
+            {
+                KeyManager.Instance.GetKey("B");
+            }
+            Debug.Log("플레이어가 key2 태그 오브젝트와 충돌하여 획득했습니다.");
+            Destroy(collision.gameObject);
+        }
+    }
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("onewayground"))
         {
             isGrounded = true;
+            currentGroundTag = collision.gameObject.tag; // ★ 착지한 바닥의 태그를 실시간 기록
             animator.SetBool("isJump", false);
 
             if (collision.gameObject.CompareTag("onewayground")) { currentPlatformCollider = collision.collider; }
@@ -145,29 +213,32 @@ public class PlayerControll : MonoBehaviour
 
     private void OnCollisionStay2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("onewayground")) { currentPlatformCollider = collision.collider; }
+        if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("onewayground"))
+        {
+            isGrounded = true;
+            currentGroundTag = collision.gameObject.tag; // 머물고 있을 때도 바닥 태그 유지
+
+            if (collision.gameObject.CompareTag("onewayground")) { currentPlatformCollider = collision.collider; }
+        }
     }
 
     private void OnCollisionExit2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("onewayground"))
         {
-            isGrounded = false;
-            if (collision.collider == currentPlatformCollider) { currentPlatformCollider = null; }
+            if (collision.collider == currentPlatformCollider || currentPlatformCollider == null)
+            {
+                isGrounded = false;
+                currentGroundTag = ""; // ★ 바닥에서 발이 떨어지면 태그 기억 삭제 (소리 차단)
+                currentPlatformCollider = null;
+            }
         }
     }
 
-    // ★ 유니티 애니메이션 이벤트: 공격이 시작되는 프레임에 호출
     public void AttackStart()
     {
         attackHitbox.ResetHit();
         attackCollider.enabled = true;
-
-        // ★ 공격 소리가 설정되어 있다면 딱 한 번 재생합니다.
-        if (audioSource != null && attackSound != null)
-        {
-            audioSource.PlayOneShot(attackSound);
-        }
     }
 
     public void AttackEnd()
@@ -190,7 +261,6 @@ public class PlayerControll : MonoBehaviour
             animator.SetBool("isRun", false);
             animator.SetTrigger("Death");
 
-            // ★ 사망 소리가 설정되어 있다면 딱 한 번 재생합니다.
             if (audioSource != null && deathSound != null)
             {
                 audioSource.PlayOneShot(deathSound);
@@ -203,7 +273,6 @@ public class PlayerControll : MonoBehaviour
         isAttacking = false;
         attackCollider.enabled = false;
 
-        // ★ 피격 소리가 설정되어 있다면 딱 한 번 재생합니다.
         if (audioSource != null && takeHitSound != null)
         {
             audioSource.PlayOneShot(takeHitSound);
@@ -257,6 +326,10 @@ public class PlayerControll : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        PlayerPrefs.DeleteKey("Saved_HasKeyA");
+        PlayerPrefs.DeleteKey("Saved_HasKeyB");
+        PlayerPrefs.Save();
+
         GameObject[] allObjects = FindObjectsByType<GameObject>(FindObjectsSortMode.None);
         foreach (GameObject obj in allObjects)
         {
@@ -266,6 +339,6 @@ public class PlayerControll : MonoBehaviour
             }
         }
 
-        SceneManager.LoadScene("maintown");
+        SceneManager.LoadScene("Main Town");
     }
 }

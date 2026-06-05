@@ -8,6 +8,9 @@ TagManager:
   - ground
   - onewayground
   - BackGround
+  - key1
+  - key2
+  - SpawnPoint
   layers:
   - Default
   - TransparentFX

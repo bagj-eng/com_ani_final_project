@@ -1,66 +1,37 @@
 [Licensing::Module] Trying to connect to existing licensing client channel...
 Built from '6000.3/staging' branch; Version is '6000.3.11f1 (3000ef702840) revision 3145967'; Using compiler version '194234433'; Build Type 'Release'
-<<<<<<< HEAD
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-04T10:27:20.3880998Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User" at "2026-06-05T09:24:53.7810148Z"
 OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32577 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
 System  architecture: x64
 Process architecture: x64
-Date: 2026-06-04T10:27:20Z
+Date: 2026-06-05T09:24:53Z
 
 COMMAND LINE ARGUMENTS:
 E:\unity\6000.3.11f1\Editor\Unity.exe
-=======
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7" at "2026-06-04T04:21:11.9881492Z"
-OS: 'Windows 11  (10.0.26200) Core' Language: 'ko' Physical Memory: 32397 MB
-BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
-System  architecture: x64
-Process architecture: x64
-Date: 2026-06-04T04:21:11Z
-
-COMMAND LINE ARGUMENTS:
-C:\Program Files\Unity\Hub\Editor\6000.3.11f1\Editor\Unity.exe
->>>>>>> origin/feature/jooho
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-<<<<<<< HEAD
 C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-59546
+56874
 -licensingIpc
 LicenseClient-User
 -job-worker-count
 11
-=======
-C:/cum_ani/My project
--logFile
-Logs/AssetImportWorker0.log
--srvPort
-49717
--licensingIpc
-LicenseClient-bagj7
--job-worker-count
-3
->>>>>>> origin/feature/jooho
 -background-job-worker-count
 8
 -gc-helper-count
 1
 -name
 AssetImport
-<<<<<<< HEAD
 Successfully changed project path to: C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
 C:/Users/User/Desktop/COM ANI REAL PROJECT/com_ani_final_project
-=======
-Successfully changed project path to: C:/cum_ani/My project
-C:/cum_ani/My project
->>>>>>> origin/feature/jooho
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
     "memorysetup-temp-allocator-size-audio-worker=65536"
@@ -96,23 +67,13 @@ C:/cum_ani/My project
     "memorysetup-job-temp-allocator-block-size-background=1048576"
     "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
     "memorysetup-temp-allocator-size-cloud-worker=32768"
-<<<<<<< HEAD
-Player connection [38408]  Target information:
+Player connection [29928]  Target information:
 
-Player connection [38408]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1703255776 [EditorId] 1703255776 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KCO4M1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [29928]  * "[IP] 192.168.0.6 [Port] 0 [Flags] 2 [Guid] 1873603504 [EditorId] 1873603504 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3KCO4M1) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [38408] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [38408] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [29928] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [29928] Host joined alternative multi-casting on [225.0.0.222:34997]...
 JobSystem: Creating JobQueue using job-worker-count value 11
-=======
-Player connection [98208]  Target information:
-
-Player connection [98208]  * "[IP] 192.168.200.101 [Port] 0 [Flags] 2 [Guid] 2737021743 [EditorId] 2737021743 [Version] 1048832 [Id] WindowsEditor(7,bagj7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
-
-Player connection [98208] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [98208] Host joined alternative multi-casting on [225.0.0.222:34997]...
-JobSystem: Creating JobQueue using job-worker-count value 3
->>>>>>> origin/feature/jooho
 Input System module state changed to: Initialized.
 [Physics::Module] Initialized fallback backend.
 [Physics::Module] Id: 0xdecafbad
@@ -123,8 +84,7 @@ Library Redirect Path: Library/
 [Physics::Module] SDK Version: 4.1.2
 [Physics::Module] Integration Version: 1.0.0
 [Physics::Module] Threading Mode: Multi-Threaded
-<<<<<<< HEAD
-Refreshing native plugins compatible for Editor in 4.95 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.96 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 6000.3.11f1 (3000ef702840)
 [Subsystems] Discovering subsystems at path E:/unity/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
@@ -140,160 +100,90 @@ Initialize mono
 Mono path[0] = 'E:/unity/6000.3.11f1/Editor/Data/Managed'
 Mono path[1] = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'E:/unity/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56992
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56904
 Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: E:/unity/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001578 seconds.
-- Loaded All Assemblies, in  0.398 seconds
-Native extension for WindowsStandalone target not found
 [Licensing::Client] Error: HandshakeResponse reported an error:
 	ResponseCode: 505
 	ResponseStatus: Unsupported protocol version '1.18.0'.
 [Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-User"
 [Licensing::IpcConnector] LicenseClient-User channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-06-04T10:27:21.598772Z"
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11" at "2026-06-05T09:25:00.6311224Z"
 [Licensing::Client] Handshaking with LicensingClient:
   Version:                 1.18.0+23225a6
-  Session Id:              be8de08639e64436992c7e91381d7c38
-  Correlation Id:          7a4caa5303ad7eddff5baedd120fb5d0
-  External correlation Id: 6465548104431089124
+  Session Id:              cf6f8d08d7b041e78421324eb6fb2074
+  Correlation Id:          d327cd136b6adb444279d30f6f990f40
+  External correlation Id: 10933447273274838
   Machine Id:              tnPMHDmzcJKjPDwZDg0GMR5CZ6Y=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.09s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-06-04T10:27:21.6945711Z"
-[Licensing::Module] Licensing Background thread has ended after 1.31s
-=======
-Refreshing native plugins compatible for Editor in 5.81 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 6000.3.11f1 (3000ef702840)
-[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/cum_ani/My project/Assets
-GfxDevice: creating device client; kGfxThreadingModeNonThreaded
-Direct3D:
-    Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Arc(TM) 140V GPU (16GB) (ID=0x64a0)
-    Vendor:   Intel
-    VRAM:     18466 MB
-    Driver:   32.0.101.6314
-[Licensing::Client] Error: HandshakeResponse reported an error:
-	ResponseCode: 505
-	ResponseStatus: Unsupported protocol version '1.18.0'.
-[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-bagj7"
-[Licensing::IpcConnector] LicenseClient-bagj7 channel disconnected successfully.
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7-6000.3.11" at "2026-06-04T04:21:13.7343811Z"
-[Licensing::Client] Handshaking with LicensingClient:
-  Version:                 1.18.0+23225a6
-  Session Id:              287652066daf4442a7a0167d5befda31
-  Correlation Id:          5aa482c38460140758a61e02b9bdbefc
-  External correlation Id: 2143708406291891102
-  Machine Id:              KPe4/ki5Gv5IbTWwMGFtBPjgVmc=
-[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-bagj7-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 0.15s)
-[Licensing::IpcConnector] Successfully connected to: "LicenseClient-bagj7-6000.3.11-notifications" at "2026-06-04T04:21:13.8884114Z"
-[Licensing::Module] Licensing Background thread has ended after 1.90s
-Initialize mono
-Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/Managed'
-Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56000
-Begin MonoManager ReloadAssembly
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-User-6000.3.11" (connect: 0.00s, validation: 0.00s, handshake: 2.25s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-User-6000.3.11-notifications" at "2026-06-05T09:25:02.8802416Z"
+[Licensing::Module] Licensing Background thread has ended after 9.10s
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.003452 seconds.
-- Loaded All Assemblies, in  0.602 seconds
+Register platform support module: E:/unity/6000.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.355141 seconds.
+- Loaded All Assemblies, in 13.721 seconds
 Native extension for WindowsStandalone target not found
->>>>>>> origin/feature/jooho
 Package Manager log level set to [2]
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-<<<<<<< HEAD
-- Finished resetting the current domain, in  0.335 seconds
-Domain Reload Profiling: 732ms
-	BeginReloadAssembly (173ms)
-=======
-- Finished resetting the current domain, in  0.561 seconds
-Domain Reload Profiling: 1161ms
-	BeginReloadAssembly (218ms)
->>>>>>> origin/feature/jooho
+- Finished resetting the current domain, in  0.299 seconds
+Domain Reload Profiling: 14020ms
+	BeginReloadAssembly (11066ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-<<<<<<< HEAD
-		CreateAndSetChildDomain (1ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (11ms)
-	initialDomainReloadingComplete (39ms)
-	LoadAllAssembliesAndSetupDomain (145ms)
-		LoadAssemblies (173ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (588ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (385ms)
+	LoadAllAssembliesAndSetupDomain (1673ms)
+		LoadAssemblies (11066ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (141ms)
-			TypeCache.Refresh (140ms)
-				TypeCache.ScanAssembly (127ms)
+		AnalyzeDomain (1670ms)
+			TypeCache.Refresh (1668ms)
+				TypeCache.ScanAssembly (1291ms)
 			BuildScriptInfoCaches (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (335ms)
+	FinalizeReload (300ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (308ms)
+		SetupLoadedEditorAssemblies (265ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (41ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (77ms)
-			ProcessInitializeOnLoadAttributes (124ms)
-			ProcessInitializeOnLoadMethodAttributes (63ms)
-=======
-		CreateAndSetChildDomain (2ms)
-	RebuildCommonClasses (52ms)
-	RebuildNativeTypeToScriptingClass (16ms)
-	initialDomainReloadingComplete (69ms)
-	LoadAllAssembliesAndSetupDomain (244ms)
-		LoadAssemblies (213ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (240ms)
-			TypeCache.Refresh (237ms)
-				TypeCache.ScanAssembly (219ms)
-			BuildScriptInfoCaches (0ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (562ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (499ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (70ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (112ms)
-			ProcessInitializeOnLoadAttributes (195ms)
-			ProcessInitializeOnLoadMethodAttributes (115ms)
->>>>>>> origin/feature/jooho
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (108ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 ========================================================================
 Worker process is ready to serve import requests
 Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
 Begin MonoManager ReloadAssembly
 [Licensing::Client] Successfully resolved entitlement details
 [Licensing::Module] License group:
-<<<<<<< HEAD
   Id: 14568817533135-UnityPersXXXX
   Product: Unity Personal
   Type: Assigned
   Expiration: Unlimited
-- Loaded All Assemblies, in  0.765 seconds
-Refreshing native plugins compatible for Editor in 1.42 ms, found 4 plugins.
-=======
-  Id: 14569679325236-UnityPersXXXX
-  Product: Unity Personal
-  Type: Assigned
-  Expiration: Unlimited
-- Loaded All Assemblies, in  1.256 seconds
-Refreshing native plugins compatible for Editor in 3.49 ms, found 4 plugins.
->>>>>>> origin/feature/jooho
+- Loaded All Assemblies, in 12.016 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.29 ms, found 4 plugins.
 Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
 [Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] Unable to send message (not connected to server process).
 [Package Manager] Cannot connect to Unity Package Manager local server
@@ -302,123 +192,208 @@ Native extension for WindowsStandalone target not found
 [Package Manager] Cannot connect to Unity Package Manager local server
 ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
 Mono: successfully reloaded assembly
-<<<<<<< HEAD
-- Finished resetting the current domain, in  0.820 seconds
-Domain Reload Profiling: 1582ms
-	BeginReloadAssembly (190ms)
+- Finished resetting the current domain, in  1.337 seconds
+Domain Reload Profiling: 13348ms
+	BeginReloadAssembly (159ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (5ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (26ms)
-	RebuildCommonClasses (29ms)
-	RebuildNativeTypeToScriptingClass (9ms)
-	initialDomainReloadingComplete (34ms)
-	LoadAllAssembliesAndSetupDomain (500ms)
-		LoadAssemblies (413ms)
+		CreateAndSetChildDomain (20ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (11789ms)
+		LoadAssemblies (11546ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (211ms)
-			TypeCache.Refresh (144ms)
-				TypeCache.ScanAssembly (131ms)
-			BuildScriptInfoCaches (57ms)
-			ResolveRequiredComponents (6ms)
-	FinalizeReload (821ms)
+		AnalyzeDomain (340ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (227ms)
+			BuildScriptInfoCaches (83ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1338ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (703ms)
+		SetupLoadedEditorAssemblies (936ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (1ms)
-			SetLoadedEditorAssemblies (4ms)
-			BeforeProcessingInitializeOnLoad (100ms)
-			ProcessInitializeOnLoadAttributes (466ms)
-			ProcessInitializeOnLoadMethodAttributes (129ms)
-			AfterProcessingInitializeOnLoad (2ms)
-			EditorAssembliesLoaded (0ms)
-		ExecutionOrderSort2 (0ms)
-		AwakeInstancesAfterBackupRestoration (14ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
-Refreshing native plugins compatible for Editor in 2.28 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6956 unused Assets / (5.0 MB). Loaded Objects now: 7790.
-Memory consumption went from 159.2 MB to 154.2 MB.
-Total: 9.351400 ms (FindLiveObjects: 1.159100 ms CreateObjectMapping: 0.474100 ms MarkObjects: 5.215200 ms  DeleteObjects: 2.502000 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 241.111211 seconds.
-  path: Assets/Scenes/LeftMap.unity
-  artifactKey: Guid(89d5af37c682ff845b7d62e19c349aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/LeftMap.unity using Guid(89d5af37c682ff845b7d62e19c349aa1) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '715f0c549ecdf9836d6d3277a1c3bb81') in 0.073456 seconds
-=======
-- Finished resetting the current domain, in  1.354 seconds
-Domain Reload Profiling: 2606ms
-	BeginReloadAssembly (261ms)
-		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (10ms)
-		BackupInstance (0ms)
-		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (34ms)
-	RebuildCommonClasses (49ms)
-	RebuildNativeTypeToScriptingClass (18ms)
-	initialDomainReloadingComplete (57ms)
-	LoadAllAssembliesAndSetupDomain (867ms)
-		LoadAssemblies (626ms)
-		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (386ms)
-			TypeCache.Refresh (285ms)
-				TypeCache.ScanAssembly (265ms)
-			BuildScriptInfoCaches (85ms)
-			ResolveRequiredComponents (13ms)
-	FinalizeReload (1355ms)
-		ReleaseScriptCaches (0ms)
-		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (1147ms)
-			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (2ms)
-			SetLoadedEditorAssemblies (6ms)
-			BeforeProcessingInitializeOnLoad (200ms)
-			ProcessInitializeOnLoadAttributes (742ms)
-			ProcessInitializeOnLoadMethodAttributes (190ms)
-			AfterProcessingInitializeOnLoad (8ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (96ms)
+			ProcessInitializeOnLoadAttributes (377ms)
+			ProcessInitializeOnLoadMethodAttributes (457ms)
+			AfterProcessingInitializeOnLoad (1ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (9ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
-Refreshing native plugins compatible for Editor in 2.26 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.56 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 16 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 6921 unused Assets / (4.2 MB). Loaded Objects now: 7740.
-Memory consumption went from 156.7 MB to 152.5 MB.
-Total: 9.495500 ms (FindLiveObjects: 0.710900 ms CreateObjectMapping: 0.624600 ms MarkObjects: 5.615500 ms  DeleteObjects: 2.542200 ms)
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7352 unused Assets / (4.5 MB). Loaded Objects now: 8186.
+Memory consumption went from 167.4 MB to 163.0 MB.
+Total: 6.904600 ms (FindLiveObjects: 0.690700 ms CreateObjectMapping: 0.403300 ms MarkObjects: 4.363400 ms  DeleteObjects: 1.446300 ms)
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.690 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+'Packages/com.unity.cinemachine/Editor/Obsolete/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.cinemachine/Editor/Editors/CinemachineVirtualCameraBaseEditor.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 1.86 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.715 seconds
+Domain Reload Profiling: 1407ms
+	BeginReloadAssembly (205ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (12ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (42ms)
+	RebuildCommonClasses (30ms)
+	RebuildNativeTypeToScriptingClass (11ms)
+	initialDomainReloadingComplete (20ms)
+	LoadAllAssembliesAndSetupDomain (426ms)
+		LoadAssemblies (322ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (206ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (186ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (715ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (576ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (395ms)
+			ProcessInitializeOnLoadMethodAttributes (64ms)
+			AfterProcessingInitializeOnLoad (1ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.39 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 17 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7350 unused Assets / (4.3 MB). Loaded Objects now: 8190.
+Memory consumption went from 167.8 MB to 163.5 MB.
+Total: 5.890900 ms (FindLiveObjects: 0.508700 ms CreateObjectMapping: 0.290600 ms MarkObjects: 3.719100 ms  DeleteObjects: 1.371800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 739.015184 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Prefab/Wooden Aarakocra.prefab
+  artifactKey: Guid(5dce428bbfe1c0f41818d7bc39cef7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Prefab/Wooden Aarakocra.prefab using Guid(5dce428bbfe1c0f41818d7bc39cef7a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'babc1038385308dc1f0c99139e1a1b93') in 0.3027224 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 64
 
 ========================================================================
 Received Import Request.
-  Time since last request: 1297912.718719 seconds.
-  path: Assets/_Recovery/0 (1).unity
-  artifactKey: Guid(e40103084d615fa4099870e1a190f8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/_Recovery/0 (1).unity using Guid(e40103084d615fa4099870e1a190f8c9) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'fa46e3c87f747d9292fd9cb59ae88f11') in 0.1662043 seconds
->>>>>>> origin/feature/jooho
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+  Time since last request: 20.902419 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites
+  artifactKey: Guid(cb96e7815cefabf49916dca5c92f0c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites using Guid(cb96e7815cefabf49916dca5c92f0c9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4d299a908e703091717413699207d128') in 0.0008575 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
 
 ========================================================================
 Received Import Request.
-<<<<<<< HEAD
-  Time since last request: 0.000016 seconds.
-  path: Assets/images.jpg
-  artifactKey: Guid(05105a4237cc1f0418260b8dcf32f261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/images.jpg using Guid(05105a4237cc1f0418260b8dcf32f261) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: 'ad201eb799d72c73d64cef912e580a10') in 0.0772385 seconds
+  Time since last request: 1.507678 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1
+  artifactKey: Guid(9b82b32d6cf06204ba479a76f7b2f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1 using Guid(9b82b32d6cf06204ba479a76f7b2f5e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7e0eca83193346ef2964910c4d4c13e3') in 0.0005409 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003288 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0000.png
+  artifactKey: Guid(5bd3dbc587bf5fd45a13fa7f59997a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0000.png using Guid(5bd3dbc587bf5fd45a13fa7f59997a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b8d99ce4e5198b5e6d1d9db17fec7389') in 0.0475037 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0008.png
+  artifactKey: Guid(42737cdbb446e254999c5cc5922f63ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0008.png using Guid(42737cdbb446e254999c5cc5922f63ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '0b2e941d011cd636dc7b4dac9a1716d9') in 0.0159343 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0006.png
+  artifactKey: Guid(2859a56e9f8c4254482864c1e5fd05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0006.png using Guid(2859a56e9f8c4254482864c1e5fd05db) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'fefba26740989750819d29977d1cca0d') in 0.0163322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0020.png
+  artifactKey: Guid(1636c53b6e2c7e547b5635e75969f220) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0020.png using Guid(1636c53b6e2c7e547b5635e75969f220) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e834c91502a8b815be8b983865b7ae65') in 0.0159826 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0016.png
+  artifactKey: Guid(123c6883b42112646b5aa7f7a6433159) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0016.png using Guid(123c6883b42112646b5aa7f7a6433159) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '44a73dd676e2cbabab73597d2b4ec31c') in 0.017391 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0012.png
+  artifactKey: Guid(49fef1a1860b49f48b23269cf6560303) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 1/Woode Arakocra Attack frame0012.png using Guid(49fef1a1860b49f48b23269cf6560303) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cdc0574e9a880b2d80f565cccae395c9') in 0.0161873 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.206625 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0008.png
+  artifactKey: Guid(ca6a14f3f167f314eb7cbf1753131070) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0008.png using Guid(ca6a14f3f167f314eb7cbf1753131070) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'aca5e8c71f5a0c7379361066c5dbf820') in 0.0158584 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0024.png
+  artifactKey: Guid(a2a975512883714428332126836b6799) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Attack 2/Woode Arakocra Attack 2 frame0024.png using Guid(a2a975512883714428332126836b6799) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a3925f8ee591683fe3f5b1e36b627358') in 0.0123013 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.080226 seconds.
+  path: Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0004.png
+  artifactKey: Guid(562c4bb07a8e01b49a6a829604ed7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/MMDevelopers/Wooden Arakocra/Art/Sprites/Idle/Woode Arakocra Idle frame0004.png using Guid(562c4bb07a8e01b49a6a829604ed7482) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '36fc149311912f1e816e834ad502b674') in 0.0166302 seconds
 Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
-=======
-  Time since last request: 25.900850 seconds.
-  path: Assets/Scenes/workspace.unity
-  artifactKey: Guid(b0f9af748b79b3e428adfc4e1f2126b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d)
-Start importing Assets/Scenes/workspace.unity using Guid(b0f9af748b79b3e428adfc4e1f2126b2) Importer(2089858483,b0f066a214c2f5e87bad3c948f4d605d) (ScriptedImporter) -> (artifact id: '71244143f89bbc39c99a66d24dbb0c40') in 0.0441974 seconds
-Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
-
->>>>>>> origin/feature/jooho
