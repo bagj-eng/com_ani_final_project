@@ -133,7 +133,6 @@ GameObject:
   - component: {fileID: 55778794}
   - component: {fileID: 55778797}
   - component: {fileID: 55778796}
-  - component: {fileID: 55778798}
   m_Layer: 0
   m_Name: Player_01
   m_TagString: Player
@@ -231,7 +230,6 @@ MonoBehaviour:
   hp: 100
   moveSpeed: 5
   jumpPower: 20
-  dashDistance: 2
   attackCollider: {fileID: 2042163468}
   attackHitbox: {fileID: 2042163469}
 --- !u!95 &55778795
@@ -329,21 +327,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &55778798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 55778791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0b3a779a8a37da4e859ad3102dd5266, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::DashAbility
-  dashSpeed: 15
-  dashTime: 0.15
-  cooldown: 1
 --- !u!1 &76179024
 GameObject:
   m_ObjectHideFlags: 0
@@ -1026,7 +1009,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &607049891
 SpriteRenderer:
   serializedVersion: 2
@@ -3943,7 +3926,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!212 &1329566908
 SpriteRenderer:
   serializedVersion: 2

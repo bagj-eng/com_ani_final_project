@@ -5,7 +5,9 @@ public class PlayerControll : MonoBehaviour
     public int hp = 100;
     public float moveSpeed = 5f;
     public float jumpPower = 7f;
-    
+    public float dashDistance = 2f;
+   
+
 
     private Rigidbody2D rigid;
     private Animator animator;
@@ -16,9 +18,10 @@ public class PlayerControll : MonoBehaviour
     public BoxCollider2D attackCollider;
 
     public AttackHitbox attackHitbox;
+    private DashAbility dashAbility;
     void Start()
     {
-
+        dashAbility = GetComponent<DashAbility>();
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
 
@@ -57,10 +60,17 @@ public class PlayerControll : MonoBehaviour
         {
             animator.SetTrigger("Attack");
         }
+
+        
     }
 
     void FixedUpdate()
     {
+        if (dashAbility != null && dashAbility.IsDashing())
+        {
+            return;
+        }
+
         rigid.linearVelocity = new Vector2(moveInput * moveSpeed, rigid.linearVelocity.y);
     }
 
