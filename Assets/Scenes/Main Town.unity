@@ -6352,6 +6352,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 5815864142118053142, guid: c51e2e57ac99ccd4cb7162a3baf11436, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2128428151}
+    - targetCorrespondingSourceObject: {fileID: 5815864142118053142, guid: c51e2e57ac99ccd4cb7162a3baf11436, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2128428157}
   m_SourcePrefab: {fileID: 100100000, guid: c51e2e57ac99ccd4cb7162a3baf11436, type: 3}
 --- !u!1 &1768178786
 GameObject:
@@ -21504,6 +21507,21 @@ MonoBehaviour:
   minY: -5
   maxY: 5
   baseShakeMagnitude: 0.08
+--- !u!114 &2128428157
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2128428139}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0b3a779a8a37da4e859ad3102dd5266, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DashAbility
+  dashSpeed: 15
+  dashTime: 0.15
+  cooldown: 1
 --- !u!1 &2146484932
 GameObject:
   m_ObjectHideFlags: 0

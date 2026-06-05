@@ -41,12 +41,14 @@ public class PlayerControll : MonoBehaviour
     private Collider2D playerCollider; // 플레이어의 메인 물리 콜라이더 캐싱
     public BoxCollider2D attackCollider;
     public AttackHitbox attackHitbox;
+    private DashAbility dashAbility;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
         playerCollider = GetComponent<Collider2D>(); // 내 몸체 콜라이더 캐싱
+        dashAbility = GetComponent<DashAbility>();
 
         audioSource = GetComponent<AudioSource>();
 
@@ -140,6 +142,11 @@ public class PlayerControll : MonoBehaviour
 
     void FixedUpdate()
     {
+        if (dashAbility != null && dashAbility.IsDashing())
+        {
+            return;
+        }
+
         if (isAttacking)
         {
             rigid.linearVelocity = new Vector2(0f, rigid.linearVelocity.y);
