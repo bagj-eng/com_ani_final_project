@@ -3,135 +3,116 @@ using UnityEngine;
 
 public class MonsterDeathEffect : MonoBehaviour
 {
-    [Header("피격 깜빡임 설정")]
-    [Tooltip("데미지를 입었을 때 바뀔 색상입니다.")]
-    [SerializeField] private Color flashColor = new Color(1f, 0.3f, 0.3f, 1f);
-    [Tooltip("한 번 깜빡일 때 색상이 유지되는 시간입니다.")]
-    [SerializeField] private float flashDuration = 0.1f;
-    [Tooltip("총 몇 번 깜빡일지 지정합니다.")]
-    [SerializeField] private int flashCount = 3;
-
-    [Header("사망 사라짐 설정")]
-    [Tooltip("몬스터 애니메이션이 멈춘 뒤, 완전히 투명해질 때까지 걸리는 시간(초)입니다.")]
-    [SerializeField] private float fadeOutDuration = 2f;
-
     private SpriteRenderer spriteRenderer;
-    private Animator animator;
-    private Rigidbody2D rigid;
-    private Collider2D monsterCollider;
-
     private Color originalColor;
-    private Coroutine flashCoroutine;
-    private bool isEffectStarted = false;
+    private Coroutine hitCoroutine;
+    private bool isDead = false;
+
+    [Header("피격 연출 세팅")]
+    [SerializeField] private Color hitColor = Color.red;
+    [SerializeField] private float hitDuration = 0.1f;
+
+    [Header("사망 페이드아웃 세팅")]
+    // ★ 무조건 10초 동안 스르륵 사라지도록 고정했습니다.
+    private float fadeDuration = 10.0f;
 
     void Awake()
     {
-        // 컴포넌트들을 자동으로 안전하게 찾아서 캐싱합니다.
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
-        rigid = GetComponent<Rigidbody2D>();
-        monsterCollider = GetComponent<Collider2D>();
-
         if (spriteRenderer != null)
         {
             originalColor = spriteRenderer.color;
         }
     }
 
-    /// <summary>
-    /// 외부(Monster.cs)에서 데미지를 입었을 때 호출하는 피격 깜빡임 함수
-    /// </summary>
     public void PlayHitEffect()
     {
-        if (isEffectStarted || spriteRenderer == null) return;
+        if (isDead || spriteRenderer == null) return;
 
-        if (flashCoroutine != null)
-        {
-            StopCoroutine(flashCoroutine);
-        }
-
-        flashCoroutine = StartCoroutine(FlashRoutine());
+        if (hitCoroutine != null) StopCoroutine(hitCoroutine);
+        hitCoroutine = StartCoroutine(HitFlashRoutine());
     }
 
-    private IEnumerator FlashRoutine()
-    {
-        for (int i = 0; i < flashCount; i++)
-        {
-            spriteRenderer.color = flashColor;
-            yield return new WaitForSeconds(flashDuration);
-
-            spriteRenderer.color = originalColor;
-            yield return new WaitForSeconds(flashDuration);
-        }
-
-        flashCoroutine = null;
-    }
-
-    /// <summary>
-    /// 외부(Monster.cs)에서 체력이 0이 되었을 때 호출하면 애니메이션을 얼리고 투명화시키는 함수
-    /// </summary>
     public void PlayDeathEffect()
     {
-        if (isEffectStarted) return;
-        isEffectStarted = true;
+        if (isDead || spriteRenderer == null) return;
+        isDead = true;
 
-        // 1. 진행 중이던 피격 깜빡임이 있다면 즉시 중지
-        if (flashCoroutine != null)
+        if (hitCoroutine != null) StopCoroutine(hitCoroutine);
+
+        // 상위 부모 오브젝트가 지워지면서 연출이 끊기는 걸 방지하기 위해 독립시킵니다.
+        transform.SetParent(null);
+
+        // 몬스터의 애니메이션, 리지드바디, 콜라이더, AI 스크립트를 그 자리에서 즉시 얼림
+        FreezeMonsterTotally();
+
+        // 방해받지 않는 독립적인 10초 페이드아웃 가동
+        StartCoroutine(AbsoluteFadeOutRoutine());
+    }
+
+    private void FreezeMonsterTotally()
+    {
+        // 1. 애니메이션 즉시 정지 (굳어버림)
+        Animator anim = GetComponent<Animator>();
+        if (anim != null)
         {
-            StopCoroutine(flashCoroutine);
+            anim.speed = 0f;
         }
 
-        // 2. ★ 핵심: 애니메이션을 현재 프레임에서 즉시 강제 일시정지(Freeze)시킵니다.
-        if (animator != null)
-        {
-            animator.speed = 0f;
-        }
-
-        // 3. 물리 및 충돌 차단 (바닥으로 꺼지거나 밀리는 현상 방지)
-        if (monsterCollider != null) monsterCollider.enabled = false;
+        // 2. 물리 속도 제로 고정 및 키네마틱 전환 (외력 차단)
+        Rigidbody2D rigid = GetComponent<Rigidbody2D>();
         if (rigid != null)
         {
             rigid.linearVelocity = Vector2.zero;
             rigid.bodyType = RigidbodyType2D.Kinematic;
         }
 
-        // 4. 서서히 투명해지며 사라지는 무빙 코루틴 실행
-        StartCoroutine(FadeOutRoutine());
+        // 3. 충돌체(Collider) 전부 비활성화 (플레이어가 통과 가능)
+        Collider2D[] colliders = GetComponents<Collider2D>();
+        foreach (Collider2D coll in colliders)
+        {
+            coll.enabled = false;
+        }
+
+        // 4. 나 자신(Effect)을 제외한 부착된 모든 컴포넌트(AI, 이동 등) 비활성화
+        MonoBehaviour[] behaviors = GetComponents<MonoBehaviour>();
+        foreach (MonoBehaviour behavior in behaviors)
+        {
+            if (behavior != this)
+            {
+                behavior.enabled = false;
+            }
+        }
     }
 
-    private IEnumerator FadeOutRoutine()
+    private IEnumerator AbsoluteFadeOutRoutine()
     {
-        float elapsedTime = 0f;
         Color startColor = spriteRenderer.color;
+        float elapsedTime = 0f;
 
-        while (elapsedTime < fadeOutDuration)
+        // 시스템 타임을 기준으로 정확히 10초 동안 루프를 돕니다.
+        while (elapsedTime < fadeDuration)
         {
             elapsedTime += Time.deltaTime;
 
-            // 시간에 따라 1에서 0으로 변하는 알파값(투명도) 계산
-            float alpha = Mathf.Clamp01(1f - (elapsedTime / fadeOutDuration));
+            // 10초에 걸쳐 알파값(투명도)을 1에서 0으로 부드럽게 보간
+            float newAlpha = Mathf.Lerp(1f, 0f, elapsedTime / fadeDuration);
+            spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, newAlpha);
 
-            // 다른 색상 값은 둔 채 투명도만 깎아냅니다.
-            spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, alpha);
             yield return null;
         }
 
-        // 완전히 투명하게 고정
         spriteRenderer.color = new Color(startColor.r, startColor.g, startColor.b, 0f);
+
+        // 10초 연출이 완벽히 마감되면 씬에서 삭제
+        Destroy(gameObject);
     }
 
-    // 오브젝트가 리스타트 등으로 꺼질 때 색상 원상복구 안전장치
-    void OnDisable()
+    private IEnumerator HitFlashRoutine()
     {
-        if (spriteRenderer != null)
-        {
-            spriteRenderer.color = originalColor;
-        }
-        if (animator != null)
-        {
-            animator.speed = 1f; // 애니메이터 속도 복구
-        }
-        flashCoroutine = null;
-        isEffectStarted = false;
+        spriteRenderer.color = hitColor;
+        yield return new WaitForSeconds(hitDuration);
+        spriteRenderer.color = originalColor;
+        hitCoroutine = null;
     }
 }

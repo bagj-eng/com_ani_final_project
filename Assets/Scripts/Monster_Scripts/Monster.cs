@@ -103,8 +103,6 @@ public class Monster : MonoBehaviour
 
     public void AttackStart()
     {
-        
-
         attackCollider.enabled = true;
     }
 
@@ -153,11 +151,14 @@ public class Monster : MonoBehaviour
             isDead = true;
             moveDir = 0f;
 
-            // ★ 사망 즉시 물리 충돌 및 속도 완전 리셋 (안전장치)
+            // ★ [수정]: 사망 즉시 물리 속도를 멈추고 Kinematic으로 변경하여 중력 차단
             if (rigid != null)
             {
                 rigid.linearVelocity = Vector2.zero;
+                rigid.bodyType = RigidbodyType2D.Kinematic; // 중력을 받지 않는 고정 상태가 됨
             }
+
+            // ★ 이제 Kinematic 상태라 중력을 안 받으므로 콜라이더를 꺼도 바닥 밑으로 추락하지 않습니다.
             if (monsterCollider != null)
             {
                 monsterCollider.enabled = false;

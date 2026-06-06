@@ -9,26 +9,36 @@ public class PlayerControll : MonoBehaviour
     public float moveSpeed = 5f;
     public float jumpPower = 7f;
 
-    [Header("공격 쿨타임 설정")]
+    [Header("첫 번째 공격(A키) 설정")]
     [SerializeField] private float attackCooldown = 0.5f;
+    [SerializeField] private int attackDamage = 10;
     private float attackTimer = 0f;
 
+    [Header("두 번째 공격(S키) 설정")]
+    [SerializeField] private float attack2Cooldown = 0.7f;
+    [SerializeField] private int attack2Damage = 15;
+    private float attack2Timer = 0f;
+
     [Header("★ 발소리 설정")]
-    [SerializeField] private AudioClip footstepSound; // 0.5초짜리 걸음 소리 에셋 등록칸
-    [SerializeField] private float footstepInterval = 0.5f; // 발소리 재생 주기 (0.5초)
-    private float footstepTimer = 0f; // 발소리용 내부 타이머
-    private string currentGroundTag = ""; // 현재 딛고 있는 바닥의 태그를 기억할 변수
+    [SerializeField] private AudioClip footstepSound;
+    [SerializeField] private float footstepInterval = 0.5f;
+    private float footstepTimer = 0f;
+    private string currentGroundTag = "";
 
     [Header("UI 설정")]
-    [SerializeField] private GameObject deathPanel; // 'DEATH' 패널 오브젝트
-    [SerializeField] private Button restartButton; // 'Restart' (Main Town) 버튼 오브젝트
-    private Image panelImage; // 패널의 색상/투명도를 조절할 변수
+    [SerializeField] private GameObject deathPanel;
+    [SerializeField] private Button restartButton;
+    private Image panelImage;
 
+    // ────────────────────────────────────────────────────────────────
     [Header("사운드 설정")]
-    [SerializeField] private AudioClip attackSound;   // 공격 소리
-    [SerializeField] private AudioClip takeHitSound;  // 피격 소리
-    [SerializeField] private AudioClip deathSound;    // 사망 소리
-    private AudioSource audioSource; // 소리를 재생해줄 컴포넌트
+    [SerializeField] private AudioClip attackSound;    // 첫 번째 공격(A키) 소리
+    [SerializeField] private AudioClip attack2Sound;   // 두 번째 공격(S키) 소리
+    [SerializeField] private AudioClip jumpSound;      // ★ [추가] 점프 시 재생할 소리 에셋 등록칸
+    [SerializeField] private AudioClip takeHitSound;   // 피격 소리
+    [SerializeField] private AudioClip deathSound;     // 사망 소리
+    private AudioSource audioSource;
+    // ────────────────────────────────────────────────────────────────
 
     private Rigidbody2D rigid;
     private Animator animator;
@@ -38,21 +48,27 @@ public class PlayerControll : MonoBehaviour
     private bool isAttacking = false;
 
     private Collider2D currentPlatformCollider;
-    private Collider2D playerCollider; // 플레이어의 메인 물리 콜라이더 캐싱
+    private Collider2D playerCollider;
+    private DashAbility dashAbility;
+
+    [Header("공격 1 물리 콜라이더 및 히트박스 연결")]
     public BoxCollider2D attackCollider;
     public AttackHitbox attackHitbox;
-    private DashAbility dashAbility;
+
+    [Header("공격 2 물리 콜라이더 및 히트박스 연결")]
+    public BoxCollider2D attack2Collider;
+    public AttackHitbox attack2Hitbox;
 
     void Start()
     {
         rigid = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
-        playerCollider = GetComponent<Collider2D>(); // 내 몸체 콜라이더 캐싱
+        playerCollider = GetComponent<Collider2D>();
         dashAbility = GetComponent<DashAbility>();
-
         audioSource = GetComponent<AudioSource>();
 
-        attackCollider.enabled = false;
+        if (attackCollider != null) attackCollider.enabled = false;
+        if (attack2Collider != null) attack2Collider.enabled = false;
 
         if (deathPanel != null)
         {
@@ -70,6 +86,7 @@ public class PlayerControll : MonoBehaviour
     void Update()
     {
         if (attackTimer > 0f) { attackTimer -= Time.deltaTime; }
+        if (attack2Timer > 0f) { attack2Timer -= Time.deltaTime; }
 
         moveInput = 0f;
 
@@ -89,8 +106,7 @@ public class PlayerControll : MonoBehaviour
 
         animator.SetBool("isRun", moveInput != 0f && !isAttacking);
 
-        // ★ [수정] 발소리 조건 세분화
-        // 조건: 1. 방향키 입력 중이고 2. 땅에 닿아 있고 3. 공격 중이 아니며 4. 딛고 있는 바닥 태그가 ground 또는 onewayground일 때만!
+        // 발소리 시스템
         if (moveInput != 0f && isGrounded && !isAttacking &&
             (currentGroundTag == "ground" || currentGroundTag == "onewayground"))
         {
@@ -107,25 +123,34 @@ public class PlayerControll : MonoBehaviour
         }
         else
         {
-            // 공중에 뜨거나 다른 태그를 밟거나 멈추면 타이머 초기화
             footstepTimer = footstepInterval;
         }
 
+        // 점프 및 하향 점프 제어
         if (Input.GetKeyDown(KeyCode.Space) && isGrounded && !isAttacking)
         {
+            // 밑방향키와 같이 누른 하향 점프일 때 (소리 나지 않음)
             if (Input.GetKey(KeyCode.DownArrow) && currentPlatformCollider != null)
             {
                 StartCoroutine(DisablePlatformRoutine());
             }
+            // 일반 위로 뛰는 점프일 때
             else
             {
                 rigid.linearVelocity = new Vector2(rigid.linearVelocity.x, jumpPower);
                 isGrounded = false;
-                currentGroundTag = ""; // 점프하는 순간 밟고 있는 바닥 태그 비우기
+                currentGroundTag = "";
                 animator.SetBool("isJump", true);
+
+                // ★ [추가] 일반 점프 도약 타이밍에 지정된 오디오 소리를 원샷 재생합니다.
+                if (audioSource != null && jumpSound != null)
+                {
+                    audioSource.PlayOneShot(jumpSound);
+                }
             }
         }
 
+        // 첫 번째 공격 (A키)
         if (Input.GetKeyDown(KeyCode.A) && attackTimer <= 0f && isGrounded && !isAttacking)
         {
             animator.SetTrigger("Attack");
@@ -136,6 +161,23 @@ public class PlayerControll : MonoBehaviour
             if (audioSource != null && attackSound != null)
             {
                 audioSource.PlayOneShot(attackSound);
+            }
+        }
+
+        // 두 번째 공격 (S키)
+        if (Input.GetKeyDown(KeyCode.S) && attack2Timer <= 0f && isGrounded && !isAttacking)
+        {
+            animator.SetTrigger("Attack2");
+            attack2Timer = attack2Cooldown;
+            isAttacking = true;
+            rigid.linearVelocity = new Vector2(0f, rigid.linearVelocity.y);
+
+            if (audioSource != null)
+            {
+                if (attack2Sound != null)
+                    audioSource.PlayOneShot(attack2Sound);
+                else if (attackSound != null)
+                    audioSource.PlayOneShot(attackSound);
             }
         }
     }
@@ -163,11 +205,13 @@ public class PlayerControll : MonoBehaviour
 
         if (playerCollider != null && platformCollider != null)
         {
+            animator.SetBool("Isfall", true);
+
             Physics2D.IgnoreCollision(playerCollider, platformCollider, true);
 
             currentPlatformCollider = null;
             isGrounded = false;
-            currentGroundTag = ""; // 하향 점프 시에도 태그 비우기
+            currentGroundTag = "";
 
             yield return new WaitForSeconds(0.2f);
 
@@ -211,8 +255,9 @@ public class PlayerControll : MonoBehaviour
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("onewayground"))
         {
             isGrounded = true;
-            currentGroundTag = collision.gameObject.tag; // ★ 착지한 바닥의 태그를 실시간 기록
+            currentGroundTag = collision.gameObject.tag;
             animator.SetBool("isJump", false);
+            animator.SetBool("Isfall", false);
 
             if (collision.gameObject.CompareTag("onewayground")) { currentPlatformCollider = collision.collider; }
         }
@@ -223,7 +268,7 @@ public class PlayerControll : MonoBehaviour
         if (collision.gameObject.CompareTag("ground") || collision.gameObject.CompareTag("onewayground"))
         {
             isGrounded = true;
-            currentGroundTag = collision.gameObject.tag; // 머물고 있을 때도 바닥 태그 유지
+            currentGroundTag = collision.gameObject.tag;
 
             if (collision.gameObject.CompareTag("onewayground")) { currentPlatformCollider = collision.collider; }
         }
@@ -236,7 +281,7 @@ public class PlayerControll : MonoBehaviour
             if (collision.collider == currentPlatformCollider || currentPlatformCollider == null)
             {
                 isGrounded = false;
-                currentGroundTag = ""; // ★ 바닥에서 발이 떨어지면 태그 기억 삭제 (소리 차단)
+                currentGroundTag = "";
                 currentPlatformCollider = null;
             }
         }
@@ -244,13 +289,33 @@ public class PlayerControll : MonoBehaviour
 
     public void AttackStart()
     {
-        attackHitbox.ResetHit();
-        attackCollider.enabled = true;
+        if (attackHitbox != null)
+        {
+            attackHitbox.ResetHit();
+        }
+        if (attackCollider != null) attackCollider.enabled = true;
     }
 
     public void AttackEnd()
     {
-        attackCollider.enabled = false;
+        if (attackCollider != null) attackCollider.enabled = false;
+        isAttacking = false;
+    }
+
+    public void Attack2Start()
+    {
+        isAttacking = true;
+        if (attack2Hitbox != null)
+        {
+            attack2Hitbox.ResetHit();
+        }
+        if (attack2Collider != null) attack2Collider.enabled = true;
+        rigid.linearVelocity = new Vector2(0f, rigid.linearVelocity.y);
+    }
+
+    public void Attack2End()
+    {
+        if (attack2Collider != null) attack2Collider.enabled = false;
         isAttacking = false;
     }
 
@@ -277,13 +342,21 @@ public class PlayerControll : MonoBehaviour
             return;
         }
 
-        isAttacking = false;
-        attackCollider.enabled = false;
-
         if (audioSource != null && takeHitSound != null)
         {
             audioSource.PlayOneShot(takeHitSound);
         }
+
+        if (isAttacking)
+        {
+            Debug.Log("공격 중 피격당함: 공격 모션을 유지합니다.");
+            return;
+        }
+
+        isAttacking = false;
+
+        if (attackCollider != null) attackCollider.enabled = false;
+        if (attack2Collider != null) attack2Collider.enabled = false;
 
         animator.SetTrigger("Take_Hit");
     }

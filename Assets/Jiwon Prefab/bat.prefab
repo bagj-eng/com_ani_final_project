@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 3188153535001913396}
   - component: {fileID: 7802759338073781284}
   - component: {fileID: 3250597605465152659}
-  - component: {fileID: 1647483701426770329}
   - component: {fileID: 5913584053828059976}
   - component: {fileID: 8302416532444502334}
+  - component: {fileID: 8985272572559362832}
   m_Layer: 0
   m_Name: bat
   m_TagString: monster
@@ -117,27 +117,6 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
---- !u!114 &1647483701426770329
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6954227551981162372}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6c48e29948a887b4a937c09b37f54aea, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Monster
-  hp: 100
-  moveSpeed: 2
-  attackCooldown: 1
-  knockbackDistance: 1
-  attackCollider: {fileID: 0}
-  dropItemPrefab: {fileID: 0}
-  player: {fileID: 0}
-  playerDetected: 0
-  playerInAttackRange: 0
 --- !u!61 &5913584053828059976
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -211,3 +190,22 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &8985272572559362832
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6954227551981162372}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6c580acaa657aa4b82f858e07374163, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Batmonster
+  hp: 1
+  moveSpeed: 3
+  attackCooldown: 1
+  attackCollider: {fileID: 0}
+  player: {fileID: 0}
+  playerDetected: 0
+  playerInAttackRange: 0
