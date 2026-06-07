@@ -11,6 +11,9 @@ TagManager:
   - key1
   - key2
   - SpawnPoint
+  - wall
+  - bossTP
+  - Boss
   layers:
   - Default
   - TransparentFX
