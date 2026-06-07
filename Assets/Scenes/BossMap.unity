@@ -500,11 +500,11 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 1357966314}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 1}
-  m_AnchorMax: {x: 0.5, y: 1}
-  m_AnchoredPosition: {x: 0, y: -181}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 200, y: 50}
-  m_Pivot: {x: 0.5, y: 1}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &262416769
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2413,7 +2413,7 @@ MonoBehaviour:
     AngularDampingMode: 0
     RotationDamping: {x: 1, y: 1, z: 1}
     QuaternionDamping: 1
-  FollowOffset: {x: 0, y: 0, z: -10}
+  FollowOffset: {x: 0, y: 2, z: -10}
 --- !u!114 &885991199
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4065,12 +4065,13 @@ MonoBehaviour:
   mainCamera: {fileID: 871520419}
   playerTransform: {fileID: 1926776506}
   bossTransform: {fileID: 1023699185}
+  closeZoomSize: 3
+  cameraMoveSpeed: 3
+  cameraYOffset: 1.2
   playerFollowCamera: {fileID: 885991196}
   bossDetectRangeObject: {fileID: 1600659915}
   dialoguePanel: {fileID: 786914158}
   dialogueText: {fileID: 2118722273}
-  closeZoomSize: 3
-  cameraMoveSpeed: 3
   cutsceneBgmClip: {fileID: 8300000, guid: 1b4181fdd0c1c6f4d96bad3afbdeb5fb, type: 3}
   cutsceneVolume: 0.1
   battleBgmClip: {fileID: 8300000, guid: 31848ead40e04064aa9999b550c2bd2e, type: 3}

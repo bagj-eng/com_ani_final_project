@@ -33,14 +33,10 @@ public class BossCinematicManager : MonoBehaviour
         if (mainCamera != null) originalLensSize = mainCamera.orthographicSize;
     }
 
-    /// <summary>
-    /// 보스가 죽는 순간 직접 신호를 받아 연출을 트리거하는 안전 장치 함수
-    /// </summary>
     public void OnTargetMonsterDestroyed(GameObject deadMonster)
     {
         if (isCinematicStarted) return;
 
-        // 인스펙터에 지정된 몬스터가 죽은 게 맞다면 즉시 100% 가동
         if (targetMonster != null && deadMonster == targetMonster)
         {
             isCinematicStarted = true;
@@ -50,39 +46,55 @@ public class BossCinematicManager : MonoBehaviour
 
     private IEnumerator CinematicRoutine()
     {
+        // ================================================================
         // 1. 막타 타임 슬로우
+        // ================================================================
         Time.timeScale = 0.2f;
         Time.fixedDeltaTime = 0.02f * Time.timeScale;
         yield return new WaitForSecondsRealtime(0.4f);
         Time.timeScale = 1.0f;
         Time.fixedDeltaTime = 0.02f;
 
+        // ================================================================
         // 2. 플레이어 카메라 추적 및 대사
+        // ================================================================
         StartTracking(playerTransform);
         if (dialogueText != null) dialogueText.text = "플레이어: \"이제 끝인가..\"";
         yield return new WaitForSeconds(2.0f);
         if (dialogueText != null) dialogueText.text = "";
 
-        // 3. 흑막 캐릭터 등장 및 카메라 이동
+        // ================================================================
+        // 3. 흑막 캐릭터 등장 및 카메라 이동 (기본 거리에서 부드럽게 추적)
+        // ================================================================
         if (hiddenCharacter != null) hiddenCharacter.SetActive(true);
         StartTracking(hiddenCharacterTransform);
         yield return new WaitForSeconds(1.5f);
 
         if (dialogueText != null) dialogueText.text = "???: \"실험작이 죽어 아쉽군\"";
-        yield return new WaitForSeconds(2.0f);
-        if (dialogueText != null) dialogueText.text = "???: \"다음에 보자고\"";
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(2.5f); // 첫 대사를 읽을 시간 제공
 
-        // 4. 플레이어 포커싱 줌인 + 암전 페이드
+        // ================================================================
+        // 4. ★ "다음에 보자고" 출력과 동시에 히든 캐릭터 강렬하게 줌인 포커싱
+        // ================================================================
+        // 부드러운 Lerp 추적을 멈추고, 히든 캐릭터의 정중앙으로 카메라를 꽂아버립니다.
         StopTracking();
-        if (mainCamera != null && playerTransform != null)
+
+        if (mainCamera != null && hiddenCharacterTransform != null)
         {
-            mainCamera.transform.position = new Vector3(playerTransform.position.x, playerTransform.position.y, -10f);
-            mainCamera.orthographicSize = originalLensSize * 0.5f;
+            mainCamera.transform.position = new Vector3(hiddenCharacterTransform.position.x, hiddenCharacterTransform.position.y, -10f);
+            mainCamera.orthographicSize = originalLensSize * 0.5f; // 원래 크기의 반으로 확 줌인
         }
+
+        // 줌인되어 화면 가득 히든 캐릭터가 보이는 순간 마지막 대사 출력!
+        if (dialogueText != null) dialogueText.text = "???: \"다음에 보자고\"";
+        yield return new WaitForSeconds(2.0f); // 충격적인 클로즈업 상태 유지
+
         if (dialogueText != null) dialogueText.text = "";
 
-        float fadeDuration = 0.5f;
+        // ================================================================
+        // 5. 암전 페이드 아웃 (여전히 히든 캐릭터를 바라본 상태로 어두워짐)
+        // ================================================================
+        float fadeDuration = 2f;
         float timer = 0f;
         while (timer < fadeDuration)
         {
@@ -97,7 +109,9 @@ public class BossCinematicManager : MonoBehaviour
 
         yield return new WaitForSeconds(1.0f);
 
-        // 5. 엔딩 씬으로 전환
+        // ================================================================
+        // 6. 엔딩 씬으로 전환
+        // ================================================================
         SceneManager.LoadScene("Ending");
     }
 

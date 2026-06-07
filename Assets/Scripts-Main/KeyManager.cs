@@ -14,7 +14,6 @@ public class KeyManager : MonoBehaviour
     [Header("컷씬 종료 후 나타날 상호작용 화살표")]
     [SerializeField] private GameObject guideArrowObject;
 
-    // ★ [추가] 컷씬 종료 즉시 활성화할 양 옆 막이 이미지/콜라이더 부모 오브젝트 슬롯
     [Header("컷씬 종료 후 활성화될 맵 경계선 장벽")]
     [SerializeField] private GameObject mapBoundaryObject;
 
@@ -40,11 +39,8 @@ public class KeyManager : MonoBehaviour
     [SerializeField] private float panelMoveDuration = 1.2f;
 
     [Header("시네마틱 사운드 교체 설정")]
-    [Tooltip("기존 마을 배경음이 재생되고 있는 BGM_Manager 오브젝트를 드래그해서 넣어주세요.")]
     [SerializeField] private AudioSource townBgmAudioSource;
-    [Tooltip("나무가 움직일 때(10초 시점) 새로 재생할 컷씬용 오디오 클립을 넣어주세요.")]
     [SerializeField] private AudioClip cinematicNewBgmClip;
-    [Tooltip("새로 바뀔 브금의 볼륨 크기 (0.0 ~ 1.0)")]
     [SerializeField] private float cinematicBgmVolume = 0.4f;
 
     [Header("카메라 화면 이탈 방지 한계선")]
@@ -70,7 +66,6 @@ public class KeyManager : MonoBehaviour
     [RuntimeInitializeOnLoadMethod(RuntimeInitializeLoadType.BeforeSceneLoad)]
     private static void ClearKeysOnGameStart()
     {
-        // 게임을 아예 처음 켰을 때만 데이터 초기화
         PlayerPrefs.SetInt("Saved_HasKeyA", 0);
         PlayerPrefs.SetInt("Saved_HasKeyB", 0);
         PlayerPrefs.Save();
@@ -90,7 +85,6 @@ public class KeyManager : MonoBehaviour
 
     void Awake()
     {
-        // ★ [중요] 싱글톤 갱신 로직: 어느 씬에서든 새로 깨어난 KeyManager가 Instance 주도권을 잡게 함
         Instance = this;
     }
 
@@ -102,11 +96,8 @@ public class KeyManager : MonoBehaviour
         if (cinematicPanels != null) cinematicPanels.SetActive(false);
         if (exclamationMark != null) exclamationMark.SetActive(false);
         if (guideArrowObject != null) guideArrowObject.SetActive(false);
-
-        // ★ [추가] 처음 맵에 진입했을 때는 양옆 이미지장벽이 켜지지 않도록 초기 비활성화
         if (mapBoundaryObject != null) mapBoundaryObject.SetActive(false);
 
-        // ★ 메인 타운으로 돌아오거나 다른 씬에서 시작할 때, 저장된 PlayerPrefs 기반으로 즉시 UI 새로고침
         RefreshUI();
     }
 
@@ -120,12 +111,10 @@ public class KeyManager : MonoBehaviour
 
     public void RefreshUI()
     {
-        // UI 오브젝트들이 현재 씬 인스펙터에 등록되어 있을 때만 끄고 켭니다. (Right/Left 맵에 UI가 없어도 에러 우회)
         if (keyAImage != null) keyAImage.SetActive(HasKeyA);
         if (keyBImage != null) keyBImage.SetActive(HasKeyB);
     }
 
-    // ★ [핵심 수정] 어떤 씬에서 호출되더라도 데이터를 안전하게 저장하고 로그를 무조건 출력함
     public void GetKey(string keyType)
     {
         string currentScene = SceneManager.GetActiveScene().name;
@@ -141,10 +130,10 @@ public class KeyManager : MonoBehaviour
             Debug.Log($"📢 [{currentScene}] 씬에서 [열쇠 B] 획득 완료! (데이터 로컬 저장 성공)");
         }
 
-        // 현재 씬에 UI 오브젝트가 존재한다면 실시간 반영
         RefreshUI();
     }
 
+    // ★ [충돌 버그 수정 지점]
     private void TryOpenBossMap()
     {
         if (SceneManager.GetActiveScene().name != "Main Town")
@@ -155,8 +144,18 @@ public class KeyManager : MonoBehaviour
 
         if (HasKeyA && HasKeyB)
         {
-            Debug.Log("조건 충족! 즉시 BossMap으로 안전하게 이동합니다.");
-            SceneManager.LoadScene("BossMap");
+            // ★ [핵심] 기존 깡 로드 방식을 지우고, 우리가 만든 락(Lock) 방식의 SceneWarpManager를 거쳐 가도록 전면 수정합니다.
+            if (SceneWarpManager.Instance != null)
+            {
+                Debug.Log("🔒 [KeyManager] 조건 충족! SceneWarpManager를 통해 안전하게 'RUN' 씬을 거쳐 보스방으로 이동합니다.");
+                SceneWarpManager.Instance.ChangeSceneWithRun("BossMap");
+            }
+            else
+            {
+                // 만약 매니저 방식이 아닌 개별 BossWarp 스크립트 방식을 유지 중이시라면 아래처럼 그냥 보스방 이름을 넘겨주셔도 무방합니다.
+                Debug.LogWarning("🚨 SceneWarpManager가 씬에 없습니다. 일반 비동기 전환을 시도합니다.");
+                SceneManager.LoadScene("BossMap");
+            }
         }
         else
         {
@@ -387,16 +386,11 @@ public class KeyManager : MonoBehaviour
         if (keyBImage != null) keyBImage.SetActive(false);
 
         if (player != null) player.enabled = true;
-
         if (guideArrowObject != null) guideArrowObject.SetActive(true);
 
-        // =================================────────────────===============
-        // ★ [핵심 추가] 카메라 복귀 연출이 100% 종료되는 즉시 양옆 이미지 장벽 활성화
-        // ================================================================
         if (mapBoundaryObject != null)
         {
             mapBoundaryObject.SetActive(true);
-            Debug.Log("🚧 [경계선 장벽 가동] 카메라 복귀 연출 종료 즉시 맵 양옆 이탈 방지 장벽 및 감지 트리거가 가동되었습니다.");
         }
     }
 
